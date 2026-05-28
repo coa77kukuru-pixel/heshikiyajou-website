@@ -350,23 +350,23 @@ export default function Home() {
         </div>
         <p className="sched-intro reveal" style={{ margin: '-40px 0 50px' }}>衣装や演目が変われば、全く別の命が宿る。ひとつの身体から生み出される、無限の表情と役柄の振り幅。</p>
         <div className="works-grid">
-          <div className="w w-1 reveal">
+          <div className="w work-1 reveal">
             <div className="photo" style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/%E5%B9%B3%E6%95%B7%E5%B1%8B%E9%96%80%E5%A5%B3%E8%B8%8A%E3%82%8A-%E6%B2%96%E7%B8%84.webp')" }}></div>
             <div className="w-caption">女踊り<small>Onna-odori</small></div>
           </div>
-          <div className="w w-2 reveal stagger-1">
+          <div className="w work-2 reveal stagger-1">
             <div className="photo" style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/%E5%B9%B3%E6%95%B7%E5%B1%8B%E9%96%80%E5%8B%87%E4%B9%9F-%E5%A5%B3%E8%B8%8A%E3%82%8A%E5%82%98.webp')" }}></div>
             <div className="w-caption">女踊り傘<small>Umbrella Dance</small></div>
           </div>
-          <div className="w w-3 reveal stagger-2">
+          <div className="w work-3 reveal stagger-2">
             <div className="photo" style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/%E5%B9%B3%E6%95%B7%E5%B1%8B%E9%96%80%E5%8B%87%E4%B9%9F-%E6%97%A5%E5%82%98%E8%B8%8A%E3%82%8A.webp')" }}></div>
             <div className="w-caption">日傘踊り<small>Parasol Dance</small></div>
           </div>
-          <div className="w w-4 reveal stagger-1">
+          <div className="w work-4 reveal stagger-1">
             <div className="photo" style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/%E6%B2%96%E7%B8%84%E8%8A%9D%E5%B1%85%E5%BD%B9%E8%80%85-%E5%B9%B3%E6%95%B7%E5%B1%8B%E9%96%80%E5%8B%87%E4%B9%9F2.webp')" }}></div>
             <div className="w-caption">沖縄芝居<small>Okinawa Theatre</small></div>
           </div>
-          <div className="w w-5 reveal stagger-2">
+          <div className="w work-5 reveal stagger-2">
             <div className="photo" style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/%E6%B2%96%E7%B8%84%E8%8A%9D%E5%B1%85%E5%BD%B9%E8%80%85-%E5%B9%B3%E6%95%B7%E5%B1%8B%E9%96%80%E5%8B%87%E4%B9%9F.webp')" }}></div>
             <div className="w-caption">役者<small>Actor</small></div>
           </div>

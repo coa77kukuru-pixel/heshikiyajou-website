@@ -592,11 +592,11 @@ section { padding: 160px 80px; position: relative; }
   .w-caption { position: absolute; left: 24px; bottom: 24px; color: #fff; font-family: var(--serif); font-size: 13px; letter-spacing: .15em; text-shadow: 0 2px 12px rgba(0,0,0,.8); pointer-events: none; opacity: 0; transition: opacity .6s ease; z-index: 3; }
   .w-caption small { display: block; font-family: var(--latin); font-size: 10px; letter-spacing: .3em; margin-top: 6px; opacity: .7; font-style: normal; }
   .w:hover .w-caption { opacity: 1; }
-  .w-1 { grid-column: span 12; grid-row: span 6; }
-  .w-2 { grid-column: span 6; grid-row: span 6; }
-  .w-3 { grid-column: span 6; grid-row: span 6; }
-  .w-4 { grid-column: span 7; grid-row: span 7; }
-  .w-5 { grid-column: span 5; grid-row: span 7; }
+  .work-1 { grid-column: span 12; grid-row: span 6; }
+  .work-2 { grid-column: span 6; grid-row: span 6; }
+  .work-3 { grid-column: span 6; grid-row: span 6; }
+  .work-4 { grid-column: span 7; grid-row: span 7; }
+  .work-5 { grid-column: span 5; grid-row: span 7; }
 
   /* ---------- REPERTOIRE ---------- */
   .repertoire { background: var(--paper); }
@@ -757,7 +757,7 @@ section { padding: 160px 80px; position: relative; }
 
     .hero { grid-template-columns: 1fr; grid-template-rows: 66vh 1fr; min-height: 100vh; }
     .hero-right { order: -1; min-height: 66vh; }
-    .hero-img { background-position: center 18%; }
+    .hero-img { background-position: center top; }
     .hero-vertical { top: 70px; right: 16px; font-size: 14px; letter-spacing: .5em; line-height: 2.6; }
     .sp-indent { display: inline-block; margin-top: 2.5em; }
     .seal { left: 20px; bottom: 20px; width: 64px; height: 64px; font-size: 11px; }
@@ -777,17 +777,17 @@ section { padding: 160px 80px; position: relative; }
     .interlude { padding: 80px 20px; }
     .interlude-text { font-size: 18px; }
     .timeline { grid-template-columns: 1fr; gap: 0; padding: 0; }
-    .t-row { display: grid; grid-template-columns: auto 1fr; gap: 16px 20px; padding: 32px 0; background: none; border: none; border-bottom: 1px solid rgba(243,237,225,.15); border-radius: 0; transform: none; }
+    .t-row { display: flex; flex-direction: column; gap: 8px; padding: 32px 0; background: none; border: none; border-bottom: 1px solid rgba(243,237,225,.15); border-radius: 0; transform: none; }
     .t-row:hover { background: none; transform: none; }
     .t-year { font-size: 26px; margin: 0; }
     .t-age { margin: 0; }
-    .t-title { font-size: 16px; border: none; padding: 0; margin: 0; }
-    .t-desc { grid-column: 2; font-size: 13px; margin: 0; }
+    .t-title { font-size: 16px; border: none; padding: 0; margin: 0; padding-bottom: 8px; border-bottom: 1px solid rgba(243,237,225,.15); }
+    .t-desc { font-size: 13px; margin: 0; padding-top: 8px; }
     .works-grid { grid-auto-rows: 90px; gap: 32px; }
-    .w-1 { grid-column: span 12; grid-row: span 4; }
-    .w-2, .w-3 { grid-column: span 12; grid-row: span 4; }
-    .w-4 { grid-column: span 12; grid-row: span 5; }
-    .w-5 { grid-column: span 12; grid-row: span 5; }
+    .work-1 { grid-column: span 12; grid-row: span 4; }
+    .work-2, .work-3 { grid-column: span 12; grid-row: span 4; }
+    .work-4 { grid-column: span 12; grid-row: span 5; }
+    .work-5 { grid-column: span 12; grid-row: span 5; }
     .rep-grid { grid-template-columns: 1fr; }
     .rep-card { padding: 28px 0 !important; border-right: none; }
     .champ-grid { grid-template-columns: 1fr; gap: 30px; }
