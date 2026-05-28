@@ -757,8 +757,8 @@ section { padding: 160px 80px; position: relative; }
 
     .hero { grid-template-columns: 1fr; grid-template-rows: 66vh 1fr; min-height: 100vh; }
     .hero-right { order: -1; min-height: 66vh; }
-    .hero-img { inset: 60px 0 0 0; background-position: center top; }
-    .hero-vertical { top: 70px; right: 16px; font-size: 14px; letter-spacing: .5em; line-height: 2.6; }
+    .hero-img { inset: 50px 0 0 0; background-position: center top; }
+    .hero-vertical { top: 80px; right: 16px; font-size: 14px; letter-spacing: .5em; line-height: 2.6; }
     .sp-indent { display: inline-block; margin-top: 2.5em; }
     .seal { left: 20px; bottom: 20px; width: 64px; height: 64px; font-size: 11px; }
     .hero-stamp { left: 20px; bottom: 18px; font-size: 11px; }
