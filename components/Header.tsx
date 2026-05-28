@@ -62,7 +62,7 @@ export default function Header() {
         <div className="brand">
           <Link href="/">
             平敷屋門 勇也
-            <small>Heshikiyajou Yuya ・ Ryukyu Dancer</small>
+            <small>Heshikiyajou Yuya</small>
           </Link>
         </div>
         <ul>
