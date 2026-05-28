@@ -34,7 +34,7 @@ export default function FirstTimePage() {
       <section className={styles.welcome} id="welcome">
         <div className="sec-head reveal">
           <div className="sec-num">Section <b>01</b></div>
-          <div className="sec-title">琉球舞踊が、<br />はじめての方へ。<small>— Welcome —</small></div>
+          <div className="sec-title">琉球舞踊が、<br />はじめての方へ<small>— Welcome —</small></div>
         </div>
         <div className={styles.welcomeBlock}>
           <div className={`${styles.welcomePhoto} reveal-left`} style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/%E6%B2%96%E7%B8%84%E7%90%89%E7%90%83%E8%88%9E%E8%B8%8A-%E5%B9%B3%E6%95%B7%E5%B1%8B%E9%96%80%E5%8B%87%E4%B9%9F-%E6%B2%96%E7%B8%84-1-1.webp')" }}>
@@ -64,7 +64,7 @@ export default function FirstTimePage() {
       <section className={`${styles.viewing} sec-dark`} id="viewing">
         <div className="sec-head reveal">
           <div className="sec-num" style={{ color: '#d4a23a' }}>Section <b>02</b></div>
-          <div className="sec-title">鑑賞の、六つの視点。<small>— How to Watch —</small></div>
+          <div className="sec-title">鑑賞の、六つの視点<small>— How to Watch —</small></div>
         </div>
 
         <p className={`${styles.viewingLede} reveal stagger-1`}>
@@ -117,7 +117,7 @@ export default function FirstTimePage() {
       <section className={styles.propsIntro} id="props">
         <div className="sec-head reveal">
           <div className="sec-num">Section <b>03</b></div>
-          <div className="sec-title">小道具に、すべての意味が宿る。<small>— The Meaning of Stage Props —</small></div>
+          <div className="sec-title">小道具に、すべての意味が宿る<small>— The Meaning of Stage Props —</small></div>
         </div>
 
         <div className={`${styles.propsQuote} reveal stagger-1`}>
@@ -231,7 +231,7 @@ export default function FirstTimePage() {
       <section className={styles.propsGrid} id="other-props">
         <div className="sec-head reveal">
           <div className="sec-num">Section <b>04</b></div>
-          <div className="sec-title">暮らしと、海と、祝福と。<small>— Other Stage Props —</small></div>
+          <div className="sec-title">暮らしと、海と、祝福と<small>— Other Stage Props —</small></div>
         </div>
         <div className={styles.miniGrid}>
           <div className={`${styles.mini} reveal`}>
@@ -262,7 +262,7 @@ export default function FirstTimePage() {
       <section className={`${styles.deeper} sec-dark`} id="deeper">
         <div className="sec-head reveal">
           <div className="sec-num" style={{ color: '#d4a23a' }}>Section <b>05</b></div>
-          <div className="sec-title">もっと、深く楽しむために。<small>— Going Deeper —</small></div>
+          <div className="sec-title">もっと、深く楽しむために<small>— Going Deeper —</small></div>
         </div>
         <div className={styles.deeperGrid}>
           <div className={`${styles.deeperCard} reveal`}>

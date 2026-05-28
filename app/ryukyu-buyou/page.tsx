@@ -34,7 +34,7 @@ export default function RyukyuBuyouPage() {
       <section className={styles['lede-section']} id="intro">
         <div className="sec-head reveal">
           <div className="sec-num">Section <b>01</b></div>
-          <div className="sec-title">沖縄の歴史と心を、<br/>身体で語る芸能。<small>— Introduction —</small></div>
+          <div className="sec-title">沖縄の歴史と心を、<br/>身体で語る芸能<small>— Introduction —</small></div>
         </div>
         <div className={styles['lede-block']}>
           <div className={`${styles['lede-photo']} reveal-left`} style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/平敷屋門勇也＿top.webp')" }}>
@@ -54,7 +54,7 @@ export default function RyukyuBuyouPage() {
       <section className={`${styles.history} sec-dark`} id="history">
         <div className="sec-head reveal">
           <div className="sec-num" style={{ color: '#d4a23a' }}>Section <b>02</b></div>
-          <div className="sec-title">500年の、舞の歴史。<small>— A 500-Year Journey —</small></div>
+          <div className="sec-title">500年の、舞の歴史<small>— A 500-Year Journey —</small></div>
         </div>
         <div className={styles['history-list']}>
           <div className={`${styles['hist-row']} reveal`}>
@@ -96,7 +96,7 @@ export default function RyukyuBuyouPage() {
       <section className={styles.category} id="category">
         <div className="sec-head reveal">
           <div className="sec-num">Section <b>03</b></div>
-          <div className="sec-title">大きく、2つの世界。<small>— Two Main Categories —</small></div>
+          <div className="sec-title">大きく、2つの世界<small>— Two Main Categories —</small></div>
         </div>
         <div className={styles['cat-grid']}>
           <div className={`${styles.cat} reveal-left`}>
@@ -132,7 +132,7 @@ export default function RyukyuBuyouPage() {
       <section className={styles.genres} id="genres">
         <div className="sec-head reveal">
           <div className="sec-num">Section <b>04</b></div>
-          <div className="sec-title">古典の、4つの顔。<small>— Four Classical Genres —</small></div>
+          <div className="sec-title">古典の、4つの顔<small>— Four Classical Genres —</small></div>
         </div>
         <div className={styles['gen-grid']}>
           <div className={`${styles.gen} reveal`}>
@@ -170,7 +170,7 @@ export default function RyukyuBuyouPage() {
       <section className={styles.costume} id="costume">
         <div className="sec-head reveal">
           <div className="sec-num">Section <b>05</b></div>
-          <div className="sec-title">色と柄に、意味がある。<small>— Costume & Bingata —</small></div>
+          <div className="sec-title">色と柄に、意味がある<small>— Costume & Bingata —</small></div>
         </div>
 
         <div className={styles['cost-intro']}>
@@ -230,7 +230,7 @@ export default function RyukyuBuyouPage() {
       <section className={`${styles.viewing} sec-dark`} id="viewing">
         <div className="sec-head reveal">
           <div className="sec-num" style={{ color: '#d4a23a' }}>Section <b>06</b></div>
-          <div className="sec-title">鑑賞の、4つの視点。<small>— How to Watch —</small></div>
+          <div className="sec-title">鑑賞の、4つの視点<small>— How to Watch —</small></div>
         </div>
 
         <div className={`${styles['label-top']} reveal`}>Before you watch</div>
