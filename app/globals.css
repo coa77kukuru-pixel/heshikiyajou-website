@@ -389,7 +389,7 @@ section { padding: 160px 80px; position: relative; }
     font-size: 18px; letter-spacing: .2em; color: var(--sub);
   }
   .hero-lede {
-    margin-top: 48px; max-width: 460px;
+    margin-top: 60px; max-width: 460px;
     font-family: var(--serif); font-size: 16px; line-height: 2.1; color: var(--ink-2);
     font-feature-settings: "palt";
   }
@@ -767,7 +767,7 @@ section { padding: 160px 80px; position: relative; }
     .hero-title { font-size: 38px; margin-top: 16px; }
     .hero-title .row2 { font-size: 22px; margin-top: 10px; }
     .hero-kana { font-size: 14px; }
-    .hero-lede { margin-top: 28px; font-size: 14px; line-height: 1.95; }
+    .hero-lede { margin-top: 36px; font-size: 14px; line-height: 1.95; }
     .hero-meta { margin-top: 30px; gap: 20px; font-size: 10px; }
     .hero-meta div b { font-size: 18px; }
     .hero-foot { display: none; }

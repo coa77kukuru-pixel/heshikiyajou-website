@@ -34,7 +34,6 @@ export default function Home() {
               <span className="row1">平敷屋門 勇也</span>
               <span className="row2">Heshikiya-jou Yuya</span>
             </h1>
-            <div className="hero-kana reveal stagger-2">— a flower of the Ryukyu dance —</div>
 
             <p className="hero-lede reveal stagger-3">
               4歳で稽古場の戸を叩いてから、30有余年。<br />
