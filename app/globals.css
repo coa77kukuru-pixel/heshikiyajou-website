@@ -491,7 +491,7 @@ section { padding: 160px 80px; position: relative; }
   .sched-tab:last-child { border-right: 1px solid var(--ink); }
   .sched-tab small { display: block; font-family: var(--latin); font-style: italic; font-size: 11px; letter-spacing: .25em; color: var(--sub); margin-top: 4px; font-weight: 400; }
   .sched-tab.active { background: var(--ink); color: var(--paper); }
-  .sched-tab.active small { color: rgba(243,237,225,.6); }
+  .sched-tab.active small { color: rgba(243,237,225,.95); font-weight: 500; }
   .sched-panel { display: none; padding-top: 30px; }
   .sched-panel.active { display: block; }
   .sched-list { display: grid; grid-template-columns: 1fr; gap: 0; }

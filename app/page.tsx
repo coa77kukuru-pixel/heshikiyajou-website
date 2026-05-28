@@ -90,14 +90,14 @@ export default function Home() {
             role="tab"
             onClick={() => setActiveTab('champ')}
           >
-            チャンプ流ぅ芸能団<small>Champru Trio</small>
+            チャンプ流ぅ<br className="sp-br" />芸能団<small>Champru Trio</small>
           </button>
           <button
             className={`sched-tab ${activeTab === 'yuika' ? 'active' : ''}`}
             role="tab"
             onClick={() => setActiveTab('yuika')}
           >
-            創作舞踊集団「結華」<small>Yuika</small>
+            創作舞踊集団<br className="sp-br" />「結華」<small>Yuibana</small>
           </button>
         </div>
 
