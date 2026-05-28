@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Loader from "@/components/Loader";
 import BackToTop from "@/components/BackToTop";
+import ScrollReveal from "@/components/ScrollReveal";
 
 export const metadata: Metadata = {
   title: "平敷屋門 勇也 ｜ 琉球舞踊家・沖縄芝居役者",
@@ -43,6 +44,7 @@ export default function RootLayout({
         <main>{children}</main>
         <Footer />
         <BackToTop />
+        <ScrollReveal />
       </body>
     </html>
   );
