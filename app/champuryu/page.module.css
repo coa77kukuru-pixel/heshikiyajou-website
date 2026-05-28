@@ -1,0 +1,116 @@
+.intro { display: grid; grid-template-columns: 1fr 1.05fr; gap: 100px; align-items: center; }
+.intro .photo { aspect-ratio: 4/3; background-size: cover; background-position: center; }
+.intro h2 { font-family: var(--serif); font-size: 38px; font-weight: 500; letter-spacing: .12em; margin-bottom: 24px; line-height: 1.4; }
+.intro .en { font-family: var(--latin); font-style: italic; font-size: 14px; letter-spacing: .25em; color: var(--crimson); margin-bottom: 28px; text-transform: uppercase; }
+.intro p { font-family: var(--serif); font-size: 16px; line-height: 2.2; color: var(--ink-2); margin-bottom: 20px; font-feature-settings: "palt"; }
+.intro .ig-pill { margin-top: 18px; color: var(--ink); }
+
+/* Anniversary banner */
+.anniv {
+  color: var(--paper);
+  padding: 110px 80px;
+  background: linear-gradient(rgba(20, 18, 14, 0.75), rgba(20, 18, 14, 0.75)), url('https://jinzai.okinawa/wp-content/uploads/2026/04/entertainment.webp') center/cover no-repeat;
+  background-attachment: fixed;
+}
+.anniv-inner {
+  max-width: 1200px; margin: 0 auto;
+  display: grid; grid-template-columns: auto 1fr auto; gap: 70px; align-items: center;
+}
+.anniv .num {
+  font-family: var(--latin); font-weight: 500;
+  font-size: 180px; line-height: 1; color: #d4a23a; letter-spacing: -.02em;
+}
+.anniv .num small {
+  font-family: var(--latin); font-style: italic; font-size: 42px;
+  font-weight: 400; vertical-align: top; margin-left: 6px;
+}
+.anniv .info .label {
+  font-family: var(--latin); font-style: italic; font-size: 13px;
+  letter-spacing: .3em; color: #d4a23a; text-transform: uppercase; margin-bottom: 14px;
+}
+.anniv .info h3 { font-family: var(--serif); font-size: 36px; font-weight: 500; letter-spacing: .12em; line-height: 1.5; margin-bottom: 16px; }
+.anniv .info p { font-family: var(--serif); font-size: 16px; color: rgba(243,237,225,.8); line-height: 2; letter-spacing: .04em; }
+.anniv .badge {
+  padding: 14px 26px; border: 1px solid #d4a23a; color: #d4a23a;
+  font-family: var(--serif); font-size: 13px; letter-spacing: .25em;
+  align-self: start;
+}
+
+/* Members */
+.members { background: var(--paper); }
+.mem-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; }
+.mem-card {
+  background: var(--paper-2);
+  padding: 50px 40px 56px;
+  border: 1px solid var(--ink);
+  position: relative;
+  transition: transform .4s ease, box-shadow .4s ease;
+}
+.mem-card:hover { transform: translateY(-4px); box-shadow: 0 12px 30px rgba(0,0,0,.08); }
+.mem-card .role {
+  font-family: var(--latin); font-style: italic; font-size: 12px;
+  letter-spacing: .3em; color: var(--crimson); margin-bottom: 16px;
+}
+.mem-card .name { font-family: var(--serif); font-size: 28px; font-weight: 500; letter-spacing: .1em; margin-bottom: 6px; }
+.mem-card .name-en { font-family: var(--latin); font-style: italic; font-size: 13px; color: var(--sub); letter-spacing: .15em; margin-bottom: 24px; }
+.mem-card p { font-family: var(--serif); font-size: 14px; line-height: 1.95; color: var(--ink-2); font-feature-settings: "palt"; }
+.mem-social { display: flex; gap: 10px; margin-top: 24px; }
+.mem-social a { display: inline-flex; align-items: center; justify-content: center; width: 34px; height: 34px; border: 1px solid var(--ink); border-radius: 50%; color: var(--ink); transition: background .2s, color .2s; }
+.mem-social a:hover { background: var(--ink); color: var(--paper); }
+.mem-social svg { width: 14px; height: 14px; }
+.closing-photo { width: 100%; background: #0f0c0a; }
+.closing-photo img { width: 100%; height: auto; display: block; }
+
+/* Tour Schedule */
+.tour { background: var(--paper-2); }
+.tour-list { border-top: 1px solid var(--ink); }
+.tour-row {
+  display: grid; grid-template-columns: 140px 90px 1fr 220px; gap: 40px;
+  padding: 38px 24px;
+  border-bottom: 1px solid var(--line);
+  align-items: center;
+  transition: background .3s ease;
+}
+.tour-row:hover { background: rgba(201,189,166,.1); }
+.tour-date { font-family: var(--latin); font-weight: 500; font-size: 30px; color: var(--ink); letter-spacing: .04em; }
+.tour-date small { display: block; font-family: var(--serif); font-size: 12px; color: var(--sub); letter-spacing: .15em; margin-top: 4px; }
+.tour-badge {
+  font-family: var(--serif); font-size: 11px; letter-spacing: .22em;
+  padding: 6px 12px; border: 1px solid var(--ink-2);
+  background: transparent; justify-self: start;
+}
+.tour-badge.featured { background: var(--crimson); color: var(--paper); border-color: var(--crimson); }
+.tour-badge.regular { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+.tour-body h4 { font-family: var(--serif); font-size: 20px; font-weight: 500; letter-spacing: .06em; margin-bottom: 6px; line-height: 1.5; }
+.tour-body p { font-family: var(--serif); font-size: 14px; color: var(--ink-2); line-height: 1.85; font-feature-settings: "palt"; }
+.tour-venue { font-family: var(--serif); font-size: 14px; color: var(--ink-2); line-height: 1.7; text-align: right; }
+.tour-venue small { display: block; font-family: var(--latin); font-style: italic; font-size: 11px; color: var(--sub); letter-spacing: .2em; margin-top: 4px; text-align: right; }
+
+/* Concept */
+.concept { background: var(--indigo); color: var(--paper); padding: 200px 80px; text-align: center; }
+.concept-mark { font-family: var(--latin); font-style: italic; font-size: 80px; color: #d4a23a; line-height: .5; }
+.concept p {
+  font-family: var(--serif); font-size: clamp(26px, 2.8vw, 42px); font-weight: 400;
+  line-height: 2; letter-spacing: .12em; margin: 50px auto 0; max-width: 980px; color: var(--paper);
+}
+.concept .attr {
+  margin-top: 56px;
+  font-family: var(--latin); font-size: 12px; letter-spacing: .3em;
+  color: rgba(243,237,225,.5); text-transform: uppercase;
+}
+.concept .attr b { display: block; font-family: var(--serif); font-style: normal; color: var(--paper); margin-top: 8px; font-size: 16px; letter-spacing: .15em; font-weight: 500; }
+
+@media (max-width: 820px) {
+  .intro { grid-template-columns: 1fr; gap: 40px; }
+  .anniv { padding: 70px 24px; }
+  .anniv-inner { grid-template-columns: 1fr; gap: 30px; text-align: center; }
+  .anniv .num { font-size: 96px; }
+  .anniv .info h3 { font-size: 24px; }
+  .anniv .badge { justify-self: center; }
+  .mem-grid { grid-template-columns: 1fr; gap: 20px; }
+  .tour-row { grid-template-columns: 1fr; gap: 10px; padding: 24px 0; }
+  .tour-venue { text-align: left; }
+  .tour-venue small { text-align: left; }
+  .concept { padding: 100px 24px; }
+  .concept p { font-size: 19px; line-height: 1.9; }
+}
