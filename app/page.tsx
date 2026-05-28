@@ -256,7 +256,7 @@ export default function Home() {
         </div>
         <div className="timeline">
           <div className="t-row reveal">
-            <div className="t-year">1989</div><div className="t-age">age 0</div>
+            <div className="t-year">1989<span className="t-age-inline">年 — 0歳</span></div>
             <div className="t-title">うるま市勝連平敷屋に生まれる</div>
             <div className="t-desc">
               門中（ムンチュー）の流れを汲む、平敷屋門の地に生を享ける。
@@ -266,7 +266,7 @@ export default function Home() {
             </div>
           </div>
           <div className="t-row reveal stagger-1">
-            <div className="t-year">1993</div><div className="t-age">age 4</div>
+            <div className="t-year">1993<span className="t-age-inline">年 — 4歳</span></div>
             <div className="t-title">琉球舞踊の稽古をはじめる</div>
             <div className="t-desc">
               自ら「沖縄の芸能をやりたい」と志願し、誕生日翌週、道場へ。
@@ -276,7 +276,7 @@ export default function Home() {
             </div>
           </div>
           <div className="t-row reveal stagger-2">
-            <div className="t-year">2000</div><div className="t-age">age 10–17</div>
+            <div className="t-year">2000<span className="t-age-inline">年 — 10〜17歳</span></div>
             <div className="t-title">現代版組踊「肝高の阿麻和利」出演</div>
             <div className="t-desc">
               小・中・高と勝連の地元舞台に立ち続け、伝統の血を体に刻む。
@@ -286,7 +286,7 @@ export default function Home() {
             </div>
           </div>
           <div className="t-row reveal stagger-3">
-            <div className="t-year">2010</div><div className="t-age">age 21</div>
+            <div className="t-year">2010<span className="t-age-inline">年 — 21歳</span></div>
             <div className="t-title">沖縄帰郷／創作舞踊集団「結華」設立</div>
             <div className="t-desc">
               高校卒業後の上京を経て帰郷。会長として後進の育成と創作を始める。
@@ -296,7 +296,7 @@ export default function Home() {
             </div>
           </div>
           <div className="t-row reveal stagger-4">
-            <div className="t-year">2017</div><div className="t-age">age 28</div>
+            <div className="t-year">2017<span className="t-age-inline">年 — 28歳</span></div>
             <div className="t-title">「チャンプ流ぅ芸能団」結成</div>
             <div className="t-desc">
               唄三線・古典音楽・琉球舞踊の若手3人で〈うちなー芸能〉を再編。
@@ -306,7 +306,7 @@ export default function Home() {
             </div>
           </div>
           <div className="t-row reveal stagger-5">
-            <div className="t-year">2020</div><div className="t-age">present</div>
+            <div className="t-year">2020<span className="t-age-inline">年 — 現在</span></div>
             <div className="t-title">国立劇場おきなわ／海外公演</div>
             <div className="t-desc">
               「琉球舞踊鑑賞教室」「組踊」等に出演。ハワイ・全国各地で舞台を重ねる。
@@ -316,7 +316,7 @@ export default function Home() {
             </div>
           </div>
           <div className="t-row reveal stagger-6">
-            <div className="t-year">2025</div><div className="t-age">age 36</div>
+            <div className="t-year">2025<span className="t-age-inline">年 — 36歳</span></div>
             <div className="t-title">アメリカ公演／華の時代</div>
             <div className="t-desc">
               「もっと幅広い層に届けたい。沖縄に面白いものがあると伝えたい」。

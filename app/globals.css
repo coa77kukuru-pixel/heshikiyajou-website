@@ -568,7 +568,7 @@ section { padding: 160px 80px; position: relative; }
   }
   .t-row:hover { background: rgba(243,237,225,.06); transform: translateY(-4px); }
   .t-year { font-family: var(--latin); font-size: 44px; font-weight: 500; color: var(--paper); letter-spacing: .04em; line-height: 1; margin: 0; }
-  .t-age { font-family: var(--latin); font-style: italic; font-size: 14px; color: rgba(243,237,225,.5); letter-spacing: .2em; margin-top: -4px; margin-bottom: 8px; }
+  .t-year .t-age-inline { font-family: var(--sans); font-size: 16px; font-weight: 400; color: rgba(243,237,225,.85); letter-spacing: 0.1em; margin-left: 12px; }
   .t-title { font-family: var(--serif); font-size: 20px; font-weight: 400; color: #fff; letter-spacing: .08em; border-bottom: 1px solid rgba(243,237,225,.15); padding-bottom: 16px; width: 100%; margin: 0; }
   .t-desc { font-size: 14px; line-height: 1.8; color: rgba(243,237,225,.75); margin-top: 8px; width: 100%; }
   .t-img { margin-top: 24px; border-radius: 2px; overflow: hidden; width: 100%; }
@@ -781,7 +781,7 @@ section { padding: 160px 80px; position: relative; }
     .t-row { display: flex; flex-direction: column; gap: 8px; padding: 32px 0; background: none; border: none; border-bottom: 1px solid rgba(243,237,225,.15); border-radius: 0; transform: none; }
     .t-row:hover { background: none; transform: none; }
     .t-year { font-size: 26px; margin: 0; }
-    .t-age { margin: 0; }
+    .t-year .t-age-inline { font-size: 12px; margin-left: 8px; }
     .t-title { font-size: 16px; border: none; padding: 0; margin: 0; padding-bottom: 8px; border-bottom: 1px solid rgba(243,237,225,.15); }
     .t-desc { font-size: 13px; margin: 0; padding-top: 8px; }
     .works-grid { grid-auto-rows: 90px; gap: 32px; }
