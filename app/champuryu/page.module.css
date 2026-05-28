@@ -3,7 +3,20 @@
 .intro h2 { font-family: var(--serif); font-size: 38px; font-weight: 500; letter-spacing: .12em; margin-bottom: 24px; line-height: 1.4; }
 .intro .en { font-family: var(--latin); font-style: italic; font-size: 14px; letter-spacing: .25em; color: var(--crimson); margin-bottom: 28px; text-transform: uppercase; }
 .intro p { font-family: var(--serif); font-size: 16px; line-height: 2.2; color: var(--ink-2); margin-bottom: 20px; font-feature-settings: "palt"; }
-.intro .ig-pill { margin-top: 18px; color: var(--ink); }
+.intro .ig-pill {
+  display: inline-flex; align-items: center; gap: 10px;
+  margin-top: 28px; padding: 12px 24px;
+  border: 1px solid var(--ink); border-radius: 40px;
+  color: var(--ink); text-decoration: none;
+  font-family: var(--latin); font-size: 14px; letter-spacing: .1em;
+  transition: all .3s ease;
+}
+.intro .ig-pill:hover {
+  background: var(--ink); color: var(--paper);
+}
+.intro .ig-pill svg {
+  width: 18px; height: 18px;
+}
 
 /* Anniversary banner */
 .anniv {
