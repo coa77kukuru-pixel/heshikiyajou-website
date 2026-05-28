@@ -67,7 +67,7 @@ export default function Home() {
 
         <div className="fan-message reveal stagger-1">
           <div className="hanagasa-icon" aria-hidden="true">
-            <img src="/hanagasa.png" alt="花笠" />
+            <img src="/images/hanagasa.png" alt="花笠" />
           </div>
           <p>いつも温かいご声援をいただき、本当にありがとうございます。</p>
           <p>皆様が客席から見守ってくださるからこそ、私は舞台で生かされています。</p>
@@ -459,7 +459,7 @@ export default function Home() {
 
       {/* BREAKER */}
       <section className="breaker reveal">
-        <div className="breaker-photo" style={{ backgroundImage: "url('/akamine_beige.png')" }}></div>
+        <div className="breaker-photo" style={{ backgroundImage: "url('/images/akamine_beige.png')" }}></div>
         <div className="breaker-content">
           <div className="breaker-mark">&quot;</div>
           <p className="breaker-text">
@@ -477,7 +477,7 @@ export default function Home() {
 
       {/* WALKING ANIMATION */}
       <div className="walking-container">
-        <img src="/ryuso_woman.png" alt="琉装の女性" className="walking-woman" />
+        <img src="/images/ryuso_woman.png" alt="琉装の女性" className="walking-woman" />
       </div>
 
       {/* CONTACT */}
