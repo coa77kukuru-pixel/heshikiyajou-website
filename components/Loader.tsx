@@ -26,7 +26,7 @@ export default function Loader() {
     <div className={`loader${done ? ' done' : ''}`} style={{ display: skip ? 'none' : 'flex' }} aria-hidden="true">
       <div className="loader-brand">
         平敷屋門 勇也
-        <small>Heshikiya-jou Yuya ・ Ryukyu Dancer</small>
+        <small>Heshikiyajou Yuya ・ Ryukyu Dancer</small>
       </div>
       <div className="loader-line"></div>
     </div>

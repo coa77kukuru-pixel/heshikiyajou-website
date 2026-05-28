@@ -32,7 +32,7 @@ export default function Home() {
             <div className="hero-eyebrow reveal">琉球舞踊家・沖縄芝居役者</div>
             <h1 className="hero-title reveal stagger-1">
               <span className="row1">平敷屋門 勇也</span>
-              <span className="row2">Heshikiya-jou Yuya</span>
+              <span className="row2">Heshikiyajou Yuya</span>
             </h1>
 
             <p className="hero-lede reveal stagger-3">
@@ -83,7 +83,7 @@ export default function Home() {
             role="tab"
             onClick={() => setActiveTab('yuya')}
           >
-            平敷屋門 勇也<small>Heshikiya-jou Yuya</small>
+            平敷屋門 勇也<small>Heshikiyajou Yuya</small>
           </button>
           <button
             className={`sched-tab ${activeTab === 'champ' ? 'active' : ''}`}
@@ -242,7 +242,7 @@ export default function Home() {
               「僕のすべての中心にあるものが、琉球舞踊。<br />
               自分の中心にあって、いつも自分を律しているもの。<br />
               その中心があるからこそ、いろいろなことに挑んでいける。」
-              <small>— Yuya Heshikiya-jou</small>
+              <small>— Yuya Heshikiyajou</small>
             </div>
           </div>
         </div>

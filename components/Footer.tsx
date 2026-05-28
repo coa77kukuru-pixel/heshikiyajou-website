@@ -48,7 +48,7 @@ export default function Footer() {
         </div>
         <div className="f-bottom">
           <div className="seal-small">勇也</div>
-          <div className="copy">&copy; Heshikiya-jou Yuya. All Rights Reserved.</div>
+          <div className="copy">&copy; Heshikiyajou Yuya. All Rights Reserved.</div>
         </div>
       </div>
     </footer>
