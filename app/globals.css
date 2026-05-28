@@ -745,9 +745,10 @@ section { padding: 160px 80px; position: relative; }
     .fan-message .pc-br { display: none; }
     .sp-br { display: inline; }
     .fan-message .message-sign { margin-top: 20px; }
-    .sched-tabs { flex-direction: column; }
-    .sched-tab { border-right: 1px solid var(--ink); min-width: 0; padding: 16px 18px; font-size: 15px; }
-    .sched-tab:last-child { border-bottom: 1px solid var(--ink); }
+    .sched-tabs { flex-direction: row; flex-wrap: nowrap; }
+    .sched-tab { border-right: none; border-bottom: none; min-width: 0; padding: 12px 4px; font-size: 11px; text-align: center; }
+    .sched-tab:last-child { border-right: 1px solid var(--ink); border-bottom: none; }
+    .sched-tab small { font-size: 8.5px; letter-spacing: 0.1em; }
     .sched-item { grid-template-columns: 1fr; gap: 8px; padding: 22px 0; }
     .sched-date b { font-size: 22px; display: inline-block; margin-right: 8px; }
     .sched-date .month { display: inline; }
