@@ -308,11 +308,11 @@ export default function FirstTimePage() {
         <div className={styles.closingMark}>&quot;</div>
         <p>
           琉球舞踊を深く楽しみたくなったら、<br />
-          ぜひ「何を持っているか」<br /><br />
-          「なぜ、この演目で、この小道具なんだろう？」と<br />
+          ぜひ「何を持っているか」<br />
+          「なぜ、この演目で、<br />この小道具なんだろう？」と<br />
           考えてみる。すると、踊りがただの動きではなく、<br />
-          <em style={{ fontStyle: 'normal', color: 'var(--crimson)' }}>感情・歴史・文化・願い</em>を語っていることが、<br />
-          少しずつ見えてきます。
+          <em style={{ fontStyle: 'normal', color: 'var(--crimson)' }}>感情・歴史・文化・願い</em>を<br />
+          語っていることが、少しずつ見えてきます。
         </p>
         <Link className={styles.closingCta} href="/ryukyu-buyou">琉球舞踊とは ・ もっと知る →</Link>
       </section>
