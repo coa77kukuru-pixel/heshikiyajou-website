@@ -390,7 +390,7 @@ section { padding: 160px 80px; position: relative; }
   }
   .hero-lede {
     margin-top: 60px; max-width: 460px;
-    font-family: var(--serif); font-size: 18px; line-height: 2.2; color: var(--ink-2);
+    font-family: var(--serif); font-size: 16px; line-height: 2.1; color: var(--ink-2);
     font-feature-settings: "palt";
   }
   .hero-meta {
@@ -507,7 +507,7 @@ section { padding: 160px 80px; position: relative; }
   .sched-date b { display: block; font-family: var(--serif); font-size: 30px; font-weight: 500; color: var(--ink); letter-spacing: .04em; margin-bottom: 2px; }
   .sched-date .month { font-family: var(--serif); font-size: 13px; color: var(--sub); letter-spacing: .15em; }
   .sched-body h4 { font-family: var(--serif); font-size: 20px; font-weight: 500; letter-spacing: .08em; line-height: 1.5; margin-bottom: 8px; }
-  .sched-body p { font-family: var(--serif); font-size: 16px; line-height: 1.95; color: var(--ink-2); font-feature-settings: "palt"; }
+  .sched-body p { font-family: var(--serif); font-size: 14px; line-height: 1.85; color: var(--ink-2); font-feature-settings: "palt"; }
   .sched-venue { font-family: var(--serif); font-size: 14px; color: var(--ink-2); line-height: 1.7; letter-spacing: .04em; }
   .sched-venue small { display: block; font-family: var(--latin);  font-size: 11px; color: var(--sub); letter-spacing: .2em; margin-top: 4px; }
   .sched-status {
@@ -540,7 +540,7 @@ section { padding: 160px 80px; position: relative; }
   .profile-portrait { aspect-ratio: 3/4; position: relative; background: #2a1f17; }
   .profile-portrait .frame { position: absolute; inset: -14px; border: 1px solid var(--ink); pointer-events: none; }
   .profile-text p {
-    font-family: var(--serif); font-size: 18px; line-height: 2.2; color: var(--ink-2);
+    font-family: var(--serif); font-size: 16px; line-height: 2.2; color: var(--ink-2);
     margin-bottom: 24px; font-feature-settings: "palt";
   }
   .profile-text p:first-of-type::first-letter {
@@ -550,7 +550,7 @@ section { padding: 160px 80px; position: relative; }
   .profile-quote {
     margin-top: 40px; padding: 28px 0 28px 30px;
     border-left: 2px solid var(--crimson);
-    font-family: var(--serif); font-size: 21px; line-height: 1.9; font-weight: 500;
+    font-family: var(--serif); font-size: 19px; line-height: 1.9; font-weight: 500;
     color: var(--ink); letter-spacing: .04em;
   }
   .profile-quote small { display: block; margin-top: 14px; font-family: var(--latin);  font-size: 13px; letter-spacing: .2em; color: var(--sub); }
@@ -622,7 +622,7 @@ section { padding: 160px 80px; position: relative; }
   .champ-img:hover .photo { transform: scale(1.04); }
   .champ-text h3 { font-family: var(--serif); font-size: 36px; font-weight: 500; letter-spacing: .1em; margin-bottom: 8px; }
   .champ-text .en { font-family: var(--latin);  font-size: 16px; color: rgba(243,237,225,.6); letter-spacing: .2em; margin-bottom: 28px; }
-  .champ-text p { font-family: var(--serif); font-size: 17px; line-height: 2.15; color: rgba(243,237,225,.85); margin-bottom: 18px; font-feature-settings: "palt"; }
+  .champ-text p { font-family: var(--serif); font-size: 15px; line-height: 2.1; color: rgba(243,237,225,.85); margin-bottom: 18px; font-feature-settings: "palt"; }
   .anniv { display: grid; grid-template-columns: auto 1fr; gap: 22px; align-items: center; margin: 6px 0 28px; padding: 18px 22px; border: 1px solid rgba(212,162,58,.5); background: rgba(212,162,58,.05); }
   .anniv-mark { font-family: var(--latin); font-weight: 600; font-size: 56px; line-height: 1; color: #d4a23a; letter-spacing: 0; }
   .anniv-mark small { font-family: var(--latin);  font-size: 18px; font-weight: 400; vertical-align: top; margin-left: 2px; }
@@ -658,7 +658,7 @@ section { padding: 160px 80px; position: relative; }
   .group-body { padding: 48px 40px 52px; }
   .group-jp { font-family: var(--serif); font-size: 26px; font-weight: 500; letter-spacing: .12em; margin-bottom: 6px; }
   .group-en { font-family: var(--latin);  font-size: 13px; letter-spacing: .25em; color: var(--crimson); margin-bottom: 18px; }
-  .group-desc { font-family: var(--serif); font-size: 16px; line-height: 2.0; color: var(--ink-2); font-feature-settings: "palt"; }
+  .group-desc { font-family: var(--serif); font-size: 14px; line-height: 1.95; color: var(--ink-2); font-feature-settings: "palt"; }
   .group-role { margin-top: 18px; font-family: var(--serif); font-size: 13px; letter-spacing: .15em; color: var(--ink); padding-top: 14px; border-top: 1px solid var(--line); }
   .group-role b { color: var(--crimson); }
 
@@ -768,13 +768,13 @@ section { padding: 160px 80px; position: relative; }
     .hero-title { font-size: 38px; margin-top: 16px; }
     .hero-title .row2 { font-size: 22px; margin-top: 10px; }
     .hero-kana { font-size: 14px; }
-    .hero-lede { margin-top: 36px; font-size: 16px; line-height: 2.0; }
+    .hero-lede { margin-top: 36px; font-size: 14px; line-height: 1.95; }
     .hero-meta { margin-top: 30px; gap: 20px; font-size: 10px; }
     .hero-meta div b { font-size: 18px; }
     .hero-foot { display: none; }
 
     .profile-body { grid-template-columns: 1fr; gap: 36px; }
-    .profile-quote { font-size: 19px; }
+    .profile-quote { font-size: 17px; }
     .interlude { padding: 80px 20px; }
     .interlude-text { font-size: 18px; }
     .timeline { grid-template-columns: 1fr; gap: 0; padding: 0; }
