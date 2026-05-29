@@ -422,8 +422,8 @@ export default function Home() {
           <div className="group-card reveal">
             <div className="group-img"><div className="photo" style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/%E5%89%B5%E4%BD%9C%E8%88%9E%E8%B8%8A%E9%9B%86%E5%9B%A3-%E7%B5%90%E8%8F%AF-%E5%9B%9B%E3%83%84%E7%AB%B9.webp')" }}></div></div>
             <div className="group-body">
-              <div className="group-jp">創作舞踊集団「結華」</div>
-              <div className="group-en">Yuika ・ Founded 2010</div>
+              <div className="group-jp">創作舞踊集団<br className="sp-br" />「結華」</div>
+              <div className="group-en">Yuibana ・ Founded 2010</div>
               <p className="group-desc">21歳の帰郷を機に、勇也が会長として設立した創作舞踊集団。伝統の所作を礎に、新しい時代の舞踊を結び咲かせる場。</p>
               <div className="group-role"><b>—</b> 会長 ・ Founder & President</div>
             </div>
