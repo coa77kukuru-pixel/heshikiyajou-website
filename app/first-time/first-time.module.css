@@ -42,8 +42,7 @@
 .point { padding: 60px 44px 70px; border-right: 1px solid rgba(243,237,225,.18); border-bottom: 1px solid rgba(243,237,225,.18); transition: background .3s ease; }
 .point:hover { background: rgba(243,237,225,.03); }
 .point:nth-child(3n) { border-right: none; }
-.point .num { font-family: var(--latin); font-style: italic; font-size: 14px; letter-spacing: .3em; color: #d4a23a; }
-.point .num b { display: block; font-style: normal; font-family: var(--serif); font-size: 48px; color: var(--paper); margin-top: 8px; line-height: 1; font-weight: 500; letter-spacing: 0; }
+.point .num { font-size: 24px; color: #d4a23a; line-height: 1; margin-bottom: 24px; }
 .point h4 { font-family: var(--serif); font-size: 22px; font-weight: 500; letter-spacing: .1em; margin: 22px 0 18px; color: var(--paper); line-height: 1.5; }
 .point p { font-family: var(--serif); font-size: 14px; line-height: 2; color: rgba(243,237,225,.78); font-feature-settings: "palt"; }
 .point .ex { margin-top: 22px; padding-top: 18px; border-top: 1px solid rgba(243,237,225,.15); font-family: var(--latin); font-style: italic; font-size: 11px; letter-spacing: .25em; color: rgba(243,237,225,.55); text-transform: uppercase; }
