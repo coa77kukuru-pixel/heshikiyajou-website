@@ -282,7 +282,7 @@ export default function FirstTimePage() {
       <section className={`${styles.deeper} sec-dark`} id="deeper">
         <div className="sec-head reveal">
           <div className="sec-num" style={{ color: '#d4a23a' }}>Section <b>05</b></div>
-          <div className="sec-title">もっと、深く楽しむために<small>— Going Deeper —</small></div>
+          <div className="sec-title">もっと、深く<br />楽しむために<small>— Going Deeper —</small></div>
         </div>
         <div className={styles.deeperGrid}>
           <div className={`${styles.deeperCard} reveal`}>
