@@ -292,7 +292,7 @@ export default function FirstTimePage() {
           </div>
           <div className={`${styles.deeperCard} reveal stagger-1`}>
             <div className={styles.n}>Insight <b style={{ fontStyle: 'normal', fontFamily: 'var(--serif)', color: 'var(--paper)', fontSize: '32px', display: 'block', marginTop: '6px', letterSpacing: 0, fontWeight: 500 }}>08</b></div>
-            <h4>「持つだけ」に見えて、<br />とても高度。</h4>
+            <h4>「持つだけ」に<br />見えて、とても高度。</h4>
             <p>初心者の目には、「持っているだけ」に見えるかもしれません。でも実際は、非常に高度です。扇一つでも、どの角度で開くか、どこで止めるか、どれだけ見せるか、いつ閉じるか――全部に意味があります。だから、上手な人ほど、小道具が〈自然〉に見えるのです。</p>
           </div>
           <div className={`${styles.deeperCard} reveal stagger-2`}>
