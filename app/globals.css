@@ -168,13 +168,11 @@ body::before {
   font-family: var(--latin);  font-size: 13px; letter-spacing: .3em;
   color: rgba(243, 237, 225, .7); text-transform: uppercase; margin-bottom: 20px;
   display: flex; align-items: center; gap: 14px;
-  word-break: keep-all; overflow-wrap: anywhere;
 }
 .subhero .crumb::before { content: ''; width: 32px; height: 1px; background: rgba(243, 237, 225, .6); }
 .subhero h1 {
   font-family: var(--serif); font-weight: 500;
   font-size: clamp(46px, 6vw, 88px); line-height: 1.15; letter-spacing: .08em;
-  word-break: keep-all; overflow-wrap: anywhere;
 }
 .subhero h1 small {
   display: block; font-family: var(--latin); 
@@ -342,6 +340,8 @@ section { padding: 160px 80px; position: relative; }
   .nav.scrolled { padding: 12px 18px; }
 
   .subhero { padding: 140px 24px 60px; min-height: 55vh; }
+  .subhero .crumb { font-size: 10px; white-space: nowrap; gap: 8px; margin-bottom: 14px; }
+  .subhero h1 { font-size: 38px; white-space: nowrap; }
   section { padding: 90px 24px; }
   .sec-head { grid-template-columns: 1fr; gap: 18px; margin-bottom: 60px; }
   .sec-num b { font-size: 42px; }
