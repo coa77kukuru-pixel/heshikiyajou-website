@@ -17,6 +17,26 @@ export default function FirstTimePage() {
       });
     }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
     els.forEach((el) => observer.observe(el));
+
+    // Scroll highlight observer for .point
+    const pointEls = document.querySelectorAll(`.${styles.point}`);
+    if (pointEls.length) {
+      const highlightObserver = new IntersectionObserver((entries) => {
+        entries.forEach((e) => {
+          if (e.isIntersecting) {
+            e.target.classList.add(styles.active);
+          } else {
+            e.target.classList.remove(styles.active);
+          }
+        });
+      }, { threshold: 0.5, rootMargin: '-20% 0px -20% 0px' });
+      pointEls.forEach(el => highlightObserver.observe(el));
+      return () => {
+        observer.disconnect();
+        highlightObserver.disconnect();
+      };
+    }
+
     return () => observer.disconnect();
   }, []);
 
@@ -75,32 +95,38 @@ export default function FirstTimePage() {
 
         <div className={styles.pointsGrid}>
           <div className={`${styles.point} reveal`}>
-            <h4><span className={styles.num}>Point 1<span className={styles.sep}>|</span></span>「静けさ」の<br />美を味わう。</h4>
+            <div className={styles.num}>Point 1</div>
+            <h4>「静けさ」の<br />美を味わう。</h4>
             <p>琉球舞踊は、激しく動く踊りではありません。ゆっくり、静か、丁寧に。けれどその静けさの中にこそ、喜び・恋しさ・悲しみ・敬意が宿る。少しの動きに、大きな意味がある芸能です。</p>
             <div className={styles.ex}>Listen carefully<b>呼吸の間（ま）に、耳を澄ます</b></div>
           </div>
           <div className={`${styles.point} reveal stagger-1`}>
-            <h4><span className={styles.num}>Point 2<span className={styles.sep}>|</span></span>「手の動き」を<br />追いかける。</h4>
+            <div className={styles.num}>Point 2</div>
+            <h4>「手の動き」を<br />追いかける。</h4>
             <p>琉球舞踊の手は、ただ動いているのではありません。花、波、恋心。指先一本で、物語が描かれます。手のひらが上を向く時、下を向く時。その違いに、こめられた感情を感じてみてください。</p>
             <div className={styles.ex}>Watch the hands<b>花のように、波のように</b></div>
           </div>
           <div className={`${styles.point} reveal stagger-2`}>
-            <h4><span className={styles.num}>Point 3<span className={styles.sep}>|</span></span>「足運び」と<br />「目線」を見る。</h4>
+            <div className={styles.num}>Point 3</div>
+            <h4>「足運び」と<br />「目線」を見る。</h4>
             <p>静かに見える足運びは、実はとても高度な技術。重心の移動、床との会話があります。そして目線――どこを見ているか、誰を思っているか。視線の先に、踊り手が描く世界が広がっています。</p>
             <div className={styles.ex}>Follow the gaze<b>視線の先に、物語がある</b></div>
           </div>
           <div className={`${styles.point} reveal`}>
-            <h4><span className={styles.num}>Point 4<span className={styles.sep}>|</span></span>「衣装の色と柄」を<br />読む。</h4>
+            <div className={styles.num}>Point 4</div>
+            <h4>「衣装の色と柄」を<br />読む。</h4>
             <p>踊り手が黄色を着ていれば、それは王族を意味します。波の模様には、命や旅や永遠が込められている。色と柄を「読む」ことで、舞台の意味は何倍にも深くなります。衣装は、もう一つの台詞です。</p>
             <div className={styles.ex}>Read the costume<b>色は身分、柄は祈り</b></div>
           </div>
           <div className={`${styles.point} reveal stagger-1`}>
-            <h4><span className={styles.num}>Point 5<span className={styles.sep}>|</span></span>「音楽の流れ」に<br />呼吸を合わせる。</h4>
+            <div className={styles.num}>Point 5</div>
+            <h4>「音楽の流れ」に<br />呼吸を合わせる。</h4>
             <p>三線、歌、箏、笛、太鼓。踊り手は音を「数える」のではなく、音楽の流れに呼吸を合わせます。観る側も同じです。リズムを取ろうとせず、音と一緒に息をする。それが、舞台と一つになる瞬間です。</p>
             <div className={styles.ex}>Breathe with music<b>三線の音色を、身体で聴く</b></div>
           </div>
           <div className={`${styles.point} reveal stagger-2`}>
-            <h4><span className={styles.num}>Point 6<span className={styles.sep}>|</span></span>「型」の中の<br />個性を見る。</h4>
+            <div className={styles.num}>Point 6</div>
+            <h4>「型」の中の<br />個性を見る。</h4>
             <p>琉球舞踊には、長い歴史の中で受け継がれてきた「型」があります。自由に見えて、実は細かいルールがある。だからこそ、上手な人ほど、自然に見える。型の中で、それぞれの踊り手がどう自分を表現しているか――それも鑑賞の醍醐味です。</p>
             <div className={styles.ex}>Within the form<b>型の中に、その人がいる</b></div>
           </div>
