@@ -168,11 +168,13 @@ body::before {
   font-family: var(--latin);  font-size: 13px; letter-spacing: .3em;
   color: rgba(243, 237, 225, .7); text-transform: uppercase; margin-bottom: 20px;
   display: flex; align-items: center; gap: 14px;
+  word-break: keep-all; overflow-wrap: anywhere;
 }
 .subhero .crumb::before { content: ''; width: 32px; height: 1px; background: rgba(243, 237, 225, .6); }
 .subhero h1 {
   font-family: var(--serif); font-weight: 500;
   font-size: clamp(46px, 6vw, 88px); line-height: 1.15; letter-spacing: .08em;
+  word-break: keep-all; overflow-wrap: anywhere;
 }
 .subhero h1 small {
   display: block; font-family: var(--latin); 
