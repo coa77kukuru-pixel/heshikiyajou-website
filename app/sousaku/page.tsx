@@ -68,7 +68,7 @@ export default function SousakuPage() {
       <section className={`${styles.global} sec-dark`} id="global">
         <div className="sec-head reveal">
           <div className="sec-num" style={{ color: '#d4a23a' }}>Section <b>02</b></div>
-          <div className="sec-title">琉球舞踊を身近に感じてもらえる存在に<small>— Global Activities —</small></div>
+          <div className="sec-title">琉球舞踊を身近に<br />感じてもらえる存在に<small>— Global Activities —</small></div>
         </div>
 
         <div className={styles.globalGrid}>
