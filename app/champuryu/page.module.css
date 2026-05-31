@@ -81,11 +81,12 @@
 .video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; }
 
 /* Concept */
-.concept { background: var(--indigo); color: var(--paper); padding: 200px 80px; text-align: center; }
+.concept { background: var(--indigo); color: var(--paper); padding: 200px 80px; }
+.concept-inner { max-width: 900px; margin: 0 auto; text-align: left; }
 .concept-mark { font-family: var(--latin); font-style: italic; font-size: 80px; color: #d4a23a; line-height: .5; }
 .concept p {
   font-family: var(--serif); font-size: clamp(18px, 1.8vw, 22px); font-weight: 400;
-  line-height: 2.2; letter-spacing: .08em; margin: 40px auto 0; max-width: 900px; color: var(--paper);
+  line-height: 2.2; letter-spacing: .08em; margin: 40px 0 0; color: var(--paper);
 }
 .concept .attr {
   margin-top: 56px;

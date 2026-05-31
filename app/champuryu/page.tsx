@@ -136,22 +136,24 @@ export default function Champuryu() {
 
       {/* CONCEPT */}
       <section className={`${styles.concept} reveal`} id="concept">
-        <div className={styles['concept-mark']}>"</div>
-        <p>
-          観客の皆さんの笑顔や笑い声に僕たちがパワーを頂いています。<br />
-          『舞台を見ている時、日常を忘れて自然と笑顔になれる』<br /><br />
-          笑って・泣いて、心が温かく、元気になる。<br />
-          舞台の可能性は単なる表現では終わらない。<br /><br />
-          沖縄の先人たちが、戦後もずっと残し続けた様に<br />
-          僕たちも前に進み<br />
-          “未来の伝統を今つくる”<br /><br />
-          僕たちにとっても、皆様にとっても<br />
-          チャンプ流ぅ芸能団の表現が“心のぬちぐすい（命薬）”となり<br />
-          この先も沖縄の伝統芸能を繋いでいきたい。
-        </p>
-        <div className={styles.attr}>
-          Words from the leader
-          <b>平敷屋門 勇也 ・ Champuryu Geinou-dan</b>
+        <div className={styles['concept-inner']}>
+          <div className={styles['concept-mark']}>"</div>
+          <p>
+            観客の皆さんの笑顔や笑い声に僕たちがパワーを頂いています。<br />
+            『舞台を見ている時、日常を忘れて自然と笑顔になれる』<br /><br />
+            笑って・泣いて、心が温かく、元気になる。<br />
+            舞台の可能性は単なる表現では終わらない。<br /><br />
+            沖縄の先人たちが、戦後もずっと残し続けた様に<br />
+            僕たちも前に進み<br />
+            “未来の伝統を今つくる”<br /><br />
+            僕たちにとっても、皆様にとっても<br />
+            チャンプ流ぅ芸能団の表現が“心のぬちぐすい（命薬）”となり<br />
+            この先も沖縄の伝統芸能を繋いでいきたい。
+          </p>
+          <div className={styles.attr}>
+            Words from the leader
+            <b>平敷屋門 勇也 ・ Champuryu Geinou-dan</b>
+          </div>
         </div>
       </section>
 
