@@ -141,13 +141,21 @@ export default function RyukyuBuyouPage() {
             <div className={styles.reading}>Roujin-odori</div>
             <p>年配の人物を演じる踊り。ゆったりとした動きで、人生経験や落ち着きを表現する。</p>
             <div className={styles.play}><span>代表演目</span>かぎやで風</div>
+            <a href="https://youtu.be/-kuvDDRBjm0" target="_blank" rel="noopener noreferrer" className={styles['yt-link']}>
+              <svg viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
+              実際の演舞を見る
+            </a>
           </div>
           <div className={`${styles.gen} reveal stagger-1`}>
             <div className={styles.num}>No. 02</div>
             <h4>若衆踊</h4>
             <div className={styles.reading}>Wakashu-odori</div>
             <p>若い男性を表現する踊り。力強さと美しさ、品の良さが同居する。昔は男性のみが踊った。</p>
-            <div className={styles.play}><span>代表演目</span>若衆こてい節</div>
+            <div className={styles.play}><span>代表演目</span>若衆ゼイ</div>
+            <a href="https://youtu.be/oT-CSjwOwLY" target="_blank" rel="noopener noreferrer" className={styles['yt-link']}>
+              <svg viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
+              実際の演舞を見る
+            </a>
           </div>
           <div className={`${styles.gen} reveal stagger-2`}>
             <div className={styles.num}>No. 03</div>
@@ -155,6 +163,10 @@ export default function RyukyuBuyouPage() {
             <div className={styles.reading}>Onna-odori</div>
             <p>女性の優雅さを表現する踊り。柔らかな手の動き、静かな感情、控えめな美しさ。勇也が最も得意とする世界。</p>
             <div className={styles.play}><span>代表演目</span>四つ竹</div>
+            <a href="https://youtu.be/-yWQf8OWeEE" target="_blank" rel="noopener noreferrer" className={styles['yt-link']}>
+              <svg viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
+              実際の演舞を見る
+            </a>
           </div>
           <div className={`${styles.gen} reveal stagger-3`}>
             <div className={styles.num}>No. 04</div>
@@ -162,7 +174,16 @@ export default function RyukyuBuyouPage() {
             <div className={styles.reading}>Nisai-odori</div>
             <p>青年男性の踊り。若者らしい元気さと勇ましさ。鍛えられた構えと足の運びが見せ場。</p>
             <div className={styles.play}><span>代表演目</span>高平良萬歳</div>
+            <a href="https://youtu.be/X8TzHKZyzw0" target="_blank" rel="noopener noreferrer" className={styles['yt-link']}>
+              <svg viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
+              実際の演舞を見る
+            </a>
           </div>
+        </div>
+        <div style={{ padding: '20px 50px 0', fontSize: '11px', color: 'var(--sub)', textAlign: 'right' }} className="reveal">
+          <a href="https://www.pref.okinawa.lg.jp/bunkakoryu/bunkageijutsu/1009556/1009653/1027669.html" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'underline' }}>
+            ※沖縄県HPより引用させて頂きました
+          </a>
         </div>
       </section>
 
