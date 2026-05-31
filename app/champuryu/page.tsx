@@ -122,8 +122,13 @@ export default function Champuryu() {
           </p>
           <div className="reveal stagger-2">
             <div style={{ fontFamily: 'var(--serif)', fontSize: '15px', color: 'var(--ink)', marginBottom: '20px', fontWeight: 500, letterSpacing: '.1em' }}>動画で３人の想いを見る</div>
-            <div className={styles['video-wrapper']}>
-              <iframe src="https://www.youtube.com/embed/yCkSXg0sUL0?si=t6LDVWOv-eTe86sK" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '40px' }}>
+              <div className={styles['video-wrapper']}>
+                <iframe src="https://www.youtube.com/embed/yCkSXg0sUL0?si=t6LDVWOv-eTe86sK" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              </div>
+              <div className={styles['video-wrapper']}>
+                <iframe src="https://www.youtube.com/embed/GjYGzqJnMy8?si=YR2kgqnlMSMgCMrY" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              </div>
             </div>
           </div>
         </div>
