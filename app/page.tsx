@@ -467,12 +467,60 @@ export default function Home() {
           <div className="sec-title">近年の主な舞台<small>— Recent Stages / 公演記録 —</small></div>
         </div>
         <div className="news-list">
-          <div className="news-row reveal"><div className="news-date">2025. ——</div><div className="news-tag tag-stage">公演</div><div className="news-title">アメリカ公演<small>チャンプ流ぅ芸能団 海外ツアー</small></div><div className="news-venue">U.S.A.</div></div>
-          <div className="news-row reveal stagger-1"><div className="news-date">2024. 08. 24</div><div className="news-tag tag-stage">公演</div><div className="news-title">琉球舞踊鑑賞教室<small>「老人老女」「若衆ぜい」「江戸上り口説」「瓦屋」 ほか</small></div><div className="news-venue">国立劇場おきなわ</div></div>
-          <div className="news-row reveal stagger-2"><div className="news-date">2024. 06. 03</div><div className="news-tag tag-tv">TV</div><div className="news-title">RBC「沖縄CLIP」<small>琉球舞踊と咲かせる花 平敷屋門勇也</small></div><div className="news-venue">RBC 琉球放送</div></div>
-          <div className="news-row reveal stagger-3"><div className="news-date">2024. ——</div><div className="news-tag tag-stage">公演</div><div className="news-title">時代明朗劇「朝顔夕顔」<small>沖縄芝居 ・ 国立劇場おきなわ</small></div><div className="news-venue">那覇</div></div>
-          <div className="news-row reveal stagger-4"><div className="news-date">2024. 07. 20</div><div className="news-tag tag-stage">公演</div><div className="news-title">組踊の世界「執心鐘入」<small>組踊鑑賞教室</small></div><div className="news-venue">国立劇場おきなわ</div></div>
-          <div className="news-row reveal stagger-5"><div className="news-date">——</div><div className="news-tag tag-event">海外</div><div className="news-title">ハワイ公演<small>琉球舞踊・うちなー芸能</small></div><div className="news-venue">Honolulu, HI</div></div>
+          <div className="news-row reveal">
+            <div className="news-date">2026. 05. 09</div>
+            <div className="news-tag tag-stage">公演</div>
+            <div className="news-title">
+              『チャンプ流ぅ芸能団 母の日前日祭～捌（はち）之巻～』
+              <small style={{ marginTop: '8px', lineHeight: 1.6 }}>概要：自身が所属する若手芸能家ユニット「チャンプ流ぅ芸能団」（平敷屋門勇也、仲宗根創、知念勝三）による恒例の母の日特別公演。</small>
+            </div>
+            <div className="news-venue">うるま市民芸術劇場</div>
+          </div>
+          <div className="news-row reveal stagger-1">
+            <div className="news-date">2026. 03. 19-20</div>
+            <div className="news-tag tag-tv">TV</div>
+            <div className="news-title">
+              QAB 琉球朝日放送『30のじぶんへ』
+              <small style={{ marginTop: '8px', lineHeight: 1.6 }}>メディア出演：主宰する「平敷屋門勇也琉舞道場」のキッズクラスや中高生メンバーとともに出演。30年後の自分や、沖縄伝統芸能の未来へ向けたメッセージを語る。</small>
+            </div>
+            <div className="news-venue">QAB 琉球朝日放送</div>
+          </div>
+          <div className="news-row reveal stagger-2">
+            <div className="news-date">2026. 03. 05</div>
+            <div className="news-tag tag-event">出演</div>
+            <div className="news-title">
+              『URUMA芸能Show Case』
+              <small style={{ marginTop: '8px', lineHeight: 1.6 }}>概要：地元の芸能文化発信イベントに「平敷屋門勇也琉舞道場」として出演。</small>
+            </div>
+            <div className="news-venue">津波三味線店</div>
+          </div>
+          <div className="news-row reveal stagger-3">
+            <div className="news-date">2025. 11. 22</div>
+            <div className="news-tag tag-stage">公演</div>
+            <div className="news-title">
+              島唄ライブ『チャンプ流ぅ芸能団 in 沖縄国際カーニバル』
+              <small style={{ marginTop: '8px', lineHeight: 1.6 }}>概要：沖縄国際カーニバルのステージにて、民謡、舞踊、即興コントを組み合わせた独自のエンターテインメントライブを披露。</small>
+            </div>
+            <div className="news-venue">ミュージックタウン音市場</div>
+          </div>
+          <div className="news-row reveal stagger-4">
+            <div className="news-date">2025. 05. 10</div>
+            <div className="news-tag tag-stage">公演</div>
+            <div className="news-title">
+              『チャンプ流ぅ芸能団 母の日公演～柒（なな）之巻～』
+              <small style={{ marginTop: '8px', lineHeight: 1.6 }}>概要：歌・踊り・笑いを融合させ、子どもからお年寄りまで楽しめる舞台シリーズの第7弾。</small>
+            </div>
+            <div className="news-venue"></div>
+          </div>
+          <div className="news-row reveal stagger-5">
+            <div className="news-date">2025. 03. 22-23</div>
+            <div className="news-tag tag-stage">公演</div>
+            <div className="news-title">
+              国立劇場おきなわ 3月沖縄芝居公演 史劇『東立ち雲』
+              <small style={{ marginTop: '8px', lineHeight: 1.6 }}>配役：亀川の下男 役<br/>概要：琉球処分をめぐる激動の時代を描いた本格的な名作史劇に、県内の実力派沖縄芝居役者らとともに出演。</small>
+            </div>
+            <div className="news-venue">国立劇場おきなわ</div>
+          </div>
         </div>
       </section>
 
