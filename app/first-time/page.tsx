@@ -256,10 +256,13 @@ export default function FirstTimePage() {
         <div className={styles.miniGrid}>
           <div className={`${styles.mini} reveal`}>
             <div className={styles.num}>No. 04</div>
-            <h4>打花</h4>
+            <h4 style={{ fontSize: '24px' }}>【貫花（ぬちばな）】</h4>
             <div className={styles.read}>うちばな ・ Uchibana</div>
             <p>演目によっては、花びらをまく演出があります。沖縄では祝いの文化がとても大切にされてきました。だから琉球舞踊でも、「祝う空気」を作る小道具が多いのです。</p>
             <div className={styles.meanings}><b>Meaning</b>幸せ ／ 祝福 ／ 喜び</div>
+            <div style={{ marginTop: '24px', width: '100%', aspectRatio: '4/3', overflow: 'hidden', background: '#f5f0e8' }}>
+              <img src="https://jinzai.okinawa/wp-content/uploads/2026/04/nuchibana.webp" alt="貫花" style={{ width: '100%', height: '100%', objectFit: 'cover' }} loading="lazy" />
+            </div>
           </div>
           <div className={`${styles.mini} reveal stagger-1`}>
             <div className={styles.num}>No. 05</div>
@@ -267,6 +270,9 @@ export default function FirstTimePage() {
             <div className={styles.read}>てぬぐい ・ Tenugui</div>
             <p>雑踊では、布や手ぬぐいが使われることがあります。庶民の生活を表現するための小道具。古典舞踊より、人間らしい感情が出やすい場面で登場します。</p>
             <div className={styles.meanings}><b>Meaning</b>働く女性 ／ 農作業 ／ 恋愛 ／ 日常生活</div>
+            <div style={{ marginTop: '24px', width: '100%', aspectRatio: '4/3', overflow: 'hidden', background: '#f5f0e8' }}>
+              <img src="https://jinzai.okinawa/wp-content/uploads/2026/04/kana-yoamakawa.webp" alt="手ぬぐい" style={{ width: '100%', height: '100%', objectFit: 'cover' }} loading="lazy" />
+            </div>
           </div>
           <div className={`${styles.mini} reveal stagger-2`}>
             <div className={styles.num}>No. 06</div>
@@ -274,7 +280,15 @@ export default function FirstTimePage() {
             <div className={styles.read}>ぼう・かい ・ Bou &amp; Kai</div>
             <p>演目によっては、棒、船の櫂、漁具なども登場します。海と共に生きてきた沖縄の暮らしを表しています。沖縄にとって海は、命、貿易、旅、別れ、豊かさ――そのすべてに繋がる存在でした。</p>
             <div className={styles.meanings}><b>Meaning</b>命 ／ 貿易 ／ 旅 ／ 豊かさ</div>
+            <div style={{ marginTop: '24px', width: '100%', aspectRatio: '4/3', overflow: 'hidden', background: '#f5f0e8' }}>
+              <img src="https://jinzai.okinawa/wp-content/uploads/2026/04/zouodori.webp" alt="棒・櫂" style={{ width: '100%', height: '100%', objectFit: 'cover' }} loading="lazy" />
+            </div>
           </div>
+        </div>
+        <div style={{ padding: '40px 50px 0', fontSize: '11px', color: 'var(--sub)', textAlign: 'right' }} className="reveal">
+          <a href="https://www.nt-okinawa.or.jp/traditional-okinawan-performing-arts/ja/ryukyudance.html" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'underline' }}>
+            ※写真は国立劇場おきなわ公式ホームページより引用
+          </a>
         </div>
       </section>
 
