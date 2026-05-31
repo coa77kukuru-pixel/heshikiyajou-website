@@ -184,7 +184,7 @@ export default function RyukyuBuyouPage() {
         </div>
         <div style={{ padding: '20px 50px 0', fontSize: '11px', color: 'var(--sub)', textAlign: 'right' }} className="reveal">
           <a href="https://www.pref.okinawa.lg.jp/bunkakoryu/bunkageijutsu/1009556/1009653/1027669.html" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'underline' }}>
-            ※沖縄県HPより引用させて頂きました
+            ※沖縄県公式ホームページより引用
           </a>
         </div>
       </section>
