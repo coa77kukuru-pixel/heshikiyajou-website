@@ -143,7 +143,7 @@ export default function Champuryu() {
         <p>
           自分たちで、楽しいものを<br />
           創作していく。<br />
-          それが、〈チャンプルぅ〉です。
+          それが、〈チャンプ流ぅ〉です。
         </p>
         <div className={styles.attr}>
           Words from the leader
