@@ -118,7 +118,7 @@ export default function Champuryu() {
             先人達が残してくれた、伝統芸能をこの先も繋いでいく為にも<br />
             <strong style={{ fontSize: '17px', color: 'var(--crimson)', margin: '12px 0', display: 'inline-block', fontWeight: 500 }}>“僕ら自身がどう楽しんでいくか”</strong><br />
             舞台で面白く、楽しく感じてもらえる為にはと常に考え、カタチにすること<br />
-            現代の人に
+            今の時代に求められている芸能を創っていく。
           </p>
           <div className="reveal stagger-2">
             <div style={{ fontFamily: 'var(--serif)', fontSize: '15px', color: 'var(--ink)', marginBottom: '20px', fontWeight: 500, letterSpacing: '.1em' }}>動画で３人の想いを見る</div>
