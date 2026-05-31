@@ -719,13 +719,16 @@ section { padding: 160px 80px; position: relative; }
   .walking-woman {
     height: 160px; width: auto; position: absolute; bottom: 0; left: 50%;
     transform-origin: bottom center;
-    animation: walkAndPose 40s linear infinite;
+    transform: translateX(calc(50vw + 100px)); /* 初期状態では画面右外 */
+  }
+  .walking-container.is-visible .walking-woman {
+    animation: walkAndPose 42s linear infinite;
   }
   @keyframes walkAndPose {
     0% { transform: translateX(calc(50vw + 100px)); }
-    15% { transform: translateX(-50%); }   /* ゆっくりすり足で中央へ (6秒) */
-    85% { transform: translateX(-50%); }   /* 中央で美しく静止してポーズ (28秒間) */
-    100% { transform: translateX(calc(-50vw - 300px)); } /* ゆっくりと左へはける (6秒) */
+    16.6% { transform: translateX(-50%); }   /* ゆっくりすり足で中央へ (約7秒) */
+    83.3% { transform: translateX(-50%); }   /* 中央で美しく静止してポーズ */
+    100% { transform: translateX(calc(-50vw - 300px)); } /* ゆっくりと左へはける (約7秒) */
   }
 
   /* ---------- CONTACT ---------- */

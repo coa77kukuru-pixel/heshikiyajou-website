@@ -552,7 +552,7 @@ export default function Home() {
       </section>
 
       {/* WALKING ANIMATION */}
-      <div className="walking-container">
+      <div className="walking-container reveal" style={{ opacity: 1, transform: 'none' }}>
         <img src="/images/ryuso_woman.png" alt="琉装の女性" className="walking-woman" />
       </div>
 
