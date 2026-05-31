@@ -258,8 +258,8 @@ export default function YuibanaPage() {
 
       {/* CTA */}
       <section className={`${styles.cta} reveal`} id="cta">
-        <h2>まずは、道場の<br />空気を感じに、いらしてください</h2>
-        <p>言葉だけでは伝わらない、子どもたちの笑い声と、稽古場の熱。<br />見学・体験は、いつでも無料でお迎えしています。</p>
+        <h2>まずは、道場の空気を感じに、<br />いらしてください</h2>
+        <p>言葉だけでは伝わらない、<br />子どもたちの笑い声と、稽古場の熱。<br />見学・体験は、いつでも無料でお迎えしています。</p>
         <Link className={styles.btn} href="/#contact">見学・体験のお問い合わせ →</Link>
         <div className={styles['ig-row']}>
           <span>Follow Yuibana ・</span>
