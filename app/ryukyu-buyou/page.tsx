@@ -100,6 +100,7 @@ export default function RyukyuBuyouPage() {
         </div>
         <div className={styles['cat-grid']}>
           <div className={`${styles.cat} reveal-left`}>
+            <div className={styles['cat-photo']} style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/平敷屋門勇也-女踊り-1.webp')" }}></div>
             <div className={styles.label}>No. 01</div>
             <h3>古典舞踊</h3>
             <div className={styles.reading}>こてんぶよう ・ Classical Dance</div>
@@ -113,6 +114,7 @@ export default function RyukyuBuyouPage() {
             <div className={styles.pieces}><b>代表演目 ／</b>かぎやで風／若衆こてい節／四つ竹／本貫花 ほか</div>
           </div>
           <div className={`${styles.cat} reveal-right`}>
+            <div className={styles['cat-photo']} style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/平敷屋門勇也-女踊り傘.webp')" }}></div>
             <div className={styles.label}>No. 02</div>
             <h3>雑踊</h3>
             <div className={styles.reading}>ぞうおどり ・ Folk Dance</div>
