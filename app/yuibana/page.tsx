@@ -108,7 +108,7 @@ export default function YuibanaPage() {
       </section>
 
       {/* 3 STEPS */}
-      <section className={styles.steps} id="steps">
+      <section className={`${styles.steps} sec-dark`} id="steps">
         <div className="sec-head reveal">
           <div className="sec-num" style={{ color: '#d4a23a' }}>Section <b>03</b></div>
           <div className="sec-title">3つの成長のステップ<small>— Growth Stages —</small></div>
