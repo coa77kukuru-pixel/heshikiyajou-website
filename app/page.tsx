@@ -248,10 +248,33 @@ export default function Home() {
         </div>
       </section>
 
+      
+      {/* MEDIA */}
+      <section className="media" id="media">
+        <div className="sec-head reveal">
+          <div className="sec-num">Section <b>04</b></div>
+          <div className="sec-title">映像で知る、平敷屋門勇也<small>— TV Features & Media —</small></div>
+        </div>
+        <p className="reveal" style={{ marginTop: '-40px', marginBottom: '50px', fontFamily: 'var(--serif)', fontSize: '15px', lineHeight: 2.1, color: 'var(--ink-2)' }}>
+          琉球放送RBC・沖縄テレビ番組「沖縄CLIP」より引用
+        </p>
+        <div className="media-grid">
+          <div className="media-item reveal">
+            <iframe src="https://www.youtube.com/embed/fwqmDAEqGzg" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+          </div>
+          <div className="media-item reveal stagger-1">
+            <iframe src="https://www.youtube.com/embed/zrdZVnfsJUc" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+          </div>
+          <div className="media-item reveal stagger-2">
+            <iframe src="https://www.youtube.com/embed/twhqzlPsa7M" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+          </div>
+        </div>
+      </section>
+
       {/* CHRONICLE */}
       <section className="chronicle sec-dark" id="chronicle">
         <div className="sec-head reveal">
-          <div className="sec-num">Section <b>04</b></div>
+          <div className="sec-num">Section <b>05</b></div>
           <div className="sec-title" style={{ color: 'var(--paper)' }}>4歳からの、舞の軌跡<small>— Chronicle / 年譜 —</small></div>
         </div>
         <div className="timeline">
@@ -344,7 +367,7 @@ export default function Home() {
       {/* WORKS */}
       <section className="works" id="works">
         <div className="sec-head reveal">
-          <div className="sec-num">Section <b>05</b></div>
+          <div className="sec-num">Section <b>06</b></div>
           <div className="sec-title">無数のかお、ひとつの魂<small>— Portfolio / 表現の形 —</small></div>
         </div>
         <p className="sched-intro reveal" style={{ margin: '-40px 0 50px' }}>衣装や演目が変われば、全く別の命が宿る。ひとつの身体から生み出される、無限の表情と役柄の振り幅。</p>
@@ -375,7 +398,7 @@ export default function Home() {
       {/* CHAMPRU */}
       <section className="champru sec-dark" id="champru">
         <div className="sec-head reveal">
-          <div className="sec-num">Section <b>06</b></div>
+          <div className="sec-num">Section <b>07</b></div>
           <div className="sec-title" style={{ color: 'var(--paper)' }}>ジャンルを越えて、うちなーの今を<small>— Champru / チャンプ流ぅ芸能団 —</small></div>
         </div>
         <div className="champ-grid">
@@ -414,7 +437,7 @@ export default function Home() {
       {/* GROUPS */}
       <section className="groups" id="groups">
         <div className="sec-head reveal">
-          <div className="sec-num">Section <b>07</b></div>
+          <div className="sec-num">Section <b>08</b></div>
           <div className="sec-title">琉球舞踊をもっと身近に<small>— Groups / 主宰団体 —</small></div>
         </div>
         <p className="sched-intro reveal" style={{ margin: '-40px 0 50px' }}>伝統芸能の「敷居の高さ」を取り払い、誰もが心から楽しめる舞台を。未来へ繋ぐ2つの集団。</p>
@@ -443,7 +466,7 @@ export default function Home() {
       {/* NEWS */}
       <section className="news" id="stages">
         <div className="sec-head reveal">
-          <div className="sec-num">Section <b>08</b></div>
+          <div className="sec-num">Section <b>09</b></div>
           <div className="sec-title">近年の主な舞台<small>— Recent Stages / 公演記録 —</small></div>
         </div>
         <div className="news-list">
@@ -482,7 +505,7 @@ export default function Home() {
       {/* CONTACT */}
       <section className="contact" id="contact">
         <div className="sec-head reveal">
-          <div className="sec-num">Section <b>09</b></div>
+          <div className="sec-num">Section <b>10</b></div>
           <div className="sec-title">舞台のご依頼、承ります<small>— Contact / 連絡先 —</small></div>
         </div>
         <div className="contact-grid">
