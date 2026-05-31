@@ -603,6 +603,16 @@ section { padding: 160px 80px; position: relative; }
   /* ---------- REPERTOIRE ---------- */
   .repertoire { background: var(--paper); }
   .rep-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0; border-top: 1px solid var(--line); }
+
+  /* ---------- MEDIA GRID ---------- */
+  .media-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; margin-top: 40px; }
+  .media-item { display: flex; flex-direction: column; }
+  .media-item .video-wrap { position: relative; width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 4px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,.08); }
+  .media-item .video-wrap iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; }
+  .media-item .video-title { margin-top: 16px; font-family: var(--serif); font-size: 15px; color: var(--ink); line-height: 1.6; letter-spacing: .05em; font-weight: 500; }
+  @media (max-width: 900px) {
+    .media-grid { grid-template-columns: 1fr; gap: 50px; }
+  }
   .rep-card {
     padding: 56px 44px 64px; border-bottom: 1px solid var(--line); border-right: 1px solid var(--line);
     transition: background .3s ease;

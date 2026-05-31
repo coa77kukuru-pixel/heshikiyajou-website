@@ -254,15 +254,24 @@ export default function Home() {
           <p className="reveal" style={{ marginTop: '0', marginBottom: '50px', fontFamily: 'var(--serif)', fontSize: '15px', lineHeight: 2.1, color: 'var(--crimson)', fontWeight: 500, letterSpacing: '.06em' }}>
             ぜひコチラもご覧ください。
           </p>
-          <div className="media-grid" style={{ gap: '40px' }}>
+          <div className="media-grid">
             <div className="media-item reveal">
-              <iframe src="https://www.youtube.com/embed/fwqmDAEqGzg" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              <div className="video-wrap">
+                <iframe src="https://www.youtube.com/embed/fwqmDAEqGzg" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              </div>
+              <div className="video-title">【沖縄CLIP】琉球舞踊と咲かせる花 (1)</div>
             </div>
             <div className="media-item reveal stagger-1">
-              <iframe src="https://www.youtube.com/embed/zrdZVnfsJUc" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              <div className="video-wrap">
+                <iframe src="https://www.youtube.com/embed/zrdZVnfsJUc" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              </div>
+              <div className="video-title">【沖縄CLIP】琉球舞踊と咲かせる花 (2)</div>
             </div>
             <div className="media-item reveal stagger-2">
-              <iframe src="https://www.youtube.com/embed/twhqzlPsa7M" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              <div className="video-wrap">
+                <iframe src="https://www.youtube.com/embed/twhqzlPsa7M" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              </div>
+              <div className="video-title">【沖縄CLIP】琉球舞踊と咲かせる花 (3)</div>
             </div>
           </div>
         </div>
