@@ -47,10 +47,48 @@ export default function YuibanaPage() {
         <div className={`${styles.right} hero-bg`} style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/%E7%B5%90%E8%8F%AF%E3%82%AD%E3%83%83%E3%82%BA-%E6%B2%96%E7%B8%84%E7%90%89%E7%90%83%E8%88%9E%E8%B8%8A-%E5%B9%B3%E6%95%B7%E5%B1%8B%E9%96%80%E5%8B%87%E4%B9%9F-1.webp')" }}></div>
       </header>
 
+      {/* LOCATIONS */}
+      <section className={`${styles.locations} sec-dark`} id="locations">
+        <div className="sec-head reveal">
+          <div className="sec-num" style={{ color: '#d4a23a' }}>Section <b>01</b></div>
+          <div className="sec-title">稽古場のご案内<small>— Dojo Locations —</small></div>
+        </div>
+        <div className={styles.locGrid}>
+          <div className={`${styles.locCard} reveal`}>
+            <div className={styles.locBadge}>本部</div>
+            <h3>沖縄市泡瀬</h3>
+            <div className={styles.locSub}>Awase, Okinawa City</div>
+            <p>メインの稽古場。約50名の子どもたちが所属する、結華の拠点です。キッズクラスから選抜クラスまで、すべてのクラスを開講しています。</p>
+            <div className={styles.locRecruit}>
+              <div className={styles.locStatus}><span className={styles.statusOpen}></span>生徒募集中</div>
+              <div className={styles.locNote}>キッズ・基礎クラスともに募集中</div>
+            </div>
+          </div>
+          <div className={`${styles.locCard} reveal stagger-1`}>
+            <h3>うるま市</h3>
+            <div className={styles.locSub}>Uruma City</div>
+            <p>うるま市エリアの稽古場。中部エリアからのアクセスに便利です。お近くの方はこちらでもお稽古いただけます。</p>
+            <div className={styles.locRecruit}>
+              <div className={styles.locStatus}><span className={styles.statusOpen}></span>生徒募集中</div>
+              <div className={styles.locNote}>詳細はお問い合わせください</div>
+            </div>
+          </div>
+          <div className={`${styles.locCard} reveal stagger-2`}>
+            <h3>那覇市</h3>
+            <div className={styles.locSub}>Naha City</div>
+            <p>那覇市エリアの稽古場。南部からのアクセスに便利です。那覇周辺にお住まいの方もお気軽にご参加いただけます。</p>
+            <div className={styles.locRecruit}>
+              <div className={styles.locStatus}><span className={styles.statusFew}></span>残りわずか</div>
+              <div className={styles.locNote}>詳細はお問い合わせください</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* MESSAGE */}
       <section className={styles.message} id="message">
         <div className="sec-head reveal">
-          <div className="sec-num">Section <b>01</b></div>
+          <div className="sec-num">Section <b>02</b></div>
           <div className="sec-title">道場長からのご挨拶<small>— Message from Yuya —</small></div>
         </div>
         <div className={styles['msg-body']}>
@@ -72,7 +110,7 @@ export default function YuibanaPage() {
       {/* 3 STEPS */}
       <section className={styles.steps} id="steps">
         <div className="sec-head reveal">
-          <div className="sec-num" style={{ color: '#d4a23a' }}>Section <b>02</b></div>
+          <div className="sec-num" style={{ color: '#d4a23a' }}>Section <b>03</b></div>
           <div className="sec-title">3つの成長のステップ<small>— Growth Stages —</small></div>
         </div>
         <div className={styles['step-grid']}>
@@ -105,7 +143,7 @@ export default function YuibanaPage() {
       {/* DREAMS */}
       <section className={styles.dreams} id="dreams">
         <div className="sec-head reveal">
-          <div className="sec-num">Section <b>03</b></div>
+          <div className="sec-num">Section <b>04</b></div>
           <div className="sec-title">30年後の、じぶんへ<small>— Dreams of Yuibana Kids —</small></div>
         </div>
         <p className="reveal" style={{ fontFamily: 'var(--serif)', fontSize: '16px', lineHeight: 2.1, color: 'var(--ink-2)', maxWidth: '760px', margin: '-50px 0 70px' }}>
@@ -151,7 +189,7 @@ export default function YuibanaPage() {
       {/* INFO TABLE */}
       <section className={styles.info} id="classes">
         <div className="sec-head reveal">
-          <div className="sec-num">Section <b>04</b></div>
+          <div className="sec-num">Section <b>05</b></div>
           <div className="sec-title">クラスのご案内<small>— Class &amp; Tuition —</small></div>
         </div>
         <div className={styles['info-table']}>
@@ -189,7 +227,7 @@ export default function YuibanaPage() {
       {/* JOIN STEPS */}
       <section className={styles.join} id="join">
         <div className="sec-head reveal">
-          <div className="sec-num">Section <b>05</b></div>
+          <div className="sec-num">Section <b>06</b></div>
           <div className="sec-title">ご入会までの、3歩<small>— How to Join —</small></div>
         </div>
         <div className={styles['join-grid']}>
@@ -214,7 +252,7 @@ export default function YuibanaPage() {
       {/* FAQ */}
       <section className={styles.faq} id="faq">
         <div className="sec-head reveal">
-          <div className="sec-num">Section <b>06</b></div>
+          <div className="sec-num">Section <b>07</b></div>
           <div className="sec-title">よくあるご質問<small>— FAQ —</small></div>
         </div>
         <div className={styles['faq-list']}>
