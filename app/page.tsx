@@ -413,7 +413,7 @@ export default function Home() {
                 <em>Homecoming Stage in Tsurumi, June 2026</em>
               </div>
             </div>
-            <p>「自分たちで楽しいものを創作していく。それが&quot;チャンプぅ&quot;です」――平敷屋門が結成の原点を語る、唄三線・古典音楽・琉球舞踊の三者によるユニット。</p>
+            <p>「自分たちで楽しいものを創作していく。それが&quot;チャンプ流ぅ&quot;です」――平敷屋門が結成の原点を語る、唄三線・古典音楽・琉球舞踊の三者によるユニット。</p>
             <p>伝統を背負う若手芸能家が、即興コント・歌・踊りを一舞台に編む。子どもから年配まで、笑いの絶えない唯一無二の場をつくり続けている。最年少ながら、リーダーとして全体を律する勇也の姿がある。</p>
             <div className="champ-members">
               <div className="champ-member">Buyou ・ 舞踊<b>平敷屋門 勇也</b></div>
