@@ -84,8 +84,8 @@
 .concept { background: var(--indigo); color: var(--paper); padding: 200px 80px; text-align: center; }
 .concept-mark { font-family: var(--latin); font-style: italic; font-size: 80px; color: #d4a23a; line-height: .5; }
 .concept p {
-  font-family: var(--serif); font-size: clamp(26px, 2.8vw, 42px); font-weight: 400;
-  line-height: 2; letter-spacing: .12em; margin: 50px auto 0; max-width: 980px; color: var(--paper);
+  font-family: var(--serif); font-size: clamp(18px, 1.8vw, 22px); font-weight: 400;
+  line-height: 2.2; letter-spacing: .08em; margin: 40px auto 0; max-width: 900px; color: var(--paper);
 }
 .concept .attr {
   margin-top: 56px;
@@ -104,5 +104,5 @@
   .mem-grid { grid-template-columns: 1fr; gap: 20px; }
   .vision { padding: 80px 24px; }
   .concept { padding: 100px 24px; }
-  .concept p { font-size: 19px; line-height: 1.9; }
+  .concept p { font-size: 16px; line-height: 2.1; margin: 30px auto 0; }
 }
