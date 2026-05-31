@@ -183,6 +183,16 @@ export default function YuibanaPage() {
             <div className={styles['dream-avatar']}><div className={styles.icon}>👩🏻‍💼</div><div className={styles.who}>卒業生<small>（OG）</small></div></div>
             <div className={styles['dream-bubble']}><p>結華では、踊りだけじゃなくて、人間としての部分も教えていただいた。自分にとって、本当に大切な場所だった。</p></div>
           </div>
+          
+          <div className={`${styles['dream-row']} reveal stagger-2`} style={{ marginTop: '20px' }}>
+            <div className={styles['dream-avatar']}>
+              <div className={styles.icon} style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/yuyaheshikiyajou.webp')", backgroundSize: 'cover', backgroundPosition: 'center', border: '2px solid var(--crimson)' }}></div>
+              <div className={styles.who}>勇也先生<small>（道場長）</small></div>
+            </div>
+            <div className={styles['dream-bubble']}>
+              <p>沖縄の芸能を楽しんでほしい。そして、大きくなったときに琉球舞踊を通して、感じたこと・経験したことが、この先の未来に少しでも役にたてば嬉しいです。<br />舞台の可能性は、踊ることだけではないと思っています。</p>
+            </div>
+          </div>
         </div>
       </section>
 
