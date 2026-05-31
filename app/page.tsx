@@ -247,11 +247,14 @@ export default function Home() {
           </div>
         </div>
         <div className="profile-media" style={{ marginTop: '80px', paddingTop: '80px', borderTop: '1px solid var(--line)' }}>
-          <div className="sec-title reveal" style={{ fontSize: '28px', marginBottom: '30px' }}>映像で知る、平敷屋門勇也</div>
-          <p className="reveal" style={{ marginTop: '0', marginBottom: '40px', fontFamily: 'var(--serif)', fontSize: '15px', lineHeight: 2.1, color: 'var(--ink-2)' }}>
-            琉球放送RBC・沖縄テレビ番組「沖縄CLIP」より引用
+          <div className="sec-title reveal" style={{ fontSize: '28px', marginBottom: '30px' }}>映像で知る</div>
+          <p className="reveal" style={{ marginTop: '0', marginBottom: '16px', fontFamily: 'var(--serif)', fontSize: '15px', lineHeight: 2.1, color: 'var(--ink-2)' }}>
+            毎週月曜から金曜日18時55分から琉球放送（RBC）にて放映中の『沖縄CLIP』に取り上げて頂きました。
           </p>
-          <div className="media-grid">
+          <p className="reveal" style={{ marginTop: '0', marginBottom: '50px', fontFamily: 'var(--serif)', fontSize: '15px', lineHeight: 2.1, color: 'var(--crimson)', fontWeight: 500, letterSpacing: '.06em' }}>
+            ぜひコチラもご覧ください。
+          </p>
+          <div className="media-grid" style={{ gap: '40px' }}>
             <div className="media-item reveal">
               <iframe src="https://www.youtube.com/embed/fwqmDAEqGzg" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </div>
