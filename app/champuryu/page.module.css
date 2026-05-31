@@ -74,30 +74,11 @@
 .closing-photo { width: 100%; background: #0f0c0a; }
 .closing-photo img { width: 100%; height: auto; display: block; }
 
-/* Tour Schedule */
-.tour { background: var(--paper-2); }
-.tour-list { border-top: 1px solid var(--ink); }
-.tour-row {
-  display: grid; grid-template-columns: 140px 90px 1fr 220px; gap: 40px;
-  padding: 38px 24px;
-  border-bottom: 1px solid var(--line);
-  align-items: center;
-  transition: background .3s ease;
-}
-.tour-row:hover { background: rgba(201,189,166,.1); }
-.tour-date { font-family: var(--latin); font-weight: 500; font-size: 30px; color: var(--ink); letter-spacing: .04em; }
-.tour-date small { display: block; font-family: var(--serif); font-size: 12px; color: var(--sub); letter-spacing: .15em; margin-top: 4px; }
-.tour-badge {
-  font-family: var(--serif); font-size: 11px; letter-spacing: .22em;
-  padding: 6px 12px; border: 1px solid var(--ink-2);
-  background: transparent; justify-self: start;
-}
-.tour-badge.featured { background: var(--crimson); color: var(--paper); border-color: var(--crimson); }
-.tour-badge.regular { background: var(--ink); color: var(--paper); border-color: var(--ink); }
-.tour-body h4 { font-family: var(--serif); font-size: 20px; font-weight: 500; letter-spacing: .06em; margin-bottom: 6px; line-height: 1.5; }
-.tour-body p { font-family: var(--serif); font-size: 14px; color: var(--ink-2); line-height: 1.85; font-feature-settings: "palt"; }
-.tour-venue { font-family: var(--serif); font-size: 14px; color: var(--ink-2); line-height: 1.7; text-align: right; }
-.tour-venue small { display: block; font-family: var(--latin); font-style: italic; font-size: 11px; color: var(--sub); letter-spacing: .2em; margin-top: 4px; text-align: right; }
+/* Vision */
+.vision { background: var(--paper-2); padding: 120px 80px; }
+.vision-content { margin-top: 60px; text-align: center; max-width: 900px; margin-left: auto; margin-right: auto; }
+.video-wrapper { position: relative; width: 100%; max-width: 800px; margin: 0 auto; padding-bottom: 56.25%; background: var(--ink); border: 1px solid var(--line); overflow: hidden; border-radius: 8px; }
+.video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; }
 
 /* Concept */
 .concept { background: var(--indigo); color: var(--paper); padding: 200px 80px; text-align: center; }
@@ -121,9 +102,7 @@
   .anniv .info h3 { font-size: 24px; }
   .anniv .badge { justify-self: center; }
   .mem-grid { grid-template-columns: 1fr; gap: 20px; }
-  .tour-row { grid-template-columns: 1fr; gap: 10px; padding: 24px 0; }
-  .tour-venue { text-align: left; }
-  .tour-venue small { text-align: left; }
+  .vision { padding: 80px 24px; }
   .concept { padding: 100px 24px; }
   .concept p { font-size: 19px; line-height: 1.9; }
 }

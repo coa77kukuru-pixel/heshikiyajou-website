@@ -103,36 +103,28 @@ export default function Champuryu() {
         </div>
       </section>
 
-      {/* TOUR */}
-      <section className={styles.tour} id="tour">
+      {/* VISION */}
+      <section className={styles.vision} id="vision">
         <div className="sec-head reveal">
           <div className="sec-num">Section <b>03</b></div>
-          <div className="sec-title">これからの舞台<small>— Tour Schedule —</small></div>
+          <div className="sec-title">未来の伝統を今つくる<small>— Our Vision —</small></div>
         </div>
-        <div className={styles['tour-list']}>
-          <div className={`${styles['tour-row']} reveal`}>
-            <div className={styles['tour-date']}>06.21<small>SUN ・ 2026</small></div>
-            <div className={`${styles['tour-badge']} ${styles.featured}`}>凱旋公演</div>
-            <div className={styles['tour-body']}><h4>鶴見 凱旋公演 ／ うちなー芸能の夕べ</h4><p>沖縄から東京・鶴見へ。10周年の節目を前にした、特別な舞台。</p></div>
-            <div className={styles['tour-venue']}>鶴見 ・ 神奈川県<small>Tsurumi, Kanagawa</small></div>
-          </div>
-          <div className={`${styles['tour-row']} reveal stagger-1`}>
-            <div className={styles['tour-date']}>09.27<small>SUN ・ 2026</small></div>
-            <div className={`${styles['tour-badge']} ${styles.regular}`}>定期公演</div>
-            <div className={styles['tour-body']}><h4>うちなー芸能ライブ ・ 那覇</h4><p>地元・沖縄での定期ライブ。即興コントから古典まで、笑いの絶えない一夜。</p></div>
-            <div className={styles['tour-venue']}>那覇<small>Naha, Okinawa</small></div>
-          </div>
-          <div className={`${styles['tour-row']} reveal stagger-2`}>
-            <div className={styles['tour-date']}>11.15<small>SUN ・ 2026</small></div>
-            <div className={styles['tour-badge']}>海外公演</div>
-            <div className={styles['tour-body']}><h4>ハワイ・ホノルル公演</h4><p>海を渡って、もう一つのうちなーへ。県系移民の地で、芸能を届ける。</p></div>
-            <div className={styles['tour-venue']}>Honolulu, HI<small>Hawaii, U.S.A.</small></div>
-          </div>
-          <div className={`${styles['tour-row']} reveal stagger-3`}>
-            <div className={styles['tour-date']}>2027<small>SPRING</small></div>
-            <div className={`${styles['tour-badge']} ${styles.featured}`}>10周年</div>
-            <div className={styles['tour-body']}><h4>結成10周年 記念公演</h4><p>2017年に始まった、3人の歩み。10年の節目を、大ホールで。</p></div>
-            <div className={styles['tour-venue']}>沖縄県内 大ホール<small>Anniversary Stage</small></div>
+        <div className={styles['vision-content']}>
+          <h3 className="reveal" style={{ fontFamily: 'var(--serif)', fontSize: 'clamp(22px, 3vw, 32px)', lineHeight: 1.6, marginBottom: '40px', fontWeight: 500, letterSpacing: '.1em', color: 'var(--ink)' }}>
+            繋がれてきたものに感謝し<br />
+            “未来の伝統を今つくる”
+          </h3>
+          <p className="reveal stagger-1" style={{ fontFamily: 'var(--serif)', fontSize: '15px', lineHeight: 2.2, marginBottom: '60px', color: 'var(--ink-2)' }}>
+            先人達が残してくれた、伝統芸能をこの先も繋いでいく為にも<br />
+            <strong style={{ fontSize: '17px', color: 'var(--crimson)', margin: '12px 0', display: 'inline-block', fontWeight: 500 }}>“僕ら自身がどう楽しんでいくか”</strong><br />
+            舞台で面白く、楽しく感じてもらえる為にはと常に考え、カタチにすること<br />
+            現代の人に
+          </p>
+          <div className="reveal stagger-2">
+            <div style={{ fontFamily: 'var(--serif)', fontSize: '15px', color: 'var(--ink)', marginBottom: '20px', fontWeight: 500, letterSpacing: '.1em' }}>動画で３人の想いを見る</div>
+            <div className={styles['video-wrapper']}>
+              <iframe src="https://www.youtube.com/embed/yCkSXg0sUL0?si=t6LDVWOv-eTe86sK" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            </div>
           </div>
         </div>
       </section>
