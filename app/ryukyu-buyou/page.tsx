@@ -245,6 +245,11 @@ export default function RyukyuBuyouPage() {
             <div className={styles.read}>びんがた ・ Okinawa&apos;s Traditional Dyed Cloth</div>
             <p>「紅」は多彩な色、「型」は模様――その名の通り、沖縄を代表する色彩の染物。琉球王国時代には王族や士族の衣装として使われ、女踊では今もなお舞台の華となっています。</p>
             <p>南国の花や鳥、海や波、植物。沖縄の自然そのものが、布の上に咲く。舞台に紅型衣装が登場した瞬間、空気が一気に変わる。それが、琉球舞踊の衣装の力です。</p>
+            <div style={{ marginTop: '20px', fontSize: '11px', color: 'var(--sub)' }}>
+              <a href="https://www.okinawaclip.com/post/1702013872/" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'underline' }}>
+                紅型写真：OKINAWACLIP　よみもの記事より引用
+              </a>
+            </div>
           </div>
         </div>
       </section>
