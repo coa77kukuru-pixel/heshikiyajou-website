@@ -119,6 +119,15 @@ export default function SousakuPage() {
             <p>こども達と創る舞台。平敷屋門勇也 琉舞道場で学ぶ生徒のうち選抜メンバーが舞台出演を目指します。実践の場を経験。</p>
           </div>
         </div>
+        
+        <div className="reveal" style={{ marginTop: '80px', padding: '0 50px', maxWidth: '900px', marginLeft: 'auto', marginRight: 'auto' }}>
+          <div style={{ fontFamily: 'var(--serif)', fontSize: '15px', color: 'var(--ink)', marginBottom: '20px', fontWeight: 500, letterSpacing: '.1em', textAlign: 'center' }}>
+            プロモーションPV　　サンチュー（山中）
+          </div>
+          <div className={styles.videoWrapper}>
+            <iframe src="https://www.youtube.com/embed/AF-oZ1S-YJc?si=3Axg7o2FDlgO7mpE" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+          </div>
+        </div>
       </section>
 
       {/* CTA */}
