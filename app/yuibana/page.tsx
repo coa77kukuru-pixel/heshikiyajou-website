@@ -190,7 +190,7 @@ export default function YuibanaPage() {
               <div className={styles.who}>勇也先生<small>（道場長）</small></div>
             </div>
             <div className={styles['dream-bubble']}>
-              <p>沖縄の芸能を楽しんでほしい。そして、大きくなったときに琉球舞踊を通して、感じたこと・経験したことが、この先の未来に少しでも役にたてば嬉しいです。<br />舞台の可能性は、踊ることだけではないと思っています。</p>
+              <p>３０年後の平敷屋門勇也へ<br />足が痛い、腰が痛い、手が痛いと多分言ってることでしょう。<br />そんな自分にむちを打って精一杯頑張れ！</p>
             </div>
           </div>
         </div>
