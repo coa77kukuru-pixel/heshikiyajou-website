@@ -326,7 +326,7 @@ export default function Home() {
             </div>
           </div>
           <div className="t-row reveal stagger-5">
-            <div className="t-year">2020<span className="t-age-inline">年 — 現在</span></div>
+            <div className="t-year">2020<span className="t-age-inline">年 — 31歳</span></div>
             <div className="t-title">国立劇場おきなわ／海外公演</div>
             <div className="t-desc">
               「琉球舞踊鑑賞教室」「組踊」等に出演。ハワイ・全国各地で舞台を重ねる。
