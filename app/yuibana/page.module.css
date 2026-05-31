@@ -112,7 +112,7 @@
   .page-hero { grid-template-columns: 1fr; grid-template-rows: 66vh auto; }
   .page-hero .right { order: -1; min-height: 66vh; }
   .page-hero .left { padding: 50px 24px 70px; }
-  .page-hero h1 { font-size: 42px; }
+  .page-hero h1 { font-size: 38px; line-height: 1.3; letter-spacing: 0.04em; }
   .msg-body, .global-grid { grid-template-columns: 1fr; gap: 40px; }
   .step-grid, .join-grid { grid-template-columns: 1fr; }
   .step { border-right: none; padding: 50px 30px; }
