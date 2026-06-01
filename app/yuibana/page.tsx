@@ -55,30 +55,29 @@ export default function YuibanaPage() {
         </div>
         <div className={styles.locGrid}>
           <div className={`${styles.locCard} reveal`}>
-            <div className={styles.locBadge}>本部</div>
-            <h3>沖縄市泡瀬</h3>
-            <div className={styles.locSub}>Awase, Okinawa City</div>
-            <p>メインの稽古場。約50名の子どもたちが所属する、結華の拠点です。キッズクラスから選抜クラスまで、すべてのクラスを開講しています。</p>
+            <h3>沖縄市・うるま市クラス</h3>
+            <div className={styles.locSub}>Okinawa City / Uruma City</div>
+            <p>毎週金曜日　１８時半〜１９時半<br />場所／うるま市の公共施設</p>
             <div className={styles.locRecruit}>
               <div className={styles.locStatus}><span className={styles.statusOpen}></span>生徒募集中</div>
-              <div className={styles.locNote}>キッズ・基礎クラスともに募集中</div>
+              <div className={styles.locNote}>詳細はお問い合わせください</div>
             </div>
           </div>
           <div className={`${styles.locCard} reveal stagger-1`}>
-            <h3>うるま市</h3>
-            <div className={styles.locSub}>Uruma City</div>
-            <p>うるま市エリアの稽古場。中部エリアからのアクセスに便利です。お近くの方はこちらでもお稽古いただけます。</p>
+            <h3>那覇クラス</h3>
+            <div className={styles.locSub}>Naha Class</div>
+            <p>第１・第３月曜日<br />１６時〜１７時<br />場所／繁多川公民館</p>
             <div className={styles.locRecruit}>
               <div className={styles.locStatus}><span className={styles.statusOpen}></span>生徒募集中</div>
               <div className={styles.locNote}>詳細はお問い合わせください</div>
             </div>
           </div>
           <div className={`${styles.locCard} reveal stagger-2`}>
-            <h3>那覇市</h3>
-            <div className={styles.locSub}>Naha City</div>
-            <p>那覇市エリアの稽古場。南部からのアクセスに便利です。那覇周辺にお住まいの方もお気軽にご参加いただけます。</p>
+            <h3>大人クラス</h3>
+            <div className={styles.locSub}>Adult Class</div>
+            <p>希望の空いている曜日や時間を調整して稽古<br />所要時間／１時間<br />場所／沖縄市泡瀬1-30-29<br />シャトレ泡瀬1-A（平敷屋門勇也琉舞道場）</p>
             <div className={styles.locRecruit}>
-              <div className={styles.locStatus}><span className={styles.statusFew}></span>残りわずか</div>
+              <div className={styles.locStatus}><span className={styles.statusOpen}></span>生徒募集中</div>
               <div className={styles.locNote}>詳細はお問い合わせください</div>
             </div>
           </div>
