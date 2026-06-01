@@ -18,7 +18,10 @@ export default function Footer() {
               琉球舞踊家・沖縄芝居役者<br />
               琉球舞踊道場
             </Link>
-            <p>〒904-2172 沖縄県沖縄市泡瀬</p>
+            <p>
+              沖縄市泡瀬1-30-29シャトレ泡瀬1-A<br />
+              （平敷屋門勇也琉舞道場）
+            </p>
             <div className="f-sns">
               <a
                 href="https://www.instagram.com/heshikiyajouyuuya/"
