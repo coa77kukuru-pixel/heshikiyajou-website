@@ -55,7 +55,7 @@ export default function YuibanaPage() {
         </div>
         <div className={styles.locGrid}>
           <div className={`${styles.locCard} reveal`}>
-            <h3>沖縄市・うるま市クラス</h3>
+            <h3>沖縄市・<br />うるま市クラス</h3>
             <div className={styles.locSub}>Okinawa City / Uruma City</div>
             <p>毎週金曜日　１８時半〜１９時半<br />場所／うるま市の公共施設</p>
             <div className={styles.locRecruit}>
