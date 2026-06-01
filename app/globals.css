@@ -722,7 +722,7 @@ section { padding: 160px 80px; position: relative; }
     transform: translateX(calc(50vw + 100px)); /* 初期状態では画面右外 */
   }
   .walking-container.is-visible .walking-woman {
-    animation: walkAndPose 42s linear infinite;
+    animation: walkAndPose 41s linear infinite;
   }
   @keyframes walkAndPose {
     0% { transform: translateX(calc(50vw + 100px)); }
