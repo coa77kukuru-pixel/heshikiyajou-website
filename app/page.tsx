@@ -577,7 +577,7 @@ export default function Home() {
             <dt>所属ユニット / Unit</dt>
             <dd>チャンプ流ぅ芸能団</dd>
             <dt>主宰 / Founder</dt>
-            <dd>創作舞踊集団 結華 ・ 子ども創作舞踊集団 結</dd>
+            <dd>創作舞踊集団 結華</dd>
             <dt>SNS / Instagram</dt>
             <dd style={{ borderBottom: 'none', paddingBottom: '0' }}>
               <div className="ig-card">
