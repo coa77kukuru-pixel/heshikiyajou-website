@@ -145,7 +145,7 @@ export default function YuibanaPage() {
             <div className={styles.n}>STEP 03</div>
             <div className={styles.age}>age 14 – 18</div>
             <h3>実践期<br />「舞台で、自分を咲かせる。」</h3>
-            <p>コンクール挑戦、創作舞踊集団「結」での選抜舞台。本番直前、寒い稽古場で「精一杯頑張ろう」「とりあえず楽しもうぜ」と声を掛け合える、強い表現者へ。</p>
+            <p>数々の表現の舞台を経験し、表現することの楽しさ舞台の可能性を経験する。<br />心も舞うことも、もう一歩先をいくチャレンジ期。<br />コンクールの挑戦もオススメのタイミングです。</p>
           </div>
         </div>
         <div className={`${styles['step-foot']} reveal`}>
