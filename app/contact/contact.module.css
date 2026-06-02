@@ -115,4 +115,7 @@
   .contactWrap { grid-template-columns: 1fr; gap: 50px; }
   .form { padding: 36px 24px 40px; }
   .row { grid-template-columns: 1fr; }
+  .check { flex-wrap: wrap; align-items: flex-start; gap: 6px 14px; padding: 16px 20px; }
+  .ja { flex: none; width: calc(100% - 34px); line-height: 1.5; }
+  .en { margin-left: 34px; width: 100%; }
 }
