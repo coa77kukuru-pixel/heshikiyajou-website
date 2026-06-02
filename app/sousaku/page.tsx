@@ -112,12 +112,6 @@ export default function SousakuPage() {
             <div className={styles.kana}>Creative Dance Group ・ Yuibana</div>
             <p>仲間それぞれの可能性を、舞台の上で結び、咲かせる。結婚式やお祝いの場、観光客に向けたステージなど、おもてなしのプロとして大切なひと時を華やかせます。</p>
           </div>
-          <div className={`${styles.pgm} reveal stagger-1`}>
-            <div className={styles.num}>No. 02</div>
-            <h3>子ども創作舞踊集団【結】</h3>
-            <div className={styles.kana}>Yui ・ Children&apos;s Group</div>
-            <p>こども達と創る舞台。平敷屋門勇也 琉舞道場で学ぶ生徒のうち選抜メンバーが舞台出演を目指します。実践の場を経験。</p>
-          </div>
         </div>
         
         <div className="reveal" style={{ marginTop: '80px', padding: '0 50px', maxWidth: '900px', marginLeft: 'auto', marginRight: 'auto' }}>

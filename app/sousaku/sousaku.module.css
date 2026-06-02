@@ -38,11 +38,9 @@
 
 /* Creations / Programs */
 .programs { background: var(--paper-2); }
-.pgmGrid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0; border-top: 1px solid var(--ink); border-bottom: 1px solid var(--ink); }
-.pgm { padding: 60px 50px 70px; border-bottom: 1px solid var(--line); border-right: 1px solid var(--line); transition: background .3s ease; }
+.pgmGrid { display: block; border-top: 1px solid var(--ink); border-bottom: 1px solid var(--ink); }
+.pgm { padding: 60px 50px 70px; transition: background .3s ease; }
 .pgm:hover { background: rgba(201,189,166,.1); }
-.pgm:nth-child(2n) { border-right: none; }
-.pgm:nth-last-child(-n+2) { border-bottom: none; }
 .pgm .num { font-family: var(--latin); font-style: italic; font-size: 13px; letter-spacing: .3em; color: var(--crimson); }
 .pgm h3 { font-family: var(--serif); font-size: 26px; font-weight: 500; letter-spacing: .1em; margin: 16px 0 12px; }
 .pgm .kana { font-family: var(--latin); font-style: italic; font-size: 13px; color: var(--sub); letter-spacing: .2em; margin-bottom: 22px; }
