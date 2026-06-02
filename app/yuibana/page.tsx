@@ -27,7 +27,7 @@ export default function YuibanaPage() {
         <div className={styles.left}>
           <div className={`${styles.eyebrow} reveal`}>琉球舞踊道場</div>
           <h1 className="reveal stagger-1" style={{ fontSize: 'clamp(28px, 3.8vw, 54px)' }}>
-            玉城流乃会<br />平敷屋門勇也琉舞道場<small>Ryukyu Dance Dojo</small>
+            玉城流光乃会<br />平敷屋門勇也琉舞道場<small>Ryukyu Dance Dojo</small>
           </h1>
           <p className={`${styles.lede} reveal stagger-2`}>
             ２歳から大人の方まで幅広くお稽古をしています。<br /><br />
