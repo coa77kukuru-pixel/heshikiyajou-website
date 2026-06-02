@@ -74,7 +74,8 @@ export default function YuibanaPage() {
               <b style={{ color: '#d4a23a', display: 'inline-block', marginBottom: '8px' }}>子どもクラス</b><br />
               第１・第３月曜日<br />
               １６時〜１７時<br />
-              場所／繁多川公民館
+              場所／繁多川公民館<br />
+              （那覇市繁多川４丁目1-38）
             </p>
             <div className={styles.locRecruit}>
               <div className={styles.locStatus}><span className={styles.statusOpen}></span>生徒募集中</div>
@@ -224,15 +225,15 @@ export default function YuibanaPage() {
             <div>詳細 / Detail</div>
           </div>
           <div className={`${styles['info-row']} reveal`}>
-            <div className={styles.cls}>子どもクラス<br />沖縄市・うるま市<small>Okinawa / Uruma</small></div>
+            <div className={styles.cls}>子どもクラス<br />うるま市<small>Uruma Class</small></div>
             <div className={styles.v}><b>毎週金曜日</b>18:30 〜 19:30</div>
             <div className={styles.v}><b>うるま市の公共施設</b></div>
             <div className={styles.v}><b>見学・体験無料</b></div>
           </div>
           <div className={`${styles['info-row']} reveal stagger-1`}>
-            <div className={styles.cls}>子どもクラス<br />那覇<small>Naha Class</small></div>
+            <div className={styles.cls}>子どもクラス<br />那覇市<small>Naha Class</small></div>
             <div className={styles.v}><b>第1・第3月曜日</b>16:00 〜 17:00</div>
-            <div className={styles.v}><b>繁多川公民館</b></div>
+            <div className={styles.v}><b>繁多川公民館</b><br />那覇市繁多川４丁目1-38</div>
             <div className={styles.v}><b>見学・体験無料</b></div>
           </div>
           <div className={`${styles['info-row']} reveal stagger-2`}>
