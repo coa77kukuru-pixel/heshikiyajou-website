@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect } from 'react';
+import Link from 'next/link';
 import styles from './page.module.css';
 
 export default function Champuryu() {
@@ -26,6 +27,9 @@ export default function Champuryu() {
         <div className="inner">
           <div className="crumb reveal">うちなー芸能 ・ Since 2017</div>
           <h1 className="reveal stagger-1">チャンプ流ぅ芸能団<small>Champuryu Geinou-dan</small></h1>
+          <div className="reveal stagger-2" style={{ marginTop: '30px' }}>
+            <Link className="btn" href="/contact">【出演依頼のお問合せはコチラ】</Link>
+          </div>
         </div>
       </header>
 
