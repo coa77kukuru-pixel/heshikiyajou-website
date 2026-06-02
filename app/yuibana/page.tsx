@@ -204,33 +204,36 @@ export default function YuibanaPage() {
         <div className={styles['info-table']}>
           <div className={`${styles['info-row']} ${styles.head} reveal`}>
             <div>クラス / Class</div>
-            <div>対象年齢 / Age</div>
             <div>稽古日時 / Schedule</div>
-            <div>月謝 / Tuition</div>
+            <div>場所 / Location</div>
+            <div>詳細 / Detail</div>
           </div>
           <div className={`${styles['info-row']} reveal`}>
-            <div className={styles.cls}>キッズクラス<small>Kids Class</small></div>
-            <div className={styles.v}><b>2歳 〜 小学校低学年</b>音楽に合わせて楽しく踊る</div>
-            <div className={styles.v}><b>毎週 火曜・木曜</b>17:00 〜 18:00</div>
-            <div className={styles.v}><b>お問い合わせください</b>体験：無料</div>
+            <div className={styles.cls}>子どもクラス<br />沖縄市・うるま市<small>Okinawa / Uruma</small></div>
+            <div className={styles.v}><b>毎週金曜日</b>18:30 〜 19:30</div>
+            <div className={styles.v}><b>うるま市の公共施設</b></div>
+            <div className={styles.v}><b>見学・体験無料</b></div>
           </div>
           <div className={`${styles['info-row']} reveal stagger-1`}>
-            <div className={styles.cls}>基礎クラス<small>Standard Class</small></div>
-            <div className={styles.v}><b>小学校中学年 〜 中学生</b>基礎・コンクール挑戦</div>
-            <div className={styles.v}><b>毎週 火曜・木曜</b>18:00 〜 19:30</div>
-            <div className={styles.v}><b>お問い合わせください</b>体験：無料</div>
+            <div className={styles.cls}>子どもクラス<br />那覇<small>Naha Class</small></div>
+            <div className={styles.v}><b>第1・第3月曜日</b>16:00 〜 17:00</div>
+            <div className={styles.v}><b>繁多川公民館</b></div>
+            <div className={styles.v}><b>見学・体験無料</b></div>
           </div>
           <div className={`${styles['info-row']} reveal stagger-2`}>
-            <div className={styles.cls}>選抜「結」<small>Selected Yui</small></div>
-            <div className={styles.v}><b>選抜 ・ 〜18歳</b>舞台出演を目指す</div>
-            <div className={styles.v}><b>毎週 + 不定期</b>19:30 〜 21:00 ほか</div>
-            <div className={styles.v}><b>お問い合わせください</b>選抜制</div>
+            <div className={styles.cls}>大人クラス<small>Adult Class</small></div>
+            <div className={styles.v}><b>希望の曜日や時間を調整</b>所要時間: 1時間</div>
+            <div className={styles.v}><b>沖縄市泡瀬1-30-29</b>シャトレアワセ1-A<br />（平敷屋門勇也琉舞道場）</div>
+            <div className={styles.v}><b>見学・体験無料</b></div>
           </div>
         </div>
         <p className={`${styles['info-note']} reveal`}>
-          ※ 稽古場：沖縄市泡瀬。現在約50名の子どもたちが所属しています。<br />
-          ※ 月謝・入会金・衣裳代等の詳細は、お問い合わせまたは見学時にご案内いたします。
+          ※ 各クラス、見学・体験稽古は無料です。<br />
+          ※ 月謝、他入会についてはお問合せください。
         </p>
+        <div className="reveal" style={{ textAlign: 'center', marginTop: '40px' }}>
+          <Link href="/contact" style={{ display: 'inline-block', background: 'var(--crimson)', color: '#fff', padding: '18px 40px', borderRadius: '4px', textDecoration: 'none', fontFamily: 'var(--serif)', letterSpacing: '0.1em', fontWeight: 500 }}>見学・体験のお問い合わせはこちら</Link>
+        </div>
       </section>
 
       {/* JOIN STEPS */}
