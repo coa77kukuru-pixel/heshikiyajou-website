@@ -329,15 +329,15 @@ export default function YuibanaPage() {
         <p>言葉だけでは伝わらない、<br />子どもたちの笑い声と、稽古場の熱。<br />見学・体験は、いつでも無料でお迎えしています。</p>
         <Link className={styles.btn} href="/#contact">見学・体験のお問い合わせ →</Link>
         <div className={styles['ig-row']}>
-          <span>Follow Yuibana ・</span>
-          <a href="https://www.instagram.com/yuibana.2011/" target="_blank" rel="noopener noreferrer" aria-label="Yuibana Instagram">
+          <span>Follow Heshikiyajou Yuya ・</span>
+          <a href="https://www.instagram.com/heshikiyajouyuuya/" target="_blank" rel="noopener noreferrer" aria-label="Heshikiyajou Yuya Instagram">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6">
               <rect x="3" y="3" width="18" height="18" rx="5" />
               <circle cx="12" cy="12" r="4" />
               <circle cx="17.3" cy="6.7" r="1" fill="currentColor" />
             </svg>
           </a>
-          <span>@yuibana.2011</span>
+          <span>@heshikiyajouyuuya</span>
         </div>
       </section>
     </>
