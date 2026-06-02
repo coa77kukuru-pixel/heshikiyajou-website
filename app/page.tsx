@@ -573,7 +573,7 @@ export default function Home() {
             <dt>稽古場 / Studio</dt>
             <dd>沖縄県沖縄市泡瀬</dd>
             <dt>所属流派 / School</dt>
-            <dd>玉城流 光乃会 赤嶺啓子琉舞道場</dd>
+            <dd>玉城流光乃会 平敷屋門勇也琉舞道場</dd>
             <dt>所属ユニット / Unit</dt>
             <dd>チャンプ流ぅ芸能団</dd>
             <dt>主宰 / Founder</dt>
