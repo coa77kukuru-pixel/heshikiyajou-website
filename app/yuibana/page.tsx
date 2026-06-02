@@ -55,27 +55,42 @@ export default function YuibanaPage() {
         </div>
         <div className={styles.locGrid}>
           <div className={`${styles.locCard} reveal`}>
-            <h3>沖縄市・<br />うるま市クラス</h3>
-            <div className={styles.locSub}>Okinawa City / Uruma City</div>
-            <p>毎週金曜日　１８時半〜１９時半<br />場所／うるま市の公共施設</p>
+            <h3>うるま市</h3>
+            <div className={styles.locSub}>Uruma City</div>
+            <p>
+              <b style={{ color: '#d4a23a', display: 'inline-block', marginBottom: '8px' }}>子どもクラス</b><br />
+              毎週金曜日　１８時半〜１９時半<br />
+              場所／うるま市の公共施設
+            </p>
             <div className={styles.locRecruit}>
               <div className={styles.locStatus}><span className={styles.statusOpen}></span>生徒募集中</div>
               <div className={styles.locNote}>詳細はお問い合わせください</div>
             </div>
           </div>
           <div className={`${styles.locCard} reveal stagger-1`}>
-            <h3>那覇クラス</h3>
-            <div className={styles.locSub}>Naha Class</div>
-            <p>第１・第３月曜日<br />１６時〜１７時<br />場所／繁多川公民館</p>
+            <h3>那覇市</h3>
+            <div className={styles.locSub}>Naha City</div>
+            <p>
+              <b style={{ color: '#d4a23a', display: 'inline-block', marginBottom: '8px' }}>子どもクラス</b><br />
+              第１・第３月曜日<br />
+              １６時〜１７時<br />
+              場所／繁多川公民館
+            </p>
             <div className={styles.locRecruit}>
               <div className={styles.locStatus}><span className={styles.statusOpen}></span>生徒募集中</div>
               <div className={styles.locNote}>詳細はお問い合わせください</div>
             </div>
           </div>
           <div className={`${styles.locCard} reveal stagger-2`}>
-            <h3>大人クラス</h3>
-            <div className={styles.locSub}>Adult Class</div>
-            <p>希望の空いている曜日や時間を調整して稽古<br />所要時間／１時間<br />場所／沖縄市泡瀬1-30-29<br />シャトレ泡瀬1-A（平敷屋門勇也琉舞道場）</p>
+            <h3>沖縄市</h3>
+            <div className={styles.locSub}>Okinawa City</div>
+            <p>
+              <b style={{ color: '#d4a23a', display: 'inline-block', marginBottom: '8px' }}>大人クラス</b><br />
+              希望の空いている曜日や時間を調整して稽古<br />
+              所要時間／１時間<br />
+              場所／沖縄市泡瀬1-30-29 シャトレ泡瀬1-A<br />
+              （平敷屋門勇也琉舞道場）
+            </p>
             <div className={styles.locRecruit}>
               <div className={styles.locStatus}><span className={styles.statusOpen}></span>生徒募集中</div>
               <div className={styles.locNote}>詳細はお問い合わせください</div>
