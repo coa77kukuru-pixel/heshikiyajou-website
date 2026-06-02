@@ -446,7 +446,7 @@ export default function Home() {
           <div className="sec-num">Section <b>07</b></div>
           <div className="sec-title">琉球舞踊をもっと身近に<small>— Groups / 主宰団体 —</small></div>
         </div>
-        <p className="sched-intro reveal" style={{ margin: '-40px 0 50px' }}>伝統芸能の「敷居の高さ」を取り払い、誰もが心から楽しめる舞台を。未来へ繋ぐ2つの集団。</p>
+        <p className="sched-intro reveal" style={{ margin: '-40px 0 50px' }}>誰もが心から楽しめる舞台を。未来に繋ぐ２つの活動。</p>
         <div className="group-grid">
           <div className="group-card reveal">
             <div className="group-img"><div className="photo" style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/%E5%89%B5%E4%BD%9C%E8%88%9E%E8%B8%8A%E9%9B%86%E5%9B%A3-%E7%B5%90%E8%8F%AF-%E5%9B%9B%E3%83%84%E7%AB%B9.webp')" }}></div></div>
@@ -460,8 +460,8 @@ export default function Home() {
           <div className="group-card reveal stagger-1">
             <div className="group-img"><div className="photo" style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/%E7%B5%90%E8%8F%AF%E3%82%AD%E3%83%83%E3%82%BA-%E6%B2%96%E7%B8%84%E7%90%89%E7%90%83%E8%88%9E%E8%B8%8A-%E5%B9%B3%E6%95%B7%E5%B1%8B%E9%96%80%E5%8B%87%E4%B9%9F-1.webp')" }}></div></div>
             <div className="group-body">
-              <div className="group-jp">子ども創作舞踊集団「結」</div>
-              <div className="group-en">Yui ・ Children&apos;s Group</div>
+              <div className="group-jp">平敷屋門勇也琉舞道場</div>
+              <div className="group-en">Heshikiyajou Yuya Ryubu Dojo</div>
               <p className="group-desc">次世代の踊り手たちと向き合う、子どものための集団。自分が4歳で受け取ったものを、いま、新しい子どもたちの手に渡してゆく。</p>
               <div className="group-role"><b>—</b> 代表 ・ Representative</div>
             </div>
