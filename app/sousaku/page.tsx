@@ -122,8 +122,7 @@ export default function SousakuPage() {
         
         <div className="reveal" style={{ marginTop: '80px', padding: '0 50px', maxWidth: '900px', marginLeft: 'auto', marginRight: 'auto' }}>
           <div style={{ fontFamily: 'var(--serif)', fontSize: '15px', color: 'var(--ink)', marginBottom: '20px', fontWeight: 500, letterSpacing: '.1em', textAlign: 'center' }}>
-            プロモーションPV<br />
-            サンチュー（山中）
+            プロモーションPV<br className="sp-br" /><span className="pc-inline">　　</span>サンチュー（山中）
           </div>
           <div className={styles.videoWrapper}>
             <iframe src="https://www.youtube.com/embed/AF-oZ1S-YJc?si=3Axg7o2FDlgO7mpE" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>

@@ -733,6 +733,7 @@ section { padding: 160px 80px; position: relative; }
 
   /* ---------- CONTACT ---------- */
   .sp-br { display: none; }
+  .pc-inline { display: inline; }
   .contact { background: var(--paper); padding-top: 120px; padding-bottom: 100px; }
   .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 120px; align-items: start; }
   .contact-big {
@@ -760,6 +761,7 @@ section { padding: 160px 80px; position: relative; }
     .fan-message p { font-size: 14px; line-height: 2.1; text-align: left; margin-bottom: 16px; }
     .fan-message .pc-br { display: none; }
     .sp-br { display: inline; }
+    .pc-inline { display: none; }
     .fan-message .message-sign { margin-top: 20px; }
     .sched-tabs { flex-direction: row; flex-wrap: nowrap; }
     .sched-tab { border-right: none; border-bottom: none; min-width: 0; padding: 12px 4px; font-size: 11px; text-align: center; }
