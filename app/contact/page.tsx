@@ -67,7 +67,7 @@ export default function Contact() {
 
             <dl className={styles.ctInfo}>
               <div><dt>稽古場 / Studio</dt><dd>沖縄県沖縄市泡瀬</dd></div>
-              <div><dt>所属流派 / School</dt><dd>玉城流 光乃会 赤嶺啓子琉舞道場</dd></div>
+              <div><dt>所属流派 / School</dt><dd>玉城流光乃会 平敷屋門勇也琉舞道場</dd></div>
               <div><dt>SNS / Instagram</dt>
                 <dd>
                   <a href="https://www.instagram.com/heshikiyajouyuuya/" target="_blank" rel="noopener noreferrer" style={{ display: 'block' }}>@heshikiyajouyuuya ・ 平敷屋門 勇也</a>
