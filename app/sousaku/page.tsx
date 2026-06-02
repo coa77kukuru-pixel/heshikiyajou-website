@@ -49,7 +49,7 @@ export default function SousakuPage() {
           <div className="reveal-right">
             <div className={styles.en}>Creative Dance Collective</div>
             <h2>「結華」――<br/>結んで、咲かせて</h2>
-            <p>2010年、21歳で沖縄に戻った平敷屋門 勇也が設立した、創作舞踊集団「結華」。古典舞踊の所作を礎としながら、現代の感性で再構築する、新しい琉球舞踊の場。</p>
+            <p>2010年、21歳で沖縄に戻った平敷屋門 勇也が設立した、創作舞踊集団「結華」。古典舞踊の所作を礎としながら、現代の感性で表現する、新しい琉球舞踊の場。</p>
             <a className={`ig-pill ${styles.igPill}`} href="https://www.instagram.com/yuibana.2011/" target="_blank" rel="noopener noreferrer">
               <span className="icon">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6">
