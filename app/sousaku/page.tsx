@@ -60,7 +60,7 @@ export default function SousakuPage() {
           <div className="sec-title">伝統を礎に、<br/>新しい舞踊を結ぶ<small>— About Yuibana —</small></div>
         </div>
         <div className={styles.about}>
-          <div className={`reveal-left ${styles.photo}`} style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/創作舞踊集団結華.webp')" }}>
+          <div className={`reveal-left ${styles.photo}`} role="img" aria-label="創作舞踊集団 結華のメンバー集合写真" style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/創作舞踊集団結華.webp')" }}>
             <div className={styles.frame}></div>
           </div>
           <div className="reveal-right">
@@ -89,7 +89,7 @@ export default function SousakuPage() {
         </div>
 
         <div className={styles.globalGrid}>
-          <div className={`reveal-left ${styles.globalPhoto}`} style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/創作舞踊集団-結華-花笠-四ツ竹.webp')" }}></div>
+          <div className={`reveal-left ${styles.globalPhoto}`} role="img" aria-label="創作舞踊集団 結華 沖縄らしい花笠と四ツ竹を使った舞踊写真" style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/創作舞踊集団-結華-花笠-四ツ竹.webp')" }}></div>
           <div className="reveal-right">
             <p>20代――自身の団体を立ち上げ、創作舞踊と向き合い続けた時期。その挑戦は沖縄県内にとどまらず、ハワイをはじめとする海外へ広がっていった。</p>
             <p>沖縄県系移民の多いハワイの地で、琉球舞踊の舞台に立つということ。それは、世代を越え、海を越えて、沖縄の心を「文化の架け橋」として届けることでもありました。</p>
@@ -105,14 +105,14 @@ export default function SousakuPage() {
           <div className="sec-title">フォトギャラリー<small>— Photo Gallery —</small></div>
         </div>
         <div className={styles.worksGrid}>
-          <div className={`${styles.w} ${styles.w1} reveal`}><img src="https://jinzai.okinawa/wp-content/uploads/2026/04/創作舞踊集団-結華-花笠-四ツ竹.webp" alt="結華 花笠 四ツ竹" loading="lazy" /></div>
-          <div className={`${styles.w} ${styles.w2} reveal stagger-1`}><img src="https://jinzai.okinawa/wp-content/uploads/2026/04/万国津梁館-結華.webp" alt="万国津梁館 結華" loading="lazy" /></div>
-          <div className={`${styles.w} ${styles.w3} reveal stagger-2`}><img src="https://jinzai.okinawa/wp-content/uploads/2026/04/創作舞踊集団-結華-創作エイサー.webp" alt="結華 創作エイサー" loading="lazy" /></div>
-          <div className={`${styles.w} ${styles.w4} reveal stagger-1`}><img src="https://jinzai.okinawa/wp-content/uploads/2026/04/万国津梁館-創作舞踊-創作エイサー-結華.webp" alt="万国津梁館 創作エイサー" loading="lazy" /></div>
-          <div className={`${styles.w} ${styles.w5} reveal stagger-2`}><img src="https://jinzai.okinawa/wp-content/uploads/2026/04/平敷屋門勇也-沖縄琉球舞踊-男踊り-1.webp" alt="平敷屋門勇也 男踊り" loading="lazy" /></div>
-          <div className={`${styles.w} ${styles.w6} reveal stagger-3`}><img src="https://jinzai.okinawa/wp-content/uploads/2026/04/創作舞踊集団-結華-四ツ竹.webp" alt="結華 四ツ竹" loading="lazy" /></div>
-          <div className={`${styles.w} ${styles.w7} reveal stagger-1`}><img src="https://jinzai.okinawa/wp-content/uploads/2026/04/平敷屋門勇也-琉舞道場-創作舞踊集団結.webp" alt="結" loading="lazy" /></div>
-          <div className={`${styles.w} ${styles.w8} reveal stagger-2`}><img src="https://jinzai.okinawa/wp-content/uploads/2026/04/IMG_0705.webp" alt="Gallery Photo" loading="lazy" /></div>
+          <div className={`${styles.w} ${styles.w1} reveal`}><img src="https://jinzai.okinawa/wp-content/uploads/2026/04/創作舞踊集団-結華-花笠-四ツ竹.webp" alt="創作舞踊集団 結華 四ツ竹と花笠を用いた琉球舞踊の舞台写真" loading="lazy" /></div>
+          <div className={`${styles.w} ${styles.w2} reveal stagger-1`}><img src="https://jinzai.okinawa/wp-content/uploads/2026/04/万国津梁館-結華.webp" alt="万国津梁館での創作舞踊集団 結華のパフォーマンス写真" loading="lazy" /></div>
+          <div className={`${styles.w} ${styles.w3} reveal stagger-2`}><img src="https://jinzai.okinawa/wp-content/uploads/2026/04/創作舞踊集団-結華-創作エイサー.webp" alt="創作舞踊集団 結華による創作エイサーの演舞写真" loading="lazy" /></div>
+          <div className={`${styles.w} ${styles.w4} reveal stagger-1`}><img src="https://jinzai.okinawa/wp-content/uploads/2026/04/万国津梁館-創作舞踊-創作エイサー-結華.webp" alt="万国津梁館での結華による創作エイサー舞台写真" loading="lazy" /></div>
+          <div className={`${styles.w} ${styles.w5} reveal stagger-2`}><img src="https://jinzai.okinawa/wp-content/uploads/2026/04/平敷屋門勇也-沖縄琉球舞踊-男踊り-1.webp" alt="平敷屋門勇也 琉球舞踊・男踊りの力強い演技写真" loading="lazy" /></div>
+          <div className={`${styles.w} ${styles.w6} reveal stagger-3`}><img src="https://jinzai.okinawa/wp-content/uploads/2026/04/創作舞踊集団-結華-四ツ竹.webp" alt="創作舞踊集団 結華 四ツ竹の舞踊シーン" loading="lazy" /></div>
+          <div className={`${styles.w} ${styles.w7} reveal stagger-1`}><img src="https://jinzai.okinawa/wp-content/uploads/2026/04/平敷屋門勇也-琉舞道場-創作舞踊集団結.webp" alt="創作舞踊集団 結華 舞台のフィナーレを飾る集合写真" loading="lazy" /></div>
+          <div className={`${styles.w} ${styles.w8} reveal stagger-2`}><img src="https://jinzai.okinawa/wp-content/uploads/2026/04/IMG_0705.webp" alt="創作舞踊集団 結華 イベントでの記念写真" loading="lazy" /></div>
         </div>
       </section>
 

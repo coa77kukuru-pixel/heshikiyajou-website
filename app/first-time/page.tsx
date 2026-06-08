@@ -62,7 +62,7 @@ export default function FirstTimePage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <header className="subhero" id="hero">
-        <div className="hero-bg" style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/万国津梁館-創作舞踊-創作エイサー-結華.webp')" }}></div>
+        <div className="hero-bg" role="img" aria-label="創作舞踊集団 結華 万国津梁館での舞台パフォーマンス写真" style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/万国津梁館-創作舞踊-創作エイサー-結華.webp')" }}></div>
         <div className="inner">
           <div className="crumb reveal">For First-time Viewers ・ はじめての方へ</div>
           <h1 className="reveal stagger-1">はじめての方へ<small>Your First Step into Ryukyu Buyou</small></h1>
@@ -76,7 +76,7 @@ export default function FirstTimePage() {
           <div className="sec-title">琉球舞踊が、<br />はじめての方へ<small>— Welcome —</small></div>
         </div>
         <div className={styles.welcomeBlock}>
-          <div className={`${styles.welcomePhoto} reveal-left`} style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/%E6%B2%96%E7%B8%84%E7%90%89%E7%90%83%E8%88%9E%E8%B8%8A-%E5%B9%B3%E6%95%B7%E5%B1%8B%E9%96%80%E5%8B%87%E4%B9%9F-%E6%B2%96%E7%B8%84-1-1.webp')" }}>
+          <div className={`${styles.welcomePhoto} reveal-left`} role="img" aria-label="琉球舞踊を舞う平敷屋門勇也の舞台写真" style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/%E6%B2%96%E7%B8%84%E7%90%89%E7%90%83%E8%88%9E%E8%B8%8A-%E5%B9%B3%E6%95%B7%E5%B1%8B%E9%96%80%E5%8B%87%E4%B9%9F-%E6%B2%96%E7%B8%84-1-1.webp')" }}>
             <div className={styles.frame}></div>
           </div>
           <div className={`${styles.welcomeText} reveal-right`}>
@@ -280,7 +280,7 @@ export default function FirstTimePage() {
             <p>演目によっては、花びらをまく演出があります。沖縄では祝いの文化がとても大切にされてきました。だから琉球舞踊でも、「祝う空気」を作る小道具が多いのです。</p>
             <div className={styles.meanings}><b>Meaning</b>幸せ ／ 祝福 ／ 喜び</div>
             <div style={{ marginTop: '24px', width: '100%', aspectRatio: '4/3', overflow: 'hidden', background: '#f5f0e8' }}>
-              <img src="https://jinzai.okinawa/wp-content/uploads/2026/04/nuchibana.webp" alt="貫花" style={{ width: '100%', height: '100%', objectFit: 'cover' }} loading="lazy" />
+              <img src="https://jinzai.okinawa/wp-content/uploads/2026/04/nuchibana.webp" alt="琉球舞踊の小道具 貫花（ぬちばな）" style={{ width: '100%', height: '100%', objectFit: 'cover' }} loading="lazy" />
             </div>
           </div>
           <div className={`${styles.mini} reveal stagger-1`}>
@@ -290,7 +290,7 @@ export default function FirstTimePage() {
             <p>雑踊では、布や手ぬぐいが使われることがあります。庶民の生活を表現するための小道具。古典舞踊より、人間らしい感情が出やすい場面で登場します。</p>
             <div className={styles.meanings}><b>Meaning</b>働く女性 ／ 農作業 ／ 恋愛 ／ 日常生活</div>
             <div style={{ marginTop: '24px', width: '100%', aspectRatio: '4/3', overflow: 'hidden', background: '#f5f0e8' }}>
-              <img src="https://jinzai.okinawa/wp-content/uploads/2026/04/kana-yoamakawa.webp" alt="手ぬぐい" style={{ width: '100%', height: '100%', objectFit: 'cover' }} loading="lazy" />
+              <img src="https://jinzai.okinawa/wp-content/uploads/2026/04/kana-yoamakawa.webp" alt="琉球舞踊の小道具 手ぬぐい" style={{ width: '100%', height: '100%', objectFit: 'cover' }} loading="lazy" />
             </div>
           </div>
           <div className={`${styles.mini} reveal stagger-2`}>
@@ -300,7 +300,7 @@ export default function FirstTimePage() {
             <p>演目によっては、棒、船の櫂、漁具なども登場します。海と共に生きてきた沖縄の暮らしを表しています。沖縄にとって海は、命、貿易、旅、別れ、豊かさ――そのすべてに繋がる存在でした。</p>
             <div className={styles.meanings}><b>Meaning</b>命 ／ 貿易 ／ 旅 ／ 豊かさ</div>
             <div style={{ marginTop: '24px', width: '100%', aspectRatio: '4/3', overflow: 'hidden', background: '#f5f0e8' }}>
-              <img src="https://jinzai.okinawa/wp-content/uploads/2026/04/zouodori.webp" alt="棒・櫂" style={{ width: '100%', height: '100%', objectFit: 'cover' }} loading="lazy" />
+              <img src="https://jinzai.okinawa/wp-content/uploads/2026/04/zouodori.webp" alt="琉球舞踊の小道具 棒や櫂（えーく）" style={{ width: '100%', height: '100%', objectFit: 'cover' }} loading="lazy" />
             </div>
           </div>
         </div>

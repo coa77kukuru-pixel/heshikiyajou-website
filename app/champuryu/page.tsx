@@ -43,7 +43,7 @@ export default function Champuryu() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <header className="subhero" id="hero">
-        <div className="hero-bg" style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/チャンプ流ぅ芸能団-仲宗根創-知念勝三-平敷屋門勇也.webp')" }}></div>
+        <div className="hero-bg" role="img" aria-label="チャンプ流ぅ芸能団のメンバー（仲宗根創・知念勝三・平敷屋門勇也）の宣伝用ビジュアル写真" style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/チャンプ流ぅ芸能団-仲宗根創-知念勝三-平敷屋門勇也.webp')" }}></div>
         <div className="inner">
           <div className="crumb reveal">うちなー芸能 ・ Since 2017</div>
           <h1 className="reveal stagger-1">チャンプ流ぅ芸能団<small>Champuryu Geinou-dan</small></h1>
@@ -60,7 +60,7 @@ export default function Champuryu() {
           <div className="sec-title">3人で、うちなーの今を<small>— About Us —</small></div>
         </div>
         <div className={styles.intro}>
-          <div className={`reveal-left ${styles.photo}`} style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/chanpuryu.webp')" }}></div>
+          <div className={`reveal-left ${styles.photo}`} role="img" aria-label="チャンプ流ぅ芸能団の3人（平敷屋門勇也・仲宗根創・知念勝三）の自然なオフショット写真" style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/chanpuryu.webp')" }}></div>
           <div className="reveal-right">
             <div className={styles.en}>Three players, one stage</div>
             <h2>「自分たちで、<br />楽しいものを創作していく」</h2>
@@ -181,7 +181,7 @@ export default function Champuryu() {
       </section>
 
       <div className={`${styles['closing-photo']} reveal`}>
-        <img src="https://jinzai.okinawa/wp-content/uploads/2026/04/chanpuryu-mothersday-scaled.webp" alt="チャンプ流ぅ芸能団 舞台写真" />
+        <img src="https://jinzai.okinawa/wp-content/uploads/2026/04/chanpuryu-mothersday-scaled.webp" alt="チャンプ流ぅ芸能団による母の日公演での舞台パフォーマンス写真" />
       </div>
     </>
   );

@@ -67,7 +67,7 @@ export default function RyukyuBuyouPage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <header className="subhero" id="hero">
-        <div className="hero-bg" style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/琉球舞踊家-平敷屋門勇也-伝統芸能.webp')" }}></div>
+        <div className="hero-bg" role="img" aria-label="琉球舞踊家 平敷屋門勇也の舞台写真" style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/琉球舞踊家-平敷屋門勇也-伝統芸能.webp')" }}></div>
         <div className="inner">
           <div className="crumb reveal">About ・ 沖縄の伝統芸能</div>
           <h1 className="reveal stagger-1">琉球舞踊とは<small>What is Ryukyu Buyou</small></h1>
@@ -81,7 +81,7 @@ export default function RyukyuBuyouPage() {
           <div className="sec-title">沖縄の歴史と心を、<br/>身体で語る芸能<small>— Introduction —</small></div>
         </div>
         <div className={styles['lede-block']}>
-          <div className={`${styles['lede-photo']} reveal-left`} style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/平敷屋門勇也＿top.webp')" }}>
+          <div className={`${styles['lede-photo']} reveal-left`} role="img" aria-label="平敷屋門勇也 琉球舞踊の構え" style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/平敷屋門勇也＿top.webp')" }}>
             <div className={styles.frame}></div>
           </div>
           <div className={`${styles['lede-text']} reveal-right`}>
@@ -144,7 +144,7 @@ export default function RyukyuBuyouPage() {
         </div>
         <div className={styles['cat-grid']}>
           <div className={`${styles.cat} reveal-left`}>
-            <div className={styles['cat-photo']} style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/平敷屋門勇也-女踊り-1.webp')" }}></div>
+            <div className={styles['cat-photo']} role="img" aria-label="古典舞踊・女踊りの舞台写真" style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/平敷屋門勇也-女踊り-1.webp')" }}></div>
             <div className={styles.label}>No. 01</div>
             <h3>古典舞踊</h3>
             <div className={styles.reading}>こてんぶよう ・ Classical Dance</div>
@@ -158,7 +158,7 @@ export default function RyukyuBuyouPage() {
             <div className={styles.pieces}><b>代表演目 ／</b>かぎやで風／若衆こてい節／四つ竹／本貫花 ほか</div>
           </div>
           <div className={`${styles.cat} reveal-right`}>
-            <div className={styles['cat-photo']} style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/平敷屋門勇也-女踊り傘.webp')" }}></div>
+            <div className={styles['cat-photo']} role="img" aria-label="古典舞踊・女踊り 傘を使った演目の舞台写真" style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/平敷屋門勇也-女踊り傘.webp')" }}></div>
             <div className={styles.label}>No. 02</div>
             <h3>雑踊</h3>
             <div className={styles.reading}>ぞうおどり ・ Folk Dance</div>
@@ -241,7 +241,7 @@ export default function RyukyuBuyouPage() {
         </div>
 
         <div className={styles['cost-intro']}>
-          <div className={`${styles['cost-photo']} reveal-left`} style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/%E7%90%89%E7%90%83%E8%88%9E%E8%B8%8A-%E7%90%89%E8%A3%85-1.webp')" }}></div>
+          <div className={`${styles['cost-photo']} reveal-left`} role="img" aria-label="琉球舞踊の伝統衣装「琉装（りゅうそう）」" style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/%E7%90%89%E7%90%83%E8%88%9E%E8%B8%8A-%E7%90%89%E8%A3%85-1.webp')" }}></div>
           <div className="reveal-right">
             <p>琉球舞踊の衣装は、「琉装（りゅうそう）」と呼ばれる、琉球王国独自の衣装文化。中国や日本の影響を受けながらも、沖縄の強い太陽と豊かな自然の中で、独自の鮮やかさを獲得していきました。</p>
             <p>大胆な色使い、南国の花や鳥の柄、海と波。そのすべてに、意味がある。実は、王国時代には、自由に好きな色を着ることは許されませんでした。色には「身分」や「立場」、そして「祈り」が込められていたのです。</p>

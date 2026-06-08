@@ -52,7 +52,7 @@ export default function Contact() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <header className="subhero" id="hero">
-        <div className="hero-bg" style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/女踊り_平敷屋門勇也写真_260519_21.webp')" }}></div>
+        <div className="hero-bg" role="img" aria-label="平敷屋門勇也 琉球舞踊 女踊りの舞台写真" style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/女踊り_平敷屋門勇也写真_260519_21.webp')" }}></div>
         <div className="inner">
           <div className="crumb reveal">Contact ・ お問合せ</div>
           <h1 className="reveal stagger-1">舞台のご依頼、<br/>承ります<small>Inquiry & Booking</small></h1>
