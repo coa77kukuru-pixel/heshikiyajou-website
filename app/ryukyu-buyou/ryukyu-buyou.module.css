@@ -6,7 +6,7 @@
 .lede-block {
   display: grid; grid-template-columns: 1fr 1.4fr; gap: 110px; align-items: start;
 }
-.lede-photo { aspect-ratio: 3/4; background-size: cover; background-position: center 18%; position: relative; }
+.lede-photo { aspect-ratio: 3/4; position: relative; overflow: hidden; }
 .lede-photo .frame { position: absolute; inset: -14px; border: 1px solid var(--ink); }
 .lede-text .en { font-family: var(--latin); font-style: italic; font-size: 14px; letter-spacing: .3em; color: var(--crimson); margin-bottom: 22px; text-transform: uppercase; }
 .lede-text h2 { font-family: var(--serif); font-size: clamp(32px, 3.4vw, 50px); font-weight: 500; letter-spacing: .1em; line-height: 1.6; margin-bottom: 60px; }
@@ -40,7 +40,7 @@
   transition: transform .4s ease, box-shadow .4s ease;
 }
 .cat:hover { transform: translateY(-4px); box-shadow: 0 12px 30px rgba(0,0,0,.08); }
-.cat-photo { width: calc(100% + 100px); margin: -60px -50px 40px; aspect-ratio: 16/10; background-size: cover; background-position: center top; border-bottom: 1px solid var(--ink); }
+.cat-photo { position: relative; overflow: hidden; width: calc(100% + 100px); margin: -60px -50px 40px; aspect-ratio: 16/10; border-bottom: 1px solid var(--ink); }
 .cat .label { font-family: var(--latin); font-style: italic; font-size: 13px; letter-spacing: .3em; color: var(--crimson); text-transform: uppercase; }
 .cat h3 { font-family: var(--serif); font-size: 36px; font-weight: 500; letter-spacing: .12em; margin: 14px 0 8px; }
 .cat .reading { font-family: var(--serif); font-size: 13px; color: var(--sub); letter-spacing: .15em; margin-bottom: 28px; }
@@ -73,7 +73,7 @@
   display: grid; grid-template-columns: 1fr 1.2fr; gap: 90px;
   margin-bottom: 80px; align-items: center;
 }
-.cost-photo { aspect-ratio: 4/5; background-size: cover; background-position: center 25%; }
+.cost-photo { position: relative; overflow: hidden; aspect-ratio: 4/5; }
 .cost-intro p { font-family: var(--serif); font-size: 16px; line-height: 2.2; color: var(--ink-2); margin-bottom: 22px; font-feature-settings: "palt"; }
 
 .colors-grid {
