@@ -23,8 +23,72 @@ export default function Home() {
     return () => observer.disconnect();
   }, []);
 
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'Person',
+        name: '平敷屋門勇也',
+        alternateName: '平敷勇也',
+        jobTitle: ['琉球舞踊家', '沖縄芝居役者'],
+        description: '沖縄県を拠点に活動する琉球舞踊家、沖縄芝居役者。玉城流光乃会に所属し、平敷屋門勇也琉舞道場を主宰する。伝統的な古典舞踊から、若手芸能家ユニット「チャンプ流ぅ芸能団」でのモダンな活動まで幅広く手掛ける。',
+        url: 'https://next-app-cyan-eight.vercel.app/',
+        knowsAbout: ['琉球舞踊', '沖縄芝居', '組踊', '沖縄伝統芸能'],
+        memberOf: [
+          { '@type': 'PerformingGroup', name: 'チャンプ流ぅ芸能団' },
+          { '@type': 'DanceGroup', name: '創作舞踊集団 結華' },
+        ],
+        sameAs: ['https://www.instagram.com/heshikiyajouyuuya/'],
+      },
+      {
+        '@type': 'PerformingGroup',
+        name: 'チャンプ流ぅ芸能団',
+        description: '琉球舞踊家の平敷屋門勇也、民謡歌手の仲宗根創、古典音楽の知念勝三からなる若手芸能家ユニット。2017年結成。沖縄伝統芸能をベースに、唄・三線・踊り・即興コントを融合した唯一無二のステージを展開している。',
+        foundingDate: '2017',
+        member: [
+          { '@type': 'Person', name: '平敷屋門勇也', roleName: 'リーダー' },
+          { '@type': 'Person', name: '仲宗根創', roleName: '民謡歌手' },
+          { '@type': 'Person', name: '知念勝三', roleName: '古典音楽' },
+        ],
+        sameAs: ['https://www.instagram.com/champuryu_geinoudan/'],
+      },
+      {
+        '@type': 'DanceSchool',
+        name: '平敷屋門勇也琉舞道場',
+        description: '玉城流光乃会に所属する琉球舞踊の道場。2歳から大人まで幅広く琉球舞踊を学べる。見学・体験は無料。',
+        address: {
+          '@type': 'PostalAddress',
+          addressLocality: '沖縄市',
+          addressRegion: '沖縄県',
+          streetAddress: '泡瀬1-30-29 シャトレアワセ1-A',
+          addressCountry: 'JP',
+        },
+        url: 'https://next-app-cyan-eight.vercel.app/yuibana',
+      },
+      {
+        '@type': 'FAQPage',
+        mainEntity: [
+          {
+            '@type': 'Question',
+            name: '琉球舞踊とは何ですか？',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: '琉球舞踊は、琉球王国時代に宮廷で発展した沖縄の伝統的な舞踊です。主に古典舞踊、明治以降に生まれた雑踊り（ぞうおどり）、そして現代の創作舞踊に分類されます。',
+            },
+          },
+        ],
+      },
+      {
+        '@type': 'WebSite',
+        name: '平敷屋門勇也 オフィシャルサイト',
+        url: 'https://next-app-cyan-eight.vercel.app/',
+      },
+    ],
+  };
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       {/* HERO */}
       <header className="hero" id="hero">
         <div className="hero-left">
@@ -66,7 +130,7 @@ export default function Home() {
 
         <div className="fan-message reveal stagger-1">
           <div className="hanagasa-icon" aria-hidden="true">
-            <img src="/images/hanagasa.png" alt="花笠" />
+            <img src="/images/hanagasa.png" alt="琉球舞踊の小道具・花笠（はながさ）" />
           </div>
           <p>いつも温かいご声援をいただき、本当にありがとうございます。</p>
           <p>皆様が客席から見守ってくださるからこそ、私は舞台で生かされています。</p>
@@ -207,12 +271,16 @@ export default function Home() {
         <div className="pg-grid">
           <div
             className="pg pg-1 reveal"
+            role="img"
+            aria-label="平敷屋門勇也 舞台衣装以外のオフステージ写真"
             style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/%E5%B9%B3%E6%95%B7%E5%B1%8B%E9%96%80%E5%8B%87%E4%B9%9F%EF%BC%93.webp')" }}
           >
             <div className="cap">Another Face<small>Off-stage</small></div>
           </div>
           <div
             className="pg pg-2 reveal stagger-1"
+            role="img"
+            aria-label="平敷屋門勇也 プライベートポートレート"
             style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/%E5%B9%B3%E6%95%B7%E5%B1%8B%E9%96%80%E5%8B%87%E4%B9%9F.webp')" }}
           >
             <div className="cap">Another Face<small>Off-stage</small></div>
@@ -230,6 +298,8 @@ export default function Home() {
           <div className="profile-portrait reveal-left">
             <div
               className="photo pos-top"
+              role="img"
+              aria-label="琉球舞踊家 平敷屋門勇也 プロフィール写真"
               style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/%E5%B9%B3%E6%95%B7%E5%B1%8B%E9%96%80%E5%8B%87%E4%B9%9F-%E7%90%89%E7%90%83%E8%88%9E%E8%B8%8A.webp')" }}
             ></div>
             <div className="frame"></div>
@@ -290,7 +360,7 @@ export default function Home() {
             <div className="t-desc">
               門中（ムンチュー）の流れを汲む、平敷屋門の地に生を享ける。
               <div className="t-img reveal stagger-2">
-                <img src="https://jinzai.okinawa/wp-content/uploads/2026/04/urumashiyeshikiya.webp" alt="平敷屋の風景" loading="lazy" />
+                <img src="https://jinzai.okinawa/wp-content/uploads/2026/04/urumashiyeshikiya.webp" alt="沖縄県うるま市平敷屋の風景 平敷屋門勇也の出身地" loading="lazy" />
               </div>
             </div>
           </div>
@@ -300,7 +370,7 @@ export default function Home() {
             <div className="t-desc">
               自ら「沖縄の芸能をやりたい」と志願し、誕生日翌週、道場へ。
               <div className="t-img reveal stagger-2">
-                <img src="https://jinzai.okinawa/wp-content/uploads/2026/04/%E5%B9%B3%E6%95%B7%E5%B1%8B%E9%96%80%E5%8B%87%E4%B9%9F-%E7%90%89%E7%90%83%E8%88%9E%E8%B8%8A-%E5%B9%BC%E5%B0%91%E6%9C%9F%E6%99%82%E4%BB%A3.webp" alt="幼少期の勇也" loading="lazy" />
+                <img src="https://jinzai.okinawa/wp-content/uploads/2026/04/%E5%B9%B3%E6%95%B7%E5%B1%8B%E9%96%80%E5%8B%87%E4%B9%9F-%E7%90%89%E7%90%83%E8%88%9E%E8%B8%8A-%E5%B9%BC%E5%B0%91%E6%9C%9F%E6%99%82%E4%BB%A3.webp" alt="平敷屋門勇也の幼少期 4歳から琉球舞踊を始める" loading="lazy" />
               </div>
             </div>
           </div>
@@ -310,7 +380,7 @@ export default function Home() {
             <div className="t-desc">
               小・中・高と勝連の地元舞台に立ち続け、伝統の血を体に刻む。
               <div className="t-img reveal stagger-3">
-                <img src="https://jinzai.okinawa/wp-content/uploads/2026/04/%E3%81%8D%E3%82%80%E3%81%9F%E3%81%8B%E3%81%AE%E9%98%BF%E9%BA%BB%E5%92%8C%E5%88%A9.webp" alt="肝高の阿麻和利" loading="lazy" />
+                <img src="https://jinzai.okinawa/wp-content/uploads/2026/04/%E3%81%8D%E3%82%80%E3%81%9F%E3%81%8B%E3%81%AE%E9%98%BF%E9%BA%BB%E5%92%8C%E5%88%A9.webp" alt="現代版組踊 肝高の阿麻和利に出演する平敷屋門勇也" loading="lazy" />
               </div>
             </div>
           </div>
@@ -320,7 +390,7 @@ export default function Home() {
             <div className="t-desc">
               高校卒業後の上京を経て帰郷。会長として後進の育成と創作を始める。
               <div className="t-img reveal stagger-4">
-                <img src="https://jinzai.okinawa/wp-content/uploads/2026/04/%E4%B8%87%E5%9B%BD%E6%B4%A5%E6%A2%81%E9%A4%A8-%E7%B5%90%E8%8F%AF.webp" alt="結華設立" loading="lazy" />
+                <img src="https://jinzai.okinawa/wp-content/uploads/2026/04/%E4%B8%87%E5%9B%BD%E6%B4%A5%E6%A2%81%E9%A4%A8-%E7%B5%90%E8%8F%AF.webp" alt="創作舞踊集団 結華 万国津梁館での公演 2010年設立" loading="lazy" />
               </div>
             </div>
           </div>
@@ -330,7 +400,7 @@ export default function Home() {
             <div className="t-desc">
               唄三線・古典音楽・琉球舞踊の若手3人で〈うちなー芸能〉を再編。
               <div className="t-img reveal stagger-5">
-                <img src="https://jinzai.okinawa/wp-content/uploads/2026/04/%E3%83%81%E3%83%A3%E3%83%B3%E3%83%97%E6%B5%81%E3%81%85%E8%8A%B8%E8%83%BD%E5%9B%A3-.webp" alt="チャンプ流ぅ芸能団" loading="lazy" />
+                <img src="https://jinzai.okinawa/wp-content/uploads/2026/04/%E3%83%81%E3%83%A3%E3%83%B3%E3%83%97%E6%B5%81%E3%81%85%E8%8A%B8%E8%83%BD%E5%9B%A3-.webp" alt="チャンプ流ぅ芸能団 2017年結成 平敷屋門勇也・仲宗根創・知念勝三" loading="lazy" />
               </div>
             </div>
           </div>
@@ -340,7 +410,7 @@ export default function Home() {
             <div className="t-desc">
               「琉球舞踊鑑賞教室」「組踊」等に出演。ハワイ・全国各地で舞台を重ねる。
               <div className="t-img reveal stagger-6">
-                <img src="https://jinzai.okinawa/wp-content/uploads/2026/04/IMG_0960.jpeg" alt="海外公演など" loading="lazy" />
+                <img src="https://jinzai.okinawa/wp-content/uploads/2026/04/IMG_0960.jpeg" alt="平敷屋門勇也 海外公演の舞台写真" loading="lazy" />
               </div>
             </div>
           </div>
@@ -350,7 +420,7 @@ export default function Home() {
             <div className="t-desc">
               「もっと幅広い層に届けたい。沖縄に面白いものがあると伝えたい」。
               <div className="t-img reveal stagger-7">
-                <img src="https://jinzai.okinawa/wp-content/uploads/2026/04/%E3%83%81%E3%83%A3%E3%83%B3%E3%83%97%E6%B5%81%E3%81%85%E8%8A%B8%E8%83%BD%E5%9B%A3-%E3%82%AA%E3%83%8F%E3%82%A4%E3%82%AA%E5%B7%9E.webp" alt="アメリカ公演" loading="lazy" />
+                <img src="https://jinzai.okinawa/wp-content/uploads/2026/04/%E3%83%81%E3%83%A3%E3%83%B3%E3%83%97%E6%B5%81%E3%81%85%E8%8A%B8%E8%83%BD%E5%9B%A3-%E3%82%AA%E3%83%8F%E3%82%A4%E3%82%AA%E5%B7%9E.webp" alt="チャンプ流ぅ芸能団 アメリカ・オハイオ州での海外公演" loading="lazy" />
               </div>
             </div>
           </div>
@@ -379,23 +449,23 @@ export default function Home() {
         <p className="sched-intro reveal" style={{ margin: '-40px 0 50px' }}>衣装や演目が変われば、全く別の命が宿る。ひとつの身体から生み出される、無限の表情と役柄の振り幅。</p>
         <div className="works-grid">
           <div className="w work-1 reveal">
-            <div className="photo" style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/%E5%B9%B3%E6%95%B7%E5%B1%8B%E9%96%80%E5%A5%B3%E8%B8%8A%E3%82%8A-%E6%B2%96%E7%B8%84.webp')" }}></div>
+            <div className="photo" role="img" aria-label="平敷屋門勇也 琉球舞踊 女踊りの舞台写真" style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/%E5%B9%B3%E6%95%B7%E5%B1%8B%E9%96%80%E5%A5%B3%E8%B8%8A%E3%82%8A-%E6%B2%96%E7%B8%84.webp')" }}></div>
             <div className="w-caption">女踊り<small>Onna-odori</small></div>
           </div>
           <div className="w work-2 reveal stagger-1">
-            <div className="photo" style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/%E5%B9%B3%E6%95%B7%E5%B1%8B%E9%96%80%E5%8B%87%E4%B9%9F-%E5%A5%B3%E8%B8%8A%E3%82%8A%E5%82%98.webp')" }}></div>
+            <div className="photo" role="img" aria-label="平敷屋門勇也 女踊り 傘を持った舞踊の舞台写真" style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/%E5%B9%B3%E6%95%B7%E5%B1%8B%E9%96%80%E5%8B%87%E4%B9%9F-%E5%A5%B3%E8%B8%8A%E3%82%8A%E5%82%98.webp')" }}></div>
             <div className="w-caption">女踊り傘<small>Umbrella Dance</small></div>
           </div>
           <div className="w work-3 reveal stagger-2">
-            <div className="photo" style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/%E5%B9%B3%E6%95%B7%E5%B1%8B%E9%96%80%E5%8B%87%E4%B9%9F-%E6%97%A5%E5%82%98%E8%B8%8A%E3%82%8A.webp')" }}></div>
+            <div className="photo" role="img" aria-label="平敷屋門勇也 日傘踊りの舞台写真" style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/%E5%B9%B3%E6%95%B7%E5%B1%8B%E9%96%80%E5%8B%87%E4%B9%9F-%E6%97%A5%E5%82%98%E8%B8%8A%E3%82%8A.webp')" }}></div>
             <div className="w-caption">日傘踊り<small>Parasol Dance</small></div>
           </div>
           <div className="w work-4 reveal stagger-1">
-            <div className="photo" style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/%E6%B2%96%E7%B8%84%E8%8A%9D%E5%B1%85%E5%BD%B9%E8%80%85-%E5%B9%B3%E6%95%B7%E5%B1%8B%E9%96%80%E5%8B%87%E4%B9%9F2.webp')" }}></div>
+            <div className="photo" role="img" aria-label="沖縄芝居役者としての平敷屋門勇也 舞台写真" style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/%E6%B2%96%E7%B8%84%E8%8A%9D%E5%B1%85%E5%BD%B9%E8%80%85-%E5%B9%B3%E6%95%B7%E5%B1%8B%E9%96%80%E5%8B%87%E4%B9%9F2.webp')" }}></div>
             <div className="w-caption">沖縄芝居<small>Okinawa Theatre</small></div>
           </div>
           <div className="w work-5 reveal stagger-2">
-            <div className="photo" style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/%E6%B2%96%E7%B8%84%E8%8A%9D%E5%B1%85%E5%BD%B9%E8%80%85-%E5%B9%B3%E6%95%B7%E5%B1%8B%E9%96%80%E5%8B%87%E4%B9%9F.webp')" }}></div>
+            <div className="photo" role="img" aria-label="平敷屋門勇也 沖縄芝居 役者としての演技写真" style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/%E6%B2%96%E7%B8%84%E8%8A%9D%E5%B1%85%E5%BD%B9%E8%80%85-%E5%B9%B3%E6%95%B7%E5%B1%8B%E9%96%80%E5%8B%87%E4%B9%9F.webp')" }}></div>
             <div className="w-caption">役者<small>Actor</small></div>
           </div>
         </div>
@@ -409,7 +479,7 @@ export default function Home() {
         </div>
         <div className="champ-grid">
           <div className="champ-img reveal-left">
-            <div className="photo" style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/%E3%83%81%E3%83%A3%E3%83%B3%E3%83%97%E6%B5%81%E8%8A%B8%E8%83%BD%E5%9B%A3-%E5%B9%B3%E6%95%B7%E5%B1%8B%E9%96%80%E5%8B%87%E4%B9%9F-%E7%9F%A5%E5%BF%B5%E5%8B%9D%E4%B8%89-%E4%BB%B2%E5%AE%97%E6%A0%B9%E5%89%B5-1.webp')" }}></div>
+            <div className="photo" role="img" aria-label="チャンプ流ぅ芸能団 平敷屋門勇也・知念勝三・仲宗根創の3人による舞台写真" style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/%E3%83%81%E3%83%A3%E3%83%B3%E3%83%97%E6%B5%81%E8%8A%B8%E8%83%BD%E5%9B%A3-%E5%B9%B3%E6%95%B7%E5%B1%8B%E9%96%80%E5%8B%87%E4%B9%9F-%E7%9F%A5%E5%BF%B5%E5%8B%9D%E4%B8%89-%E4%BB%B2%E5%AE%97%E6%A0%B9%E5%89%B5-1.webp')" }}></div>
           </div>
           <div className="champ-text reveal-right">
             <h3>チャンプ流ぅ芸能団</h3>
@@ -449,7 +519,7 @@ export default function Home() {
         <p className="sched-intro reveal" style={{ margin: '-40px 0 50px' }}>誰もが心から楽しめる舞台を。未来に繋ぐ２つの活動。</p>
         <div className="group-grid">
           <div className="group-card reveal">
-            <div className="group-img"><div className="photo" style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/%E5%89%B5%E4%BD%9C%E8%88%9E%E8%B8%8A%E9%9B%86%E5%9B%A3-%E7%B5%90%E8%8F%AF-%E5%9B%9B%E3%83%84%E7%AB%B9.webp')" }}></div></div>
+            <div className="group-img"><div className="photo" role="img" aria-label="創作舞踊集団 結華 四ツ竹を使った舞踊の舞台写真" style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/%E5%89%B5%E4%BD%9C%E8%88%9E%E8%B8%8A%E9%9B%86%E5%9B%A3-%E7%B5%90%E8%8F%AF-%E5%9B%9B%E3%83%84%E7%AB%B9.webp')" }}></div></div>
             <div className="group-body">
               <div className="group-jp">創作舞踊集団<br className="sp-br" />「結華」</div>
               <div className="group-en">Yuibana ・ Founded 2010</div>
@@ -458,7 +528,7 @@ export default function Home() {
             </div>
           </div>
           <div className="group-card reveal stagger-1">
-            <div className="group-img"><div className="photo" style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/%E7%B5%90%E8%8F%AF%E3%82%AD%E3%83%83%E3%82%BA-%E6%B2%96%E7%B8%84%E7%90%89%E7%90%83%E8%88%9E%E8%B8%8A-%E5%B9%B3%E6%95%B7%E5%B1%8B%E9%96%80%E5%8B%87%E4%B9%9F-1.webp')" }}></div></div>
+            <div className="group-img"><div className="photo" role="img" aria-label="平敷屋門勇也琉舞道場の生徒たち 琉球舞踊の稽古写真" style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/%E7%B5%90%E8%8F%AF%E3%82%AD%E3%83%83%E3%82%BA-%E6%B2%96%E7%B8%84%E7%90%89%E7%90%83%E8%88%9E%E8%B8%8A-%E5%B9%B3%E6%95%B7%E5%B1%8B%E9%96%80%E5%8B%87%E4%B9%9F-1.webp')" }}></div></div>
             <div className="group-body">
               <div className="group-jp"><span style={{ fontSize: '14px', display: 'block', marginBottom: '6px' }}>玉城流光乃会</span>平敷屋門勇也琉舞道場</div>
               <div className="group-en">Heshikiyajou Yuya Ryubu Dojo</div>
@@ -535,7 +605,7 @@ export default function Home() {
 
       {/* BREAKER */}
       <section className="breaker reveal">
-        <div className="breaker-photo" style={{ backgroundImage: "url('/images/akamine_beige.png')" }}></div>
+        <div className="breaker-photo" role="img" aria-label="琉装姿の女性イラスト" style={{ backgroundImage: "url('/images/akamine_beige.png')" }}></div>
         <div className="breaker-content">
           <div className="breaker-mark">&quot;</div>
           <p className="breaker-text">
@@ -553,7 +623,7 @@ export default function Home() {
 
       {/* WALKING ANIMATION */}
       <div className="walking-container reveal" style={{ opacity: 1, transform: 'none' }}>
-        <img src="/images/ryuso_woman.png" alt="琉装の女性" className="walking-woman" />
+        <img src="/images/ryuso_woman.png" alt="琉球舞踊の琉装を纏った女性のイラスト" className="walking-woman" />
       </div>
 
       {/* CONTACT */}

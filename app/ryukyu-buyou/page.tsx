@@ -20,8 +20,52 @@ export default function RyukyuBuyouPage() {
     return () => observer.disconnect();
   }, []);
 
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'Article',
+        headline: '琉球舞踊とは — 歴史と種類を解説',
+        description: '琉球舞踊は、琉球王国時代に宮廷で発展した沖縄の伝統舞踊。古典舞踊・雑踊り・創作舞踊の分類や歴史を解説。',
+        author: {
+          '@type': 'Person',
+          name: '平敷屋門勇也',
+          url: 'https://next-app-cyan-eight.vercel.app/',
+        },
+        publisher: {
+          '@type': 'Person',
+          name: '平敷屋門勇也',
+        },
+        url: 'https://next-app-cyan-eight.vercel.app/ryukyu-buyou',
+        mainEntityOfPage: 'https://next-app-cyan-eight.vercel.app/ryukyu-buyou',
+      },
+      {
+        '@type': 'FAQPage',
+        mainEntity: [
+          {
+            '@type': 'Question',
+            name: '琉球舞踊にはどのような種類がありますか？',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: '琉球舞踊は大きく3つに分類されます。琉球王国時代に宮廷で演じられた「古典舞踊」、明治以降に庶民の間で生まれた「雑踊り（ぞうおどり）」、そして現代の感性で新たに創られる「創作舞踊」です。',
+            },
+          },
+          {
+            '@type': 'Question',
+            name: '古典舞踊と雑踊りの違いは何ですか？',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: '古典舞踊は琉球王国時代に宮廷で演じられた格式高い舞踊で、老人踊り・若衆踊り・二才踊り・女踊りの4種類があります。雑踊りは明治以降に庶民文化として発展した踊りで、生活や自然を題材にした親しみやすい作品が多いのが特徴です。',
+            },
+          },
+        ],
+      },
+    ],
+  };
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <header className="subhero" id="hero">
         <div className="hero-bg" style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/琉球舞踊家-平敷屋門勇也-伝統芸能.webp')" }}></div>
         <div className="inner">

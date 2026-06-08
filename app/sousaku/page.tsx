@@ -23,8 +23,25 @@ export default function SousakuPage() {
     return () => observer.disconnect();
   }, []);
 
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'DanceGroup',
+    name: '創作舞踊集団 結華',
+    alternateName: 'Yuibana',
+    description: '平敷屋門勇也が会長を務める創作舞踊集団。2010年設立。伝統の所作を礎に、結婚式やイベント、観光ステージなど、おもてなしのプロとしての舞台出演を行っている。',
+    foundingDate: '2010',
+    founder: {
+      '@type': 'Person',
+      name: '平敷屋門勇也',
+      url: 'https://next-app-cyan-eight.vercel.app/',
+    },
+    url: 'https://next-app-cyan-eight.vercel.app/sousaku',
+    sameAs: ['https://www.instagram.com/yuibana.2011/'],
+  };
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <header className="subhero" id="hero">
         <div style={{ position: 'absolute', inset: 0, display: 'flex' }}>
           <div style={{ flex: 1, background: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/創作舞踊集団-結華-花笠-四ツ竹.webp') center/cover no-repeat" }}></div>

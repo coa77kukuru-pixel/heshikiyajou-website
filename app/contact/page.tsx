@@ -35,8 +35,22 @@ export default function Contact() {
     }, 10);
   };
 
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'ContactPage',
+    name: 'お問合せ・出演依頼 — 平敷屋門勇也',
+    description: '平敷屋門勇也への出演依頼、創作公演のご相談、取材・メディア出演、琉舞道場の見学・体験のお問合せフォームです。',
+    url: 'https://next-app-cyan-eight.vercel.app/contact',
+    mainEntity: {
+      '@type': 'Person',
+      name: '平敷屋門勇也',
+      url: 'https://next-app-cyan-eight.vercel.app/',
+    },
+  };
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <header className="subhero" id="hero">
         <div className="hero-bg" style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/女踊り_平敷屋門勇也写真_260519_21.webp')" }}></div>
         <div className="inner">

@@ -40,8 +40,27 @@ export default function FirstTimePage() {
     return () => observer.disconnect();
   }, []);
 
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: 'はじめての方へ — 琉球舞踊入門ガイド',
+    description: '琉球舞踊をはじめて知る方に向けた入門ガイド。歴史、種類、鑑賞のポイント、小道具などをわかりやすく解説。',
+    author: {
+      '@type': 'Person',
+      name: '平敷屋門勇也',
+      url: 'https://next-app-cyan-eight.vercel.app/',
+    },
+    publisher: {
+      '@type': 'Person',
+      name: '平敷屋門勇也',
+    },
+    url: 'https://next-app-cyan-eight.vercel.app/first-time',
+    mainEntityOfPage: 'https://next-app-cyan-eight.vercel.app/first-time',
+  };
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <header className="subhero" id="hero">
         <div className="hero-bg" style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/万国津梁館-創作舞踊-創作エイサー-結華.webp')" }}></div>
         <div className="inner">

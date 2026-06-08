@@ -20,8 +20,28 @@ export default function Champuryu() {
     return () => observer.disconnect();
   }, []);
 
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'PerformingGroup',
+    name: 'チャンプ流ぅ芸能団',
+    alternateName: 'Champuryu Geinou-dan',
+    description: '琉球舞踊家の平敷屋門勇也、民謡歌手の仲宗根創、古典音楽の知念勝三からなる若手芸能家ユニット。2017年結成。沖縄伝統芸能をベースに、唄・三線・踊り・即興コントを融合した唯一無二のステージを展開している。',
+    foundingDate: '2017',
+    member: [
+      { '@type': 'Person', name: '平敷屋門勇也', roleName: 'リーダー・琉球舞踊' },
+      { '@type': 'Person', name: '仲宗根創', roleName: '唄三線・民謡' },
+      { '@type': 'Person', name: '知念勝三', roleName: '三線・古典音楽' },
+    ],
+    url: 'https://next-app-cyan-eight.vercel.app/champuryu',
+    sameAs: [
+      'https://www.instagram.com/champuryu_geinoudan/',
+      'https://www.facebook.com/chanpryuu/',
+    ],
+  };
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <header className="subhero" id="hero">
         <div className="hero-bg" style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/チャンプ流ぅ芸能団-仲宗根創-知念勝三-平敷屋門勇也.webp')" }}></div>
         <div className="inner">

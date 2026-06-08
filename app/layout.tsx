@@ -8,14 +8,34 @@ import BackToTop from "@/components/BackToTop";
 import ScrollReveal from "@/components/ScrollReveal";
 
 export const metadata: Metadata = {
-  title: "平敷屋門 勇也 ｜ 琉球舞踊家・沖縄芝居役者",
+  metadataBase: new URL('https://next-app-cyan-eight.vercel.app'),
+  title: {
+    default: '琉球舞踊家・沖縄芝居役者 平敷屋門勇也 オフィシャルサイト',
+    template: '%s | 平敷屋門勇也 公式サイト',
+  },
   description:
-    "琉球舞踊家・沖縄芝居役者 平敷屋門 勇也（へしきやじょう ゆうや）公式サイト。玉城流光乃会 赤嶺啓子琉舞道場。チャンプ流ぅ芸能団リーダー、創作舞踊集団「結華」会長。",
+    '琉球舞踊家、および沖縄芝居役者として活動する平敷屋門勇也（平敷勇也）の公式ウェブサイト。最新の出演情報、公演依頼、主宰する琉舞道場の案内などを発信しています。',
   openGraph: {
-    title: "平敷屋門 勇也 ｜ 琉球舞踊家",
+    title: '琉球舞踊家・沖縄芝居役者 平敷屋門勇也 オフィシャルサイト',
     description:
-      "4歳で稽古場の戸を叩いてから30有余年。琉球舞踊と沖縄の伝統とともに歩む舞踊家。",
-    type: "website",
+      '琉球舞踊家、および沖縄芝居役者として活動する平敷屋門勇也（平敷勇也）の公式ウェブサイト。最新の出演情報、公演依頼、主宰する琉舞道場の案内などを発信しています。',
+    url: 'https://next-app-cyan-eight.vercel.app',
+    siteName: '平敷屋門勇也 オフィシャルサイト',
+    locale: 'ja_JP',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: '琉球舞踊家・沖縄芝居役者 平敷屋門勇也 オフィシャルサイト',
+    description:
+      '琉球舞踊家、および沖縄芝居役者として活動する平敷屋門勇也の公式サイト。出演依頼・琉舞道場の案内。',
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  alternates: {
+    canonical: 'https://next-app-cyan-eight.vercel.app',
   },
 };
 

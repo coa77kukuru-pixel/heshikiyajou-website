@@ -20,8 +20,60 @@ export default function YuibanaPage() {
     return () => observer.disconnect();
   }, []);
 
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'DanceSchool',
+    name: '玉城流光乃会 平敷屋門勇也琉舞道場',
+    alternateName: 'Heshikiyajou Yuya Ryubu Dojo',
+    description: '沖縄県沖縄市泡瀬を拠点とする琉球舞踊の道場。2歳から大人まで幅広く琉球舞踊を学べる。見学・体験は無料。うるま市・那覇市にも子どもクラスを開設している。',
+    url: 'https://next-app-cyan-eight.vercel.app/yuibana',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: '泡瀬1-30-29 シャトレアワセ1-A',
+      addressLocality: '沖縄市',
+      addressRegion: '沖縄県',
+      addressCountry: 'JP',
+    },
+    founder: {
+      '@type': 'Person',
+      name: '平敷屋門勇也',
+      url: 'https://next-app-cyan-eight.vercel.app/',
+    },
+    hasOfferCatalog: {
+      '@type': 'OfferCatalog',
+      name: 'クラス一覧',
+      itemListElement: [
+        {
+          '@type': 'Offer',
+          itemOffered: {
+            '@type': 'Course',
+            name: '子どもクラス（うるま市）',
+            description: '毎週金曜日 18:30〜19:30、うるま市の公共施設にて開催',
+          },
+        },
+        {
+          '@type': 'Offer',
+          itemOffered: {
+            '@type': 'Course',
+            name: '子どもクラス（那覇市）',
+            description: '第1・第3月曜日 16:00〜17:00、繁多川公民館にて開催',
+          },
+        },
+        {
+          '@type': 'Offer',
+          itemOffered: {
+            '@type': 'Course',
+            name: '大人クラス',
+            description: '生徒の希望に合わせて曜日・時間を調整。所要時間1時間。沖縄市泡瀬の道場にて開催。',
+          },
+        },
+      ],
+    },
+  };
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       {/* HERO */}
       <header className={styles['page-hero']} id="hero">
         <div className={styles.left}>
