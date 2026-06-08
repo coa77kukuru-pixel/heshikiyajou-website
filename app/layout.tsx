@@ -7,6 +7,7 @@ const shippori = Shippori_Mincho({
   subsets: ["latin"],
   display: "swap",
   variable: "--font-shippori",
+  preload: false,
 });
 
 const notoSerif = Noto_Serif_JP({
@@ -14,6 +15,7 @@ const notoSerif = Noto_Serif_JP({
   subsets: ["latin"],
   display: "swap",
   variable: "--font-noto-serif",
+  preload: false,
 });
 
 import Header from "@/components/Header";
