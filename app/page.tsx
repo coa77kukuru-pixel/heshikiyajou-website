@@ -1,5 +1,8 @@
 'use client';
 import { useEffect, useState } from 'react';
+import Image from 'next/image';
+import LiteYouTubeEmbed from 'react-lite-youtube-embed';
+import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css';
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState('yuya');
@@ -130,7 +133,7 @@ export default function Home() {
 
         <div className="fan-message reveal stagger-1">
           <div className="hanagasa-icon" aria-hidden="true">
-            <img src="/images/hanagasa.png" alt="琉球舞踊の小道具・花笠（はながさ）" />
+            <Image src="/images/hanagasa.png" alt="琉球舞踊の小道具・花笠（はながさ）" width={60} height={60} style={{ width: '100%', height: 'auto' }} />
           </div>
           <p>いつも温かいご声援をいただき、本当にありがとうございます。</p>
           <p>皆様が客席から見守ってくださるからこそ、私は舞台で生かされています。</p>
@@ -327,19 +330,19 @@ export default function Home() {
           <div className="media-grid">
             <div className="media-item reveal">
               <div className="video-wrap">
-                <iframe src="https://www.youtube.com/embed/fwqmDAEqGzg" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                <LiteYouTubeEmbed id="fwqmDAEqGzg" title="平敷屋門勇也 琉球舞踊動画" />
               </div>
               <div className="video-title">【沖縄CLIP】琉球舞踊と咲かせる花 (1)</div>
             </div>
             <div className="media-item reveal stagger-1">
               <div className="video-wrap">
-                <iframe src="https://www.youtube.com/embed/zrdZVnfsJUc" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                <LiteYouTubeEmbed id="zrdZVnfsJUc" title="平敷屋門勇也 琉球舞踊動画" />
               </div>
               <div className="video-title">【沖縄CLIP】琉球舞踊と咲かせる花 (2)</div>
             </div>
             <div className="media-item reveal stagger-2">
               <div className="video-wrap">
-                <iframe src="https://www.youtube.com/embed/twhqzlPsa7M" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                <LiteYouTubeEmbed id="twhqzlPsa7M" title="平敷屋門勇也 琉球舞踊動画" />
               </div>
               <div className="video-title">【沖縄CLIP】琉球舞踊と咲かせる花 (3)</div>
             </div>
@@ -359,8 +362,8 @@ export default function Home() {
             <div className="t-title">うるま市勝連平敷屋に生まれる</div>
             <div className="t-desc">
               門中（ムンチュー）の流れを汲む、平敷屋門の地に生を享ける。
-              <div className="t-img reveal stagger-2">
-                <img src="https://jinzai.okinawa/wp-content/uploads/2026/04/urumashiyeshikiya.webp" alt="沖縄県うるま市平敷屋の風景 平敷屋門勇也の出身地" loading="lazy" />
+              <div className="t-img reveal stagger-2" style={{ position: 'relative', aspectRatio: '4/3' }}>
+                <Image src="https://jinzai.okinawa/wp-content/uploads/2026/04/urumashiyeshikiya.webp" alt="沖縄県うるま市平敷屋の風景 平敷屋門勇也の出身地" fill style={{ objectFit: 'cover' }} />
               </div>
             </div>
           </div>
@@ -369,8 +372,8 @@ export default function Home() {
             <div className="t-title">琉球舞踊の稽古をはじめる</div>
             <div className="t-desc">
               自ら「沖縄の芸能をやりたい」と志願し、誕生日翌週、道場へ。
-              <div className="t-img reveal stagger-2">
-                <img src="https://jinzai.okinawa/wp-content/uploads/2026/04/%E5%B9%B3%E6%95%B7%E5%B1%8B%E9%96%80%E5%8B%87%E4%B9%9F-%E7%90%89%E7%90%83%E8%88%9E%E8%B8%8A-%E5%B9%BC%E5%B0%91%E6%9C%9F%E6%99%82%E4%BB%A3.webp" alt="平敷屋門勇也の幼少期 4歳から琉球舞踊を始める" loading="lazy" />
+              <div className="t-img reveal stagger-2" style={{ position: 'relative', aspectRatio: '4/3' }}>
+                <Image src="https://jinzai.okinawa/wp-content/uploads/2026/04/%E5%B9%B3%E6%95%B7%E5%B1%8B%E9%96%80%E5%8B%87%E4%B9%9F-%E7%90%89%E7%90%83%E8%88%9E%E8%B8%8A-%E5%B9%BC%E5%B0%91%E6%9C%9F%E6%99%82%E4%BB%A3.webp" alt="平敷屋門勇也の幼少期 4歳から琉球舞踊を始める" fill style={{ objectFit: 'cover' }} />
               </div>
             </div>
           </div>
@@ -379,8 +382,8 @@ export default function Home() {
             <div className="t-title">現代版組踊「肝高の阿麻和利」出演</div>
             <div className="t-desc">
               小・中・高と勝連の地元舞台に立ち続け、伝統の血を体に刻む。
-              <div className="t-img reveal stagger-3">
-                <img src="https://jinzai.okinawa/wp-content/uploads/2026/04/%E3%81%8D%E3%82%80%E3%81%9F%E3%81%8B%E3%81%AE%E9%98%BF%E9%BA%BB%E5%92%8C%E5%88%A9.webp" alt="現代版組踊 肝高の阿麻和利に出演する平敷屋門勇也" loading="lazy" />
+              <div className="t-img reveal stagger-3" style={{ position: 'relative', aspectRatio: '4/3' }}>
+                <Image src="https://jinzai.okinawa/wp-content/uploads/2026/04/%E3%81%8D%E3%82%80%E3%81%9F%E3%81%8B%E3%81%AE%E9%98%BF%E9%BA%BB%E5%92%8C%E5%88%A9.webp" alt="現代版組踊 肝高の阿麻和利に出演する平敷屋門勇也" fill style={{ objectFit: 'cover' }} />
               </div>
             </div>
           </div>
@@ -389,8 +392,8 @@ export default function Home() {
             <div className="t-title">沖縄帰郷／創作舞踊集団「結華」設立</div>
             <div className="t-desc">
               高校卒業後の上京を経て帰郷。会長として後進の育成と創作を始める。
-              <div className="t-img reveal stagger-4">
-                <img src="https://jinzai.okinawa/wp-content/uploads/2026/04/%E4%B8%87%E5%9B%BD%E6%B4%A5%E6%A2%81%E9%A4%A8-%E7%B5%90%E8%8F%AF.webp" alt="創作舞踊集団 結華 万国津梁館での公演 2010年設立" loading="lazy" />
+              <div className="t-img reveal stagger-4" style={{ position: 'relative', aspectRatio: '4/3' }}>
+                <Image src="https://jinzai.okinawa/wp-content/uploads/2026/04/%E4%B8%87%E5%9B%BD%E6%B4%A5%E6%A2%81%E9%A4%A8-%E7%B5%90%E8%8F%AF.webp" alt="創作舞踊集団 結華 万国津梁館での公演 2010年設立" fill style={{ objectFit: 'cover' }} />
               </div>
             </div>
           </div>
@@ -399,8 +402,8 @@ export default function Home() {
             <div className="t-title">「チャンプ流ぅ芸能団」結成</div>
             <div className="t-desc">
               唄三線・古典音楽・琉球舞踊の若手3人で〈うちなー芸能〉を再編。
-              <div className="t-img reveal stagger-5">
-                <img src="https://jinzai.okinawa/wp-content/uploads/2026/04/%E3%83%81%E3%83%A3%E3%83%B3%E3%83%97%E6%B5%81%E3%81%85%E8%8A%B8%E8%83%BD%E5%9B%A3-.webp" alt="チャンプ流ぅ芸能団 2017年結成 平敷屋門勇也・仲宗根創・知念勝三" loading="lazy" />
+              <div className="t-img reveal stagger-5" style={{ position: 'relative', aspectRatio: '4/3' }}>
+                <Image src="https://jinzai.okinawa/wp-content/uploads/2026/04/%E3%83%81%E3%83%A3%E3%83%B3%E3%83%97%E6%B5%81%E3%81%85%E8%8A%B8%E8%83%BD%E5%9B%A3-.webp" alt="チャンプ流ぅ芸能団 2017年結成 平敷屋門勇也・仲宗根創・知念勝三" fill style={{ objectFit: 'cover' }} />
               </div>
             </div>
           </div>
@@ -409,8 +412,8 @@ export default function Home() {
             <div className="t-title">国立劇場おきなわ／海外公演</div>
             <div className="t-desc">
               「琉球舞踊鑑賞教室」「組踊」等に出演。ハワイ・全国各地で舞台を重ねる。
-              <div className="t-img reveal stagger-6">
-                <img src="https://jinzai.okinawa/wp-content/uploads/2026/04/IMG_0960.jpeg" alt="平敷屋門勇也 海外公演の舞台写真" loading="lazy" />
+              <div className="t-img reveal stagger-6" style={{ position: 'relative', aspectRatio: '4/3' }}>
+                <Image src="https://jinzai.okinawa/wp-content/uploads/2026/04/IMG_0960.jpeg" alt="平敷屋門勇也 海外公演の舞台写真" fill style={{ objectFit: 'cover' }} />
               </div>
             </div>
           </div>
@@ -419,8 +422,8 @@ export default function Home() {
             <div className="t-title">アメリカ公演／華の時代</div>
             <div className="t-desc">
               「もっと幅広い層に届けたい。沖縄に面白いものがあると伝えたい」。
-              <div className="t-img reveal stagger-7">
-                <img src="https://jinzai.okinawa/wp-content/uploads/2026/04/%E3%83%81%E3%83%A3%E3%83%B3%E3%83%97%E6%B5%81%E3%81%85%E8%8A%B8%E8%83%BD%E5%9B%A3-%E3%82%AA%E3%83%8F%E3%82%A4%E3%82%AA%E5%B7%9E.webp" alt="チャンプ流ぅ芸能団 アメリカ・オハイオ州での海外公演" loading="lazy" />
+              <div className="t-img reveal stagger-7" style={{ position: 'relative', aspectRatio: '4/3' }}>
+                <Image src="https://jinzai.okinawa/wp-content/uploads/2026/04/%E3%83%81%E3%83%A3%E3%83%B3%E3%83%97%E6%B5%81%E3%81%85%E8%8A%B8%E8%83%BD%E5%9B%A3-%E3%82%AA%E3%83%8F%E3%82%A4%E3%82%AA%E5%B7%9E.webp" alt="チャンプ流ぅ芸能団 アメリカ・オハイオ州での海外公演" fill style={{ objectFit: 'cover' }} />
               </div>
             </div>
           </div>
@@ -605,7 +608,9 @@ export default function Home() {
 
       {/* BREAKER */}
       <section className="breaker reveal">
-        <div className="breaker-photo" role="img" aria-label="琉装姿の女性イラスト" style={{ backgroundImage: "url('/images/akamine_beige.png')" }}></div>
+        <div className="breaker-photo">
+          <Image src="/images/akamine_beige.png" alt="琉装姿の女性イラスト" fill style={{ objectFit: 'cover', objectPosition: 'center 20%' }} />
+        </div>
         <div className="breaker-content">
           <div className="breaker-mark">&quot;</div>
           <p className="breaker-text">
@@ -623,7 +628,7 @@ export default function Home() {
 
       {/* WALKING ANIMATION */}
       <div className="walking-container reveal" style={{ opacity: 1, transform: 'none' }}>
-        <img src="/images/ryuso_woman.png" alt="琉球舞踊の琉装を纏った女性のイラスト" className="walking-woman" />
+        <Image src="/images/ryuso_woman.png" alt="琉球舞踊の琉装を纏った女性のイラスト" className="walking-woman" width={300} height={160} style={{ width: 'auto', height: '160px' }} />
       </div>
 
       {/* CONTACT */}

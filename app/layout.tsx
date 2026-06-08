@@ -1,5 +1,20 @@
 import type { Metadata } from "next";
+import { Noto_Serif_JP, Shippori_Mincho } from "next/font/google";
 import "./globals.css";
+
+const shippori = Shippori_Mincho({
+  weight: ["400", "500", "600", "700", "800"],
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-shippori",
+});
+
+const notoSerif = Noto_Serif_JP({
+  weight: ["400", "500", "600", "700"],
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-noto-serif",
+});
 
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -45,18 +60,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ja">
+    <html lang="ja" className={`${shippori.variable} ${notoSerif.variable}`}>
       <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossOrigin="anonymous"
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500;600;700&family=Shippori+Mincho:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap"
-          rel="stylesheet"
-        />
       </head>
       <body>
         <Loader />
