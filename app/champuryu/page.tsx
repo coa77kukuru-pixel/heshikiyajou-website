@@ -2,6 +2,9 @@
 
 import { useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
+import LiteYouTubeEmbed from 'react-lite-youtube-embed';
+import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css';
 import styles from './page.module.css';
 
 export default function Champuryu() {
@@ -43,7 +46,9 @@ export default function Champuryu() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <header className="subhero" id="hero">
-        <div className="hero-bg" role="img" aria-label="チャンプ流ぅ芸能団のメンバー（仲宗根創・知念勝三・平敷屋門勇也）の宣伝用ビジュアル写真" style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/チャンプ流ぅ芸能団-仲宗根創-知念勝三-平敷屋門勇也.webp')" }}></div>
+        <div className="hero-bg">
+          <Image src="https://jinzai.okinawa/wp-content/uploads/2026/04/チャンプ流ぅ芸能団-仲宗根創-知念勝三-平敷屋門勇也.webp" alt="チャンプ流ぅ芸能団のメンバー（仲宗根創・知念勝三・平敷屋門勇也）の宣伝用ビジュアル写真" fill priority style={{ objectFit: 'cover', objectPosition: 'center 25%' }} />
+        </div>
         <div className="inner">
           <div className="crumb reveal">うちなー芸能 ・ Since 2017</div>
           <h1 className="reveal stagger-1">チャンプ流ぅ芸能団<small>Champuryu Geinou-dan</small></h1>
@@ -60,7 +65,9 @@ export default function Champuryu() {
           <div className="sec-title">3人で、うちなーの今を<small>— About Us —</small></div>
         </div>
         <div className={styles.intro}>
-          <div className={`reveal-left ${styles.photo}`} role="img" aria-label="チャンプ流ぅ芸能団の3人（平敷屋門勇也・仲宗根創・知念勝三）の自然なオフショット写真" style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/chanpuryu.webp')" }}></div>
+          <div className={`reveal-left ${styles.photo}`}>
+            <Image src="https://jinzai.okinawa/wp-content/uploads/2026/04/chanpuryu.webp" alt="チャンプ流ぅ芸能団の3人（平敷屋門勇也・仲宗根創・知念勝三）の自然なオフショット写真" fill style={{ objectFit: 'cover', objectPosition: 'center' }} />
+          </div>
           <div className="reveal-right">
             <div className={styles.en}>Three players, one stage</div>
             <h2>「自分たちで、<br />楽しいものを創作していく」</h2>
@@ -148,10 +155,10 @@ export default function Champuryu() {
             <div style={{ fontFamily: 'var(--serif)', fontSize: '15px', color: 'var(--ink)', marginBottom: '20px', fontWeight: 500, letterSpacing: '.1em' }}>動画で３人の想いを見る</div>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '40px' }}>
               <div className={styles['video-wrapper']}>
-                <iframe src="https://www.youtube.com/embed/yCkSXg0sUL0?si=t6LDVWOv-eTe86sK" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                <LiteYouTubeEmbed id="yCkSXg0sUL0" title="チャンプ流ぅ芸能団 動画" poster="maxresdefault" />
               </div>
               <div className={styles['video-wrapper']}>
-                <iframe src="https://www.youtube.com/embed/GjYGzqJnMy8?si=YR2kgqnlMSMgCMrY" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                <LiteYouTubeEmbed id="GjYGzqJnMy8" title="チャンプ流ぅ芸能団 動画2" poster="maxresdefault" />
               </div>
             </div>
           </div>
@@ -181,7 +188,7 @@ export default function Champuryu() {
       </section>
 
       <div className={`${styles['closing-photo']} reveal`}>
-        <img src="https://jinzai.okinawa/wp-content/uploads/2026/04/chanpuryu-mothersday-scaled.webp" alt="チャンプ流ぅ芸能団による母の日公演での舞台パフォーマンス写真" />
+        <Image src="https://jinzai.okinawa/wp-content/uploads/2026/04/chanpuryu-mothersday-scaled.webp" alt="チャンプ流ぅ芸能団による母の日公演での舞台パフォーマンス写真" width={1920} height={1080} style={{ width: '100%', height: 'auto', display: 'block' }} />
       </div>
     </>
   );

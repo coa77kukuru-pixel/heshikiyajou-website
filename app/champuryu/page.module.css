@@ -1,5 +1,5 @@
 .intro { display: grid; grid-template-columns: 1fr 1.05fr; gap: 100px; align-items: center; }
-.intro .photo { aspect-ratio: 4/3; background-size: cover; background-position: center; }
+.intro .photo { position: relative; overflow: hidden; aspect-ratio: 4/3; }
 .intro h2 { font-family: var(--serif); font-size: 38px; font-weight: 500; letter-spacing: .12em; margin-bottom: 24px; line-height: 1.4; }
 .intro .en { font-family: var(--latin); font-style: italic; font-size: 14px; letter-spacing: .25em; color: var(--crimson); margin-bottom: 28px; text-transform: uppercase; }
 .intro p { font-family: var(--serif); font-size: 16px; line-height: 2.2; color: var(--ink-2); margin-bottom: 20px; font-feature-settings: "palt"; }
