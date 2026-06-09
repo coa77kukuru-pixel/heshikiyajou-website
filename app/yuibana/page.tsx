@@ -2,6 +2,7 @@
 
 import { useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import styles from './page.module.css';
 
 export default function YuibanaPage() {
@@ -96,7 +97,9 @@ export default function YuibanaPage() {
             <span className="handle">お問合せ</span>
           </Link>
         </div>
-        <div className={`${styles.right} hero-bg`} role="img" aria-label="平敷屋門勇也琉舞道場の生徒たち 琉球舞踊の稽古風景" style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/%E7%B5%90%E8%8F%AF%E3%82%AD%E3%83%83%E3%82%BA-%E6%B2%96%E7%B8%84%E7%90%89%E7%90%83%E8%88%9E%E8%B8%8A-%E5%B9%B3%E6%95%B7%E5%B1%8B%E9%96%80%E5%8B%87%E4%B9%9F-1.webp')" }}></div>
+        <div className={`${styles.right} hero-bg`} role="img" aria-label="平敷屋門勇也琉舞道場の生徒たち 琉球舞踊の稽古風景">
+          <Image src="https://jinzai.okinawa/wp-content/uploads/2026/04/%E7%B5%90%E8%8F%AF%E3%82%AD%E3%83%83%E3%82%BA-%E6%B2%96%E7%B8%84%E7%90%89%E7%90%83%E8%88%9E%E8%B8%8A-%E5%B9%B3%E6%95%B7%E5%B1%8B%E9%96%80%E5%8B%87%E4%B9%9F-1.webp" alt="平敷屋門勇也琉舞道場の生徒たち 琉球舞踊の稽古風景" fill priority style={{ objectFit: 'cover', objectPosition: 'center 22%' }} />
+        </div>
       </header>
 
       {/* LOCATIONS */}
@@ -159,7 +162,8 @@ export default function YuibanaPage() {
           <div className="sec-title">道場長からのご挨拶<small>— Message from Yuya —</small></div>
         </div>
         <div className={styles['msg-body']}>
-          <div className={`${styles['msg-photo']} reveal-left`} role="img" aria-label="道場主宰 平敷屋門勇也 プロフィール写真" style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/%E5%B9%B3%E6%95%B7%E5%B1%8B%E9%96%80%E5%8B%87%E4%B9%9F-%E7%90%89%E7%90%83%E8%88%9E%E8%B8%8A.webp')" }}>
+          <div className={`${styles['msg-photo']} reveal-left`} role="img" aria-label="道場主宰 平敷屋門勇也 プロフィール写真">
+            <Image src="https://jinzai.okinawa/wp-content/uploads/2026/04/%E5%B9%B3%E6%95%B7%E5%B1%8B%E9%96%80%E5%8B%87%E4%B9%9F-%E7%90%89%E7%90%83%E8%88%9E%E8%B8%8A.webp" alt="道場主宰 平敷屋門勇也 プロフィール写真" fill style={{ objectFit: 'cover', objectPosition: 'center 18%' }} />
             <div className={styles.frame}></div>
           </div>
           <div className={`${styles['msg-text']} reveal-right`}>
@@ -254,7 +258,9 @@ export default function YuibanaPage() {
           
           <div className={`${styles['dream-row']} reveal stagger-2`} style={{ marginTop: '20px' }}>
             <div className={styles['dream-avatar']}>
-              <div className={styles.icon} role="img" aria-label="平敷屋門勇也 アイコン画像" style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/yuyaheshikiyajou.webp')", backgroundSize: 'cover', backgroundPosition: 'center', border: '2px solid var(--crimson)' }}></div>
+              <div className={styles.icon} role="img" aria-label="平敷屋門勇也 アイコン画像" style={{ position: 'relative', border: '2px solid var(--crimson)', overflow: 'hidden' }}>
+                <Image src="https://jinzai.okinawa/wp-content/uploads/2026/04/yuyaheshikiyajou.webp" alt="平敷屋門勇也 アイコン画像" fill style={{ objectFit: 'cover' }} />
+              </div>
               <div className={styles.who}>勇也先生<small>（道場長）</small></div>
             </div>
             <div className={styles['dream-bubble']}>
