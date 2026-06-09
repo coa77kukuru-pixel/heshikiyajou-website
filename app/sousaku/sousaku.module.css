@@ -13,7 +13,7 @@
 .global .head { font-family: var(--serif); font-size: clamp(34px, 3.6vw, 56px); font-weight: 500; line-height: 1.5; letter-spacing: .08em; max-width: 960px; margin-bottom: 80px; }
 .global .head em { font-style: normal; color: #d4a23a; }
 .globalGrid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: start; }
-.globalPhoto { aspect-ratio: 4/3; background-size: cover; background-position: center 25%; }
+.globalPhoto { position: relative; overflow: hidden; aspect-ratio: 4/3; }
 .global p { font-family: var(--serif); font-size: 15px; line-height: 2.2; color: rgba(243,237,225,.85); margin-bottom: 22px; font-feature-settings: "palt"; }
 .globalStats { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid rgba(243,237,225,.2); border-bottom: 1px solid rgba(243,237,225,.2); margin-top: 36px; }
 .globalStat { padding: 36px 20px; border-right: 1px solid rgba(243,237,225,.15); }

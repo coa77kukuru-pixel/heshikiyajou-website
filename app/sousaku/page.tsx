@@ -2,6 +2,9 @@
 
 import { useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
+import LiteYouTubeEmbed from 'react-lite-youtube-embed';
+import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css';
 import styles from './sousaku.module.css';
 
 export default function SousakuPage() {
@@ -44,8 +47,12 @@ export default function SousakuPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <header className="subhero" id="hero">
         <div style={{ position: 'absolute', inset: 0, display: 'flex' }}>
-          <div style={{ flex: 1, background: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/創作舞踊集団-結華-花笠-四ツ竹.webp') center/cover no-repeat" }}></div>
-          <div style={{ flex: 1, background: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/創作舞踊集団-結華-創作エイサー.webp') center/cover no-repeat" }}></div>
+          <div style={{ flex: 1, position: 'relative' }}>
+            <Image src="https://jinzai.okinawa/wp-content/uploads/2026/04/創作舞踊集団-結華-花笠-四ツ竹.webp" alt="創作舞踊集団 結華 花笠と四ツ竹" fill priority style={{ objectFit: 'cover' }} />
+          </div>
+          <div style={{ flex: 1, position: 'relative' }}>
+            <Image src="https://jinzai.okinawa/wp-content/uploads/2026/04/創作舞踊集団-結華-創作エイサー.webp" alt="創作舞踊集団 結華 創作エイサー" fill priority style={{ objectFit: 'cover' }} />
+          </div>
         </div>
         <div className="inner">
           <div className="crumb reveal">結華 ・ Since 2010</div>
@@ -60,7 +67,8 @@ export default function SousakuPage() {
           <div className="sec-title">伝統を礎に、<br/>新しい舞踊を結ぶ<small>— About Yuibana —</small></div>
         </div>
         <div className={styles.about}>
-          <div className={`reveal-left ${styles.photo}`} role="img" aria-label="創作舞踊集団 結華のメンバー集合写真" style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/創作舞踊集団結華.webp')" }}>
+          <div className={`reveal-left ${styles.photo}`} role="img" aria-label="創作舞踊集団 結華のメンバー集合写真">
+            <Image src="https://jinzai.okinawa/wp-content/uploads/2026/04/創作舞踊集団結華.webp" alt="創作舞踊集団 結華のメンバー集合写真" fill style={{ objectFit: 'cover', objectPosition: 'center 18%' }} />
             <div className={styles.frame}></div>
           </div>
           <div className="reveal-right">
@@ -89,7 +97,9 @@ export default function SousakuPage() {
         </div>
 
         <div className={styles.globalGrid}>
-          <div className={`reveal-left ${styles.globalPhoto}`} role="img" aria-label="創作舞踊集団 結華 沖縄らしい花笠と四ツ竹を使った舞踊写真" style={{ backgroundImage: "url('https://jinzai.okinawa/wp-content/uploads/2026/04/創作舞踊集団-結華-花笠-四ツ竹.webp')" }}></div>
+          <div className={`reveal-left ${styles.globalPhoto}`} role="img" aria-label="創作舞踊集団 結華 沖縄らしい花笠と四ツ竹を使った舞踊写真">
+            <Image src="https://jinzai.okinawa/wp-content/uploads/2026/04/創作舞踊集団-結華-花笠-四ツ竹.webp" alt="創作舞踊集団 結華 沖縄らしい花笠と四ツ竹を使った舞踊写真" fill style={{ objectFit: 'cover', objectPosition: 'center 25%' }} />
+          </div>
           <div className="reveal-right">
             <p>20代――自身の団体を立ち上げ、創作舞踊と向き合い続けた時期。その挑戦は沖縄県内にとどまらず、ハワイをはじめとする海外へ広がっていった。</p>
             <p>沖縄県系移民の多いハワイの地で、琉球舞踊の舞台に立つということ。それは、世代を越え、海を越えて、沖縄の心を「文化の架け橋」として届けることでもありました。</p>
@@ -105,14 +115,30 @@ export default function SousakuPage() {
           <div className="sec-title">フォトギャラリー<small>— Photo Gallery —</small></div>
         </div>
         <div className={styles.worksGrid}>
-          <div className={`${styles.w} ${styles.w1} reveal`}><img src="https://jinzai.okinawa/wp-content/uploads/2026/04/創作舞踊集団-結華-花笠-四ツ竹.webp" alt="創作舞踊集団 結華 四ツ竹と花笠を用いた琉球舞踊の舞台写真" loading="lazy" /></div>
-          <div className={`${styles.w} ${styles.w2} reveal stagger-1`}><img src="https://jinzai.okinawa/wp-content/uploads/2026/04/万国津梁館-結華.webp" alt="万国津梁館での創作舞踊集団 結華のパフォーマンス写真" loading="lazy" /></div>
-          <div className={`${styles.w} ${styles.w3} reveal stagger-2`}><img src="https://jinzai.okinawa/wp-content/uploads/2026/04/創作舞踊集団-結華-創作エイサー.webp" alt="創作舞踊集団 結華による創作エイサーの演舞写真" loading="lazy" /></div>
-          <div className={`${styles.w} ${styles.w4} reveal stagger-1`}><img src="https://jinzai.okinawa/wp-content/uploads/2026/04/万国津梁館-創作舞踊-創作エイサー-結華.webp" alt="万国津梁館での結華による創作エイサー舞台写真" loading="lazy" /></div>
-          <div className={`${styles.w} ${styles.w5} reveal stagger-2`}><img src="https://jinzai.okinawa/wp-content/uploads/2026/04/平敷屋門勇也-沖縄琉球舞踊-男踊り-1.webp" alt="平敷屋門勇也 琉球舞踊・男踊りの力強い演技写真" loading="lazy" /></div>
-          <div className={`${styles.w} ${styles.w6} reveal stagger-3`}><img src="https://jinzai.okinawa/wp-content/uploads/2026/04/創作舞踊集団-結華-四ツ竹.webp" alt="創作舞踊集団 結華 四ツ竹の舞踊シーン" loading="lazy" /></div>
-          <div className={`${styles.w} ${styles.w7} reveal stagger-1`}><img src="https://jinzai.okinawa/wp-content/uploads/2026/04/平敷屋門勇也-琉舞道場-創作舞踊集団結.webp" alt="創作舞踊集団 結華 舞台のフィナーレを飾る集合写真" loading="lazy" /></div>
-          <div className={`${styles.w} ${styles.w8} reveal stagger-2`}><img src="https://jinzai.okinawa/wp-content/uploads/2026/04/IMG_0705.webp" alt="創作舞踊集団 結華 イベントでの記念写真" loading="lazy" /></div>
+          <div className={`${styles.w} ${styles.w1} reveal`}>
+            <Image src="https://jinzai.okinawa/wp-content/uploads/2026/04/創作舞踊集団-結華-花笠-四ツ竹.webp" alt="創作舞踊集団 結華 四ツ竹と花笠を用いた琉球舞踊の舞台写真" fill sizes="(max-width: 768px) 100vw, 50vw" style={{ objectFit: 'contain' }} />
+          </div>
+          <div className={`${styles.w} ${styles.w2} reveal stagger-1`}>
+            <Image src="https://jinzai.okinawa/wp-content/uploads/2026/04/万国津梁館-結華.webp" alt="万国津梁館での創作舞踊集団 結華のパフォーマンス写真" fill sizes="(max-width: 768px) 100vw, 50vw" style={{ objectFit: 'contain' }} />
+          </div>
+          <div className={`${styles.w} ${styles.w3} reveal stagger-2`}>
+            <Image src="https://jinzai.okinawa/wp-content/uploads/2026/04/創作舞踊集団-結華-創作エイサー.webp" alt="創作舞踊集団 結華による創作エイサーの演舞写真" fill sizes="(max-width: 768px) 100vw, 50vw" style={{ objectFit: 'contain' }} />
+          </div>
+          <div className={`${styles.w} ${styles.w4} reveal stagger-1`}>
+            <Image src="https://jinzai.okinawa/wp-content/uploads/2026/04/万国津梁館-創作舞踊-創作エイサー-結華.webp" alt="万国津梁館での結華による創作エイサー舞台写真" fill sizes="(max-width: 768px) 100vw, 50vw" style={{ objectFit: 'contain' }} />
+          </div>
+          <div className={`${styles.w} ${styles.w5} reveal stagger-2`}>
+            <Image src="https://jinzai.okinawa/wp-content/uploads/2026/04/平敷屋門勇也-沖縄琉球舞踊-男踊り-1.webp" alt="平敷屋門勇也 琉球舞踊・男踊りの力強い演技写真" fill sizes="(max-width: 768px) 100vw, 50vw" style={{ objectFit: 'contain' }} />
+          </div>
+          <div className={`${styles.w} ${styles.w6} reveal stagger-3`}>
+            <Image src="https://jinzai.okinawa/wp-content/uploads/2026/04/創作舞踊集団-結華-四ツ竹.webp" alt="創作舞踊集団 結華 四ツ竹の舞踊シーン" fill sizes="(max-width: 768px) 100vw, 50vw" style={{ objectFit: 'contain' }} />
+          </div>
+          <div className={`${styles.w} ${styles.w7} reveal stagger-1`}>
+            <Image src="https://jinzai.okinawa/wp-content/uploads/2026/04/平敷屋門勇也-琉舞道場-創作舞踊集団結.webp" alt="創作舞踊集団 結華 舞台のフィナーレを飾る集合写真" fill sizes="(max-width: 768px) 100vw, 50vw" style={{ objectFit: 'contain' }} />
+          </div>
+          <div className={`${styles.w} ${styles.w8} reveal stagger-2`}>
+            <Image src="https://jinzai.okinawa/wp-content/uploads/2026/04/IMG_0705.webp" alt="創作舞踊集団 結華 イベントでの記念写真" fill sizes="(max-width: 768px) 100vw, 50vw" style={{ objectFit: 'contain' }} />
+          </div>
         </div>
       </section>
 
@@ -136,7 +162,12 @@ export default function SousakuPage() {
             プロモーションPV<br className="sp-br" /><span className="pc-inline">　　</span>サンチュー（山中）
           </div>
           <div className={styles.videoWrapper}>
-            <iframe src="https://www.youtube.com/embed/AF-oZ1S-YJc?si=3Axg7o2FDlgO7mpE" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            <LiteYouTubeEmbed
+              id="AF-oZ1S-YJc"
+              title="プロモーションPV サンチュー（山中）"
+              params="si=3Axg7o2FDlgO7mpE"
+              poster="maxresdefault"
+            />
           </div>
         </div>
       </section>
