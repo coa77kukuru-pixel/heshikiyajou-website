@@ -209,7 +209,7 @@ export default function Home() {
                 <p>沖縄県人の心の街・鶴見へ。沖縄から東京の地へ、唄と三線と舞踊を運びます。10周年の節目を前にした、特別な凱旋舞台。</p>
               </div>
               <div className="sched-venue">鶴見 ・ 神奈川県<small>Tsurumi, Kanagawa</small></div>
-              <div className="sched-status featured">凱旋公演</div>
+              <div className="sched-status confirmed">終演御礼</div>
             </div>
             <div className="sched-item reveal stagger-1">
               <div className="sched-date"><b>2027</b><span className="month">SPRING</span></div>
@@ -491,7 +491,7 @@ export default function Home() {
               <div className="anniv-mark">10<small>th</small></div>
               <div className="anniv-body">
                 <b>来年、結成10周年。</b>
-                <span>2026年6月 ・ 鶴見 凱旋公演 決定</span>
+                <span>2026年6月 ・ 鶴見 凱旋公演 開催</span>
                 <em>Homecoming Stage in Tsurumi, June 2026</em>
               </div>
             </div>
