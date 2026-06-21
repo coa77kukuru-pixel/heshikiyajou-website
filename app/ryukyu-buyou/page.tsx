@@ -31,14 +31,14 @@ export default function RyukyuBuyouPage() {
         author: {
           '@type': 'Person',
           name: '平敷屋門勇也',
-          url: 'https://next-app-cyan-eight.vercel.app/',
+          url: 'https://ryubu.jp/',
         },
         publisher: {
           '@type': 'Person',
           name: '平敷屋門勇也',
         },
-        url: 'https://next-app-cyan-eight.vercel.app/ryukyu-buyou',
-        mainEntityOfPage: 'https://next-app-cyan-eight.vercel.app/ryukyu-buyou',
+        url: 'https://ryubu.jp/ryukyu-buyou',
+        mainEntityOfPage: 'https://ryubu.jp/ryukyu-buyou',
       },
       {
         '@type': 'FAQPage',

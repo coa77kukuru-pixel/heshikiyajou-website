@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://next-app-cyan-eight.vercel.app';
+  const baseUrl = 'https://ryubu.jp';
 
   return [
     {

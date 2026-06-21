@@ -49,14 +49,14 @@ export default function FirstTimePage() {
     author: {
       '@type': 'Person',
       name: '平敷屋門勇也',
-      url: 'https://next-app-cyan-eight.vercel.app/',
+      url: 'https://ryubu.jp/',
     },
     publisher: {
       '@type': 'Person',
       name: '平敷屋門勇也',
     },
-    url: 'https://next-app-cyan-eight.vercel.app/first-time',
-    mainEntityOfPage: 'https://next-app-cyan-eight.vercel.app/first-time',
+    url: 'https://ryubu.jp/first-time',
+    mainEntityOfPage: 'https://ryubu.jp/first-time',
   };
 
   return (

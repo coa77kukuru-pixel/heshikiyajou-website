@@ -36,9 +36,9 @@ export default function SousakuPage() {
     founder: {
       '@type': 'Person',
       name: '平敷屋門勇也',
-      url: 'https://next-app-cyan-eight.vercel.app/',
+      url: 'https://ryubu.jp/',
     },
-    url: 'https://next-app-cyan-eight.vercel.app/sousaku',
+    url: 'https://ryubu.jp/sousaku',
     sameAs: ['https://www.instagram.com/yuibana.2011/'],
   };
 

@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://next-app-cyan-eight.vercel.app/sitemap.xml',
+    sitemap: 'https://ryubu.jp/sitemap.xml',
   };
 }

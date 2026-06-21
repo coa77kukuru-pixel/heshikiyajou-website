@@ -35,7 +35,7 @@ export default function Champuryu() {
       { '@type': 'Person', name: '仲宗根創', roleName: '唄三線・民謡' },
       { '@type': 'Person', name: '知念勝三', roleName: '三線・古典音楽' },
     ],
-    url: 'https://next-app-cyan-eight.vercel.app/champuryu',
+    url: 'https://ryubu.jp/champuryu',
     sameAs: [
       'https://www.instagram.com/champuryu_geinoudan/',
       'https://www.facebook.com/chanpryuu/',

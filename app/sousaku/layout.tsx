@@ -6,10 +6,10 @@ export const metadata: Metadata = {
   openGraph: {
     title: '創作舞踊集団 結華（ゆいばな）',
     description: '創作舞踊集団「結華」は、平敷屋門勇也が会長を務める創作舞踊集団です。伝統の所作を礎に、結婚式・イベント・観光ステージなど、おもてなしのプロとしての舞台出演を承っています。',
-    url: 'https://next-app-cyan-eight.vercel.app/sousaku',
+    url: 'https://ryubu.jp/sousaku',
   },
   alternates: {
-    canonical: 'https://next-app-cyan-eight.vercel.app/sousaku',
+    canonical: 'https://ryubu.jp/sousaku',
   },
 };
 

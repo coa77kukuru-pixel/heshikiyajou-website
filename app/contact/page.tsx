@@ -41,11 +41,11 @@ export default function Contact() {
     '@type': 'ContactPage',
     name: 'お問合せ・出演依頼 — 平敷屋門勇也',
     description: '平敷屋門勇也への出演依頼、創作公演のご相談、取材・メディア出演、琉舞道場の見学・体験のお問合せフォームです。',
-    url: 'https://next-app-cyan-eight.vercel.app/contact',
+    url: 'https://ryubu.jp/contact',
     mainEntity: {
       '@type': 'Person',
       name: '平敷屋門勇也',
-      url: 'https://next-app-cyan-eight.vercel.app/',
+      url: 'https://ryubu.jp/',
     },
   };
 

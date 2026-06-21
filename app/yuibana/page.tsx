@@ -27,7 +27,7 @@ export default function YuibanaPage() {
     name: '玉城流光乃会 平敷屋門勇也琉舞道場',
     alternateName: 'Heshikiyajou Yuya Ryubu Dojo',
     description: '沖縄県沖縄市泡瀬を拠点とする琉球舞踊の道場。2歳から大人まで幅広く琉球舞踊を学べる。見学・体験は無料。うるま市・那覇市にも子どもクラスを開設している。',
-    url: 'https://next-app-cyan-eight.vercel.app/yuibana',
+    url: 'https://ryubu.jp/yuibana',
     address: {
       '@type': 'PostalAddress',
       streetAddress: '泡瀬1-30-29 シャトレアワセ1-A',
@@ -38,7 +38,7 @@ export default function YuibanaPage() {
     founder: {
       '@type': 'Person',
       name: '平敷屋門勇也',
-      url: 'https://next-app-cyan-eight.vercel.app/',
+      url: 'https://ryubu.jp/',
     },
     hasOfferCatalog: {
       '@type': 'OfferCatalog',

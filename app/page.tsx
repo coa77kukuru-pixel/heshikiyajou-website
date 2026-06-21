@@ -35,7 +35,7 @@ export default function Home() {
         alternateName: '平敷勇也',
         jobTitle: ['琉球舞踊家', '沖縄芝居役者'],
         description: '沖縄県を拠点に活動する琉球舞踊家、沖縄芝居役者。玉城流光乃会に所属し、平敷屋門勇也琉舞道場を主宰する。伝統的な古典舞踊から、若手芸能家ユニット「チャンプ流ぅ芸能団」でのモダンな活動まで幅広く手掛ける。',
-        url: 'https://next-app-cyan-eight.vercel.app/',
+        url: 'https://ryubu.jp/',
         knowsAbout: ['琉球舞踊', '沖縄芝居', '組踊', '沖縄伝統芸能'],
         memberOf: [
           { '@type': 'PerformingGroup', name: 'チャンプ流ぅ芸能団' },
@@ -66,7 +66,7 @@ export default function Home() {
           streetAddress: '泡瀬1-30-29 シャトレアワセ1-A',
           addressCountry: 'JP',
         },
-        url: 'https://next-app-cyan-eight.vercel.app/yuibana',
+        url: 'https://ryubu.jp/yuibana',
       },
       {
         '@type': 'FAQPage',
@@ -84,7 +84,7 @@ export default function Home() {
       {
         '@type': 'WebSite',
         name: '平敷屋門勇也 オフィシャルサイト',
-        url: 'https://next-app-cyan-eight.vercel.app/',
+        url: 'https://ryubu.jp/',
       },
     ],
   };
