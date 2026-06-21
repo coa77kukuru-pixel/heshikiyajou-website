@@ -212,22 +212,13 @@ export default function Home() {
               <div className="sched-status confirmed">終演御礼</div>
             </div>
             <div className="sched-item reveal stagger-1">
-              <div className="sched-date"><b>2027</b><span className="month">SPRING</span></div>
+              <div className="sched-date"><b>未定</b><span className="month">TBD</span></div>
               <div className="sched-body">
                 <h4>結成10周年 記念公演</h4>
-                <p>2017年に始まった3人の歩み。10年の節目を、那覇の舞台で。</p>
+                <p>２０１７年に始まった３人の歩み、１０年の節目を披露します。<br />日程会場については現在未定。</p>
               </div>
-              <div className="sched-venue">沖縄県内 ・ 大ホール<small>10th Anniversary Stage</small></div>
+              <div className="sched-venue">会場未定<small>Venue TBA</small></div>
               <div className="sched-status featured">10周年</div>
-            </div>
-            <div className="sched-item reveal stagger-2">
-              <div className="sched-date"><b>毎月</b><span className="month">MONTHLY</span></div>
-              <div className="sched-body">
-                <h4>チャンプ流ぅ寄席</h4>
-                <p>即興コント、歌、踊り。子どもから年配まで、笑いの絶えない場。</p>
-              </div>
-              <div className="sched-venue">沖縄県内 各地<small>Various Venues</small></div>
-              <div className="sched-status confirmed">定期開催</div>
             </div>
           </div>
         </div>
