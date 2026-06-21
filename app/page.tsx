@@ -133,7 +133,7 @@ export default function Home() {
 
         <div className="fan-message reveal stagger-1">
           <div className="hanagasa-icon" aria-hidden="true">
-            <Image src="/images/hanagasa.png" alt="琉球舞踊の小道具・花笠（はながさ）" width={60} height={60} style={{ width: '100%', height: 'auto' }} />
+            <Image src="/images/hanagasa.png" alt="琉球舞踊の小道具・花笠（はながさ）" width={60} height={60} />
           </div>
           <p>いつも温かいご声援をいただき、本当にありがとうございます。</p>
           <p>皆様が客席から見守ってくださるからこそ、私は舞台で生かされています。</p>
