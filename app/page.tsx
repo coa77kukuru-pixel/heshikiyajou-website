@@ -226,24 +226,6 @@ export default function Home() {
         <div className={`sched-panel ${activeTab === 'yuika' ? 'active' : ''}`}>
           <div className="sched-list">
             <div className="sched-item reveal">
-              <div className="sched-date"><b>08.16</b><span className="month">SUN ・ 2026</span></div>
-              <div className="sched-body">
-                <h4>結華 創作舞踊公演「結ぶ・咲かす」</h4>
-                <p>会員それぞれの可能性を、舞台の上で結び、咲かせる。年に1度の創作発表。</p>
-              </div>
-              <div className="sched-venue">うるま市民芸術劇場 響ホール<small>Uruma City Hibiki Hall</small></div>
-              <div className="sched-status confirmed">主催公演</div>
-            </div>
-            <div className="sched-item reveal stagger-1">
-              <div className="sched-date"><b>11.03</b><span className="month">TUE ・ 2026</span></div>
-              <div className="sched-body">
-                <h4>結華キッズ 発表会</h4>
-                <p>子ども創作舞踊集団「結」の発表の場。次の世代へ。</p>
-              </div>
-              <div className="sched-venue">うるま市 ・ 文化センター<small>Uruma Cultural Center</small></div>
-              <div className="sched-status confirmed">出演</div>
-            </div>
-            <div className="sched-item reveal stagger-2">
               <div className="sched-date"><b>通年</b><span className="month">2026</span></div>
               <div className="sched-body">
                 <h4>稽古生 募集中</h4>
