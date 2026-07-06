@@ -362,7 +362,7 @@ export default function FirstTimePage() {
           
           <div style={{ marginTop: '80px', textAlign: 'center' }}>
             <p style={{ fontSize: '15px', color: 'var(--ink)', marginBottom: '24px', letterSpacing: '0.15em', lineHeight: '2.2' }}>
-              「自分でも踊ってみたい」「三線の音色に触れてみたい」<br />
+              「自分でも踊ってみたい」<br />
               そう感じたら、ぜひ道場へ遊びにいらしてください。<br />
               初心者の方でも安心して学べる環境でお待ちしております。
             </p>
