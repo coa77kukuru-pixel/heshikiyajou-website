@@ -87,10 +87,10 @@ export default function Champuryu() {
           <div className={`${styles.num} reveal-left`}>10<small>th</small></div>
           <div className={`${styles.info} reveal-right`}>
             <div className={styles.label}>10th Anniversary ・ Featured Stage</div>
-            <h3>来年、結成10周年<br />今年6月、鶴見へ</h3>
-            <p>沖縄から東京・鶴見へ、唄と三線と舞踊を運びます。<br />2026年6月、節目を前にした特別な凱旋公演が決定しています。</p>
+            <h3>来年、結成10周年<br />今年6月、大盛況の鶴見凱旋公演</h3>
+            <p>沖縄から東京・鶴見へ、唄と三線と舞踊を運びました。<br />2026年6月、節目を前にした特別な凱旋公演は大盛況のうちに終演いたしました。</p>
           </div>
-          <div className={`${styles.badge} reveal stagger-2`}>凱旋公演 ・ FEATURED</div>
+          <div className={`${styles.badge} reveal stagger-2`}>終演御礼 ・ THANK YOU</div>
         </div>
       </section>
 
