@@ -189,13 +189,22 @@ export default function Home() {
               <div className="sched-status confirmed">出演決定</div>
             </div>
             <div className="sched-item reveal stagger-2">
-              <div className="sched-date"><b>09.—</b><span className="month">2026</span></div>
+              <div className="sched-date"><b>09.17</b><span className="month">-19 ・ 2026</span></div>
               <div className="sched-body">
-                <h4>沖縄芝居「朝顔夕顔」</h4>
-                <p>方言せりふ劇。舞踊家の所作で芝居の世界へ。</p>
+                <h4>普及公演 沖縄芝居鑑賞教室「棒しばり」「割符」</h4>
+                <p>チケット情報について：<a href="https://www.nt-okinawa.or.jp/performance-info?genre=5" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline' }}>国立劇場おきなわHPよりご確認ください</a></p>
               </div>
-              <div className="sched-venue">調整中<small>Venue TBA</small></div>
-              <div className="sched-status tba">日程調整中</div>
+              <div className="sched-venue">国立劇場おきなわ<small>National Theatre Okinawa</small></div>
+              <div className="sched-status confirmed">出演決定</div>
+            </div>
+            <div className="sched-item reveal stagger-3">
+              <div className="sched-date"><b>10.10</b><span className="month">SAT ・ 2026</span></div>
+              <div className="sched-body">
+                <h4 style={{ fontSize: '15px' }}>玉城流光乃会 大城光子追悼 二代目会主赤嶺啓子襲名披露公演 光ありて心舞</h4>
+                <p>公演、チケット情報について：<a href="https://www.nt-okinawa.or.jp/performance-info/detail?performance_id=2845" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline' }}>国立劇場おきなわHPよりご確認ください</a></p>
+              </div>
+              <div className="sched-venue">国立劇場おきなわ<small>National Theatre Okinawa</small></div>
+              <div className="sched-status confirmed">出演決定</div>
             </div>
           </div>
         </div>
