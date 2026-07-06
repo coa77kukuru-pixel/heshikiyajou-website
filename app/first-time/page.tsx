@@ -357,7 +357,18 @@ export default function FirstTimePage() {
           <em style={{ fontStyle: 'normal', color: 'var(--crimson)' }}>感情・歴史・文化・願い</em>を<br />
           語っていることが、少しずつ見えてきます。
         </p>
-        <Link className={styles.closingCta} href="/ryukyu-buyou">琉球舞踊とは ・ もっと知る →</Link>
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+          <Link className={styles.closingCta} href="/ryukyu-buyou">琉球舞踊とは ・ もっと知る →</Link>
+          
+          <div style={{ marginTop: '80px', textAlign: 'center' }}>
+            <p style={{ fontSize: '15px', color: 'var(--ink)', marginBottom: '24px', letterSpacing: '0.15em', lineHeight: '2.2' }}>
+              「自分でも踊ってみたい」「三線の音色に触れてみたい」<br />
+              そう感じたら、ぜひ道場へ遊びにいらしてください。<br />
+              初心者の方でも安心して学べる環境でお待ちしております。
+            </p>
+            <Link className={styles.closingCta} style={{ marginTop: 0 }} href="/yuibana">道場（稽古場）のご案内 →</Link>
+          </div>
+        </div>
       </section>
     </>
   );
