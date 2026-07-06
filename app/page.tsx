@@ -164,7 +164,7 @@ export default function Home() {
             role="tab"
             onClick={() => setActiveTab('yuika')}
           >
-            創作舞踊集団<br className="sp-br" />「結華」<small>Yuibana</small>
+            平敷屋門勇也<br className="sp-br" />琉舞道場<small>Ryubu Dojo</small>
           </button>
         </div>
 
@@ -242,7 +242,7 @@ export default function Home() {
                 <h4>稽古生 募集中</h4>
                 <p>2歳から大人まで。1人ひとりの可能性を、ともに咲かせます。</p>
               </div>
-              <div className="sched-venue">稽古場 ・ 沖縄市泡瀬<small>Awase Studio</small></div>
+              <div className="sched-venue">稽古場：うるま市・那覇市・沖縄市<small>Uruma / Naha / Okinawa</small></div>
               <div className="sched-status tba">随時受付</div>
             </div>
           </div>
