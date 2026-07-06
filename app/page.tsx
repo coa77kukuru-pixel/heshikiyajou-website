@@ -171,7 +171,11 @@ export default function Home() {
         <div className={`sched-panel ${activeTab === 'yuya' ? 'active' : ''}`}>
           <div className="sched-list">
             <div className="sched-item reveal">
-              <div className="sched-date"><b>09.17</b><span className="month">-19 ・ 2026</span></div>
+              <div className="sched-date">
+                <span className="year" style={{ display: 'block', fontSize: '13px', color: 'var(--sub)', letterSpacing: '.15em', marginBottom: '4px' }}>2026</span>
+                <b style={{ fontSize: '26px' }}>09.17-19</b>
+                <span className="month">（木-土）</span>
+              </div>
               <div className="sched-body">
                 <h4>普及公演 沖縄芝居鑑賞教室「棒しばり」「割符」</h4>
                 <p>チケット情報について：<a href="https://www.nt-okinawa.or.jp/performance-info?genre=5" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline' }}>国立劇場おきなわHPよりご確認ください</a></p>
@@ -180,7 +184,11 @@ export default function Home() {
               <div className="sched-status confirmed">出演決定</div>
             </div>
             <div className="sched-item reveal stagger-1">
-              <div className="sched-date"><b>10.10</b><span className="month">SAT ・ 2026</span></div>
+              <div className="sched-date">
+                <span className="year" style={{ display: 'block', fontSize: '13px', color: 'var(--sub)', letterSpacing: '.15em', marginBottom: '4px' }}>2026</span>
+                <b>10.10</b>
+                <span className="month">（土）</span>
+              </div>
               <div className="sched-body">
                 <h4 style={{ fontSize: '15px' }}>玉城流光乃会 大城光子追悼 二代目会主赤嶺啓子襲名披露公演 光ありて心舞</h4>
                 <p>公演、チケット情報について：<a href="https://www.nt-okinawa.or.jp/performance-info/detail?performance_id=2845" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline' }}>国立劇場おきなわHPよりご確認ください</a></p>
@@ -194,7 +202,11 @@ export default function Home() {
         <div className={`sched-panel ${activeTab === 'champ' ? 'active' : ''}`}>
           <div className="sched-list">
             <div className="sched-item reveal">
-              <div className="sched-date"><b>06.21</b><span className="month">SUN ・ 2026</span></div>
+              <div className="sched-date">
+                <span className="year" style={{ display: 'block', fontSize: '13px', color: 'var(--sub)', letterSpacing: '.15em', marginBottom: '4px' }}>2026</span>
+                <b>06.21</b>
+                <span className="month">（日）</span>
+              </div>
               <div className="sched-body">
                 <h4>鶴見 凱旋公演 ／ うちなー芸能の夕べ</h4>
                 <p>沖縄県人の心の街・鶴見へ。沖縄から東京の地へ、唄と三線と舞踊を運びます。10周年の節目を前にした、特別な凱旋舞台。</p>
@@ -203,7 +215,11 @@ export default function Home() {
               <div className="sched-status confirmed">終演御礼</div>
             </div>
             <div className="sched-item reveal stagger-1">
-              <div className="sched-date"><b>未定</b><span className="month">TBD</span></div>
+              <div className="sched-date">
+                <span className="year" style={{ display: 'block', fontSize: '13px', color: 'var(--sub)', letterSpacing: '.15em', marginBottom: '4px' }}>2026</span>
+                <b>未定</b>
+                <span className="month">TBD</span>
+              </div>
               <div className="sched-body">
                 <h4>結成10周年 記念公演</h4>
                 <p>２０１７年に始まった３人の歩み、１０年の節目を披露します。<br />日程会場については現在未定。</p>
@@ -217,7 +233,11 @@ export default function Home() {
         <div className={`sched-panel ${activeTab === 'yuika' ? 'active' : ''}`}>
           <div className="sched-list">
             <div className="sched-item reveal">
-              <div className="sched-date"><b>通年</b><span className="month">2026</span></div>
+              <div className="sched-date">
+                <span className="year" style={{ display: 'block', fontSize: '13px', color: 'var(--sub)', letterSpacing: '.15em', marginBottom: '4px' }}>2026</span>
+                <b>通年</b>
+                <span className="month">受付中</span>
+              </div>
               <div className="sched-body">
                 <h4>稽古生 募集中</h4>
                 <p>2歳から大人まで。1人ひとりの可能性を、ともに咲かせます。</p>
