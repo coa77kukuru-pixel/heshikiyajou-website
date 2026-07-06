@@ -6,6 +6,7 @@ import styles from './contact.module.css';
 
 export default function Contact() {
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const thanksRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -23,17 +24,42 @@ export default function Contact() {
     return () => observer.disconnect();
   }, []);
 
-  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    setIsSubmitted(true);
-    setTimeout(() => {
-      if (thanksRef.current) {
-        window.scrollTo({
-          top: thanksRef.current.offsetTop - 120,
-          behavior: 'smooth'
-        });
+    setIsSubmitting(true);
+    
+    const form = e.target as HTMLFormElement;
+    const formData = new FormData(form);
+    
+    // Web3Forms APIキーを設定
+    formData.append("access_key", "6eea34c0-9493-4c53-b77e-2758d232db28");
+    formData.append("subject", "【平敷屋門勇也 公式サイト】から新しいお問合せがありました");
+    formData.append("from_name", "平敷屋門勇也 公式サイト");
+
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: formData
+      });
+
+      if (response.ok) {
+        setIsSubmitted(true);
+        setTimeout(() => {
+          if (thanksRef.current) {
+            window.scrollTo({
+              top: thanksRef.current.offsetTop - 120,
+              behavior: 'smooth'
+            });
+          }
+        }, 10);
+      } else {
+        alert("送信に失敗しました。時間をおいて再度お試しください。");
       }
-    }, 10);
+    } catch (error) {
+      alert("送信エラーが発生しました。ネットワーク接続をご確認ください。");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const jsonLd = {
@@ -143,7 +169,9 @@ export default function Contact() {
                   <textarea id="message" name="message" placeholder="ご相談内容、ご希望の日時や場所など、ご自由にお書きください。" required></textarea>
                 </div>
 
-                <button type="submit" className={styles.submit}>送信する ・ SUBMIT</button>
+                <button type="submit" className={styles.submit} disabled={isSubmitting}>
+                  {isSubmitting ? '送信中...' : '送信する ・ SUBMIT'}
+                </button>
                 <p className={styles.note}>
                   ※ 送信ボタンを押すと、ご記入いただいた内容をもとに担当者へお知らせが届きます。
                 </p>
