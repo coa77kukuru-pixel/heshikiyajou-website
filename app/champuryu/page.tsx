@@ -71,7 +71,7 @@ export default function Champuryu() {
           <div className="reveal-right">
             <div className={styles.en}>Three players, one stage</div>
             <h2>「自分たちで、<br />楽しいものを創作していく」</h2>
-            <p>唄三線・古典音楽・琉球舞踊。それぞれの分野で伝統を背負う3人の若手芸能家が、2017年、ひとつの場に集った。即興コント、歌、踊り。ジャンルを越えて、子どもから年配まで楽しめる、唯一無二のうちなー芸能の舞台を編んでいる。</p>
+            <p>唄三線・古典音楽・琉球舞踊。それぞれの分野で伝統を背負う3人の若手芸能家が、2017年、ひとつの場に集った。即興コント、歌、踊り。ジャンルを越えて、子どもから大人まで楽しめる、唯一無二のうちなー芸能の舞台を編んでいる。</p>
             <p>最年少ながら、リーダーとして全体を律する平敷屋門 勇也。来年、結成10周年。沖縄から、世界へ。</p>
             <a className={styles['ig-pill']} href="https://www.instagram.com/champuryu_geinoudan/" target="_blank" rel="noopener noreferrer">
               <span className="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6"><rect x="3" y="3" width="18" height="18" rx="5" /><circle cx="12" cy="12" r="4" /><circle cx="17.3" cy="6.7" r="1" fill="currentColor" /></svg></span>
