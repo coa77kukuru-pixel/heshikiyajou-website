@@ -174,7 +174,7 @@ export default function Home() {
               <div className="sched-date">
                 <span className="year" style={{ display: 'block', fontSize: '13px', color: 'var(--sub)', letterSpacing: '.15em', marginBottom: '4px' }}>2026</span>
                 <b style={{ fontSize: '24px' }}>9.17・18・19</b>
-                <span className="month">（木-土）</span>
+                <span className="month">（木・金・土）</span>
               </div>
               <div className="sched-body">
                 <h4>普及公演 沖縄芝居鑑賞教室「棒しばり」「割符」</h4>
