@@ -19,8 +19,10 @@ export default function Footer() {
               琉球舞踊道場
             </Link>
             <p>
-              沖縄市泡瀬1-30-29シャトレ泡瀬1-A<br />
-              （平敷屋門勇也琉舞道場）
+              <a href="https://maps.google.com/?q=沖縄県沖縄市泡瀬1-30-29" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline', textUnderlineOffset: '4px' }}>
+                沖縄市泡瀬1-30-29シャトレ泡瀬1-A<br />
+                （平敷屋門勇也琉舞道場）
+              </a>
             </p>
             <div className="f-sns">
               <a
