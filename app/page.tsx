@@ -173,7 +173,7 @@ export default function Home() {
             <div className="sched-item reveal">
               <div className="sched-date">
                 <span className="year" style={{ display: 'block', fontSize: '13px', color: 'var(--sub)', letterSpacing: '.15em', marginBottom: '4px' }}>2026</span>
-                <b style={{ fontSize: '26px' }}>9.17〜19</b>
+                <b style={{ fontSize: '24px' }}>9.17・18・19</b>
                 <span className="month">（木-土）</span>
               </div>
               <div className="sched-body">
