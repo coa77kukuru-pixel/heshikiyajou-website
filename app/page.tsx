@@ -171,24 +171,6 @@ export default function Home() {
         <div className={`sched-panel ${activeTab === 'yuya' ? 'active' : ''}`}>
           <div className="sched-list">
             <div className="sched-item reveal">
-              <div className="sched-date"><b>05.18</b><span className="month">SUN ・ 2026</span></div>
-              <div className="sched-body">
-                <h4>琉球舞踊鑑賞教室「女踊・二才踊」</h4>
-                <p>玉城流光乃会 赤嶺啓子琉舞道場とともに、古典の心を継ぐ一夜。</p>
-              </div>
-              <div className="sched-venue">国立劇場おきなわ ・ 大劇場<small>National Theatre Okinawa</small></div>
-              <div className="sched-status confirmed">出演決定</div>
-            </div>
-            <div className="sched-item reveal stagger-1">
-              <div className="sched-date"><b>07.12</b><span className="month">SUN ・ 2026</span></div>
-              <div className="sched-body">
-                <h4>組踊「執心鐘入」</h4>
-                <p>組踊鑑賞教室。立ち役者として出演。</p>
-              </div>
-              <div className="sched-venue">国立劇場おきなわ ・ 小劇場<small>Kumi-odori Stage</small></div>
-              <div className="sched-status confirmed">出演決定</div>
-            </div>
-            <div className="sched-item reveal stagger-2">
               <div className="sched-date"><b>09.17</b><span className="month">-19 ・ 2026</span></div>
               <div className="sched-body">
                 <h4>普及公演 沖縄芝居鑑賞教室「棒しばり」「割符」</h4>
@@ -197,7 +179,7 @@ export default function Home() {
               <div className="sched-venue">国立劇場おきなわ<small>National Theatre Okinawa</small></div>
               <div className="sched-status confirmed">出演決定</div>
             </div>
-            <div className="sched-item reveal stagger-3">
+            <div className="sched-item reveal stagger-1">
               <div className="sched-date"><b>10.10</b><span className="month">SAT ・ 2026</span></div>
               <div className="sched-body">
                 <h4 style={{ fontSize: '15px' }}>玉城流光乃会 大城光子追悼 二代目会主赤嶺啓子襲名披露公演 光ありて心舞</h4>
