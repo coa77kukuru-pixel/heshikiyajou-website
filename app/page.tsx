@@ -191,7 +191,7 @@ export default function Home() {
               </div>
               <div className="sched-body">
                 <h4 style={{ fontSize: '15px' }}>玉城流光乃会 大城光子追悼 二代目会主赤嶺啓子襲名披露公演 光ありて心舞</h4>
-                <p>公演、チケット情報について：<a href="https://www.nt-okinawa.or.jp/performance-info/detail?performance_id=2845" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline' }}>国立劇場おきなわHPよりご確認ください</a></p>
+                <p>チケット情報について：<a href="https://www.nt-okinawa.or.jp/performance-info/detail?performance_id=2845" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline' }}>国立劇場おきなわHPよりご確認ください</a></p>
               </div>
               <div className="sched-venue">国立劇場おきなわ<small>National Theatre Okinawa</small></div>
               <div className="sched-status confirmed">出演決定</div>
