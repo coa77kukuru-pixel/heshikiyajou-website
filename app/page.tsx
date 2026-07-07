@@ -23,7 +23,23 @@ export default function Home() {
       { threshold: 0.12, rootMargin: '0px 0px -40px 0px' }
     );
     els.forEach((el) => observer.observe(el));
-    return () => observer.disconnect();
+
+    // Custom observer for the walking animation
+    const breaker = document.querySelector('.breaker');
+    const walkingContainer = document.querySelector('.walking-container');
+    const walkObserver = new IntersectionObserver((entries) => {
+      if (entries[0].isIntersecting && walkingContainer) {
+        walkingContainer.classList.add('is-visible');
+        walkObserver.disconnect();
+      }
+    }, { threshold: 0.66 }); // Trigger when .breaker is 2/3 visible
+    
+    if (breaker) walkObserver.observe(breaker);
+
+    return () => {
+      observer.disconnect();
+      walkObserver.disconnect();
+    };
   }, []);
 
   const jsonLd = {
@@ -611,7 +627,7 @@ export default function Home() {
       </section>
 
       {/* WALKING ANIMATION */}
-      <div className="walking-container reveal" style={{ opacity: 1, transform: 'none' }}>
+      <div className="walking-container" style={{ opacity: 1, transform: 'none' }}>
         <Image src="/images/ryuso_woman.png" alt="琉球舞踊の琉装を纏った女性のイラスト" className="walking-woman" width={300} height={160} style={{ width: 'auto', height: '160px' }} />
       </div>
 
