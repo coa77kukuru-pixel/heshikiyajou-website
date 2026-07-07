@@ -1,6 +1,7 @@
 'use client';
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import LiteYouTubeEmbed from 'react-lite-youtube-embed';
 import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css';
 
@@ -676,6 +677,17 @@ export default function Home() {
             </dd>
           </dl>
         </div>
+      </section>
+
+      <section className="bottom-links reveal">
+        <Link href="/ryukyu-buyou" className="bottom-link">
+          <span className="en">ABOUT</span>
+          <span className="ja">琉球舞踊とは</span>
+        </Link>
+        <Link href="/contact" className="bottom-link">
+          <span className="en">CONTACT</span>
+          <span className="ja">お問合せ</span>
+        </Link>
       </section>
     </>
   );
