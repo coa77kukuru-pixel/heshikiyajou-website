@@ -681,7 +681,7 @@ export default function Home() {
 
       <section className="bottom-links reveal">
         <Link href="/ryukyu-buyou" className="bottom-link">
-          <span className="en">ABOUT</span>
+          <span className="en">DISCOVER</span>
           <span className="ja">琉球舞踊とは</span>
         </Link>
         <Link href="/contact" className="bottom-link">
