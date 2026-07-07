@@ -190,6 +190,16 @@ export default function Champuryu() {
       <div className={`${styles['closing-photo']} reveal`}>
         <Image src="https://jinzai.okinawa/wp-content/uploads/2026/04/chanpuryu-mothersday-scaled.webp" alt="チャンプ流ぅ芸能団による母の日公演での舞台パフォーマンス写真" width={1920} height={1080} style={{ width: '100%', height: 'auto', display: 'block' }} />
       </div>
+
+      <section style={{ textAlign: 'center', padding: '100px 24px', background: 'var(--paper)' }}>
+        <p style={{ fontSize: '15px', color: 'var(--ink)', marginBottom: '16px', letterSpacing: '0.15em', lineHeight: '2.2' }}>
+          「チャンプ流ぅ芸能団」への出演依頼や<br />
+          各種お問い合わせはこちらからお気軽にご連絡ください。
+        </p>
+        <Link href="/contact" className={styles.closingCta}>
+          出演依頼・お問合せ →
+        </Link>
+      </section>
     </>
   );
 }
