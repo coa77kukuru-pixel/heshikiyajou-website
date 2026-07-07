@@ -124,7 +124,7 @@ export default function Champuryu() {
           <div className={`${styles['mem-card']} reveal stagger-2`}>
             <div className={styles.role}>Sanshin ・ 古典音楽</div>
             <div className={styles.name}>知念 勝三</div>
-            <div className={styles['name-en']}>Chinen Shouzou</div>
+            <div className={styles['name-en']}>Chinen Masamitsu</div>
             <p>古典音楽の三線奏者。伝統の弦が、現代の場に新たな響きを生む。</p>
             <div className={styles['mem-social']}>
               <a href="https://www.instagram.com/masamitsu8134/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6"><rect x="3" y="3" width="18" height="18" rx="5" /><circle cx="12" cy="12" r="4" /><circle cx="17.3" cy="6.7" r="1" fill="currentColor" /></svg></a>
