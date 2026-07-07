@@ -26,16 +26,16 @@ export default function Home() {
     els.forEach((el) => observer.observe(el));
 
     // Custom observer for the walking animation
-    const breaker = document.querySelector('.breaker');
+    const photoTrigger = document.querySelector('.breaker-photo');
     const walkingContainer = document.querySelector('.walking-container');
     const walkObserver = new IntersectionObserver((entries) => {
       if (entries[0].isIntersecting && walkingContainer) {
         walkingContainer.classList.add('is-visible');
         walkObserver.disconnect();
       }
-    }, { threshold: 0.66 }); // Trigger when .breaker is 2/3 visible
+    }, { threshold: 0.2 }); // Trigger when the photo is visible
     
-    if (breaker) walkObserver.observe(breaker);
+    if (photoTrigger) walkObserver.observe(photoTrigger);
 
     return () => {
       observer.disconnect();
