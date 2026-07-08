@@ -46,8 +46,8 @@
 .pgm .kana { font-family: var(--latin); font-style: italic; font-size: 13px; color: var(--sub); letter-spacing: .2em; margin-bottom: 22px; }
 .pgm p { font-family: var(--serif); font-size: 14px; line-height: 2; color: var(--ink-2); font-feature-settings: "palt"; }
 
-.videoWrapper { position: relative; width: 100%; max-width: 800px; margin: 0 auto; padding-bottom: 56.25%; background: var(--ink); border: 1px solid var(--line); overflow: hidden; border-radius: 8px; }
-.videoWrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; }
+.videoWrapper { width: 100%; max-width: 800px; margin: 0 auto; background: var(--ink); border: 1px solid var(--line); overflow: hidden; border-radius: 8px; }
+.videoWrapper iframe { width: 100%; height: 100%; border: none; }
 
 /* CTA */
 .cta { background: var(--ink); color: var(--paper); text-align: center; padding: 160px 60px; }
