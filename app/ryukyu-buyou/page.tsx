@@ -372,7 +372,7 @@ export default function RyukyuBuyouPage() {
           <div className={`${styles['music-text']} reveal-left`}>
             <h3>音楽と一体になって、<br/>はじめて舞踊になる。</h3>
             <p>琉球舞踊において、音楽は伴奏ではなく、舞踊そのものの一部です。中心となるのが三線（さんしん）。蛇皮を張った三本弦の楽器で、沖縄音楽の心と呼ばれています。</p>
-            <p>三線の音色、歌い手の声、箏や笛の旋律、太鼓のリズム。踊り手は音を数えるのではなく、音楽の流れに呼吸を合わせていきます。だからこそ、舞踊は生きる。同じ演目でも、その夜の三線の調子で、踊りが少し違って見える――それが琉球舞踊の生きた魅力です。</p>
+            <p>三線の音色、歌い手の声、箏や笛の旋律、太鼓のリズム。踊り手は音を数えるのではなく、音楽の流れに呼吸を合わせていきます。だからこそ、舞踊は生きる。同じ演目でも、その場に響く三線の音色や呼吸によって、踊りの表情は少しずつ変わる。——それが琉球舞踊の生きた魅力です。</p>
             <div className={styles['music-instruments']}>
               <div className={styles.instr}><b>三線</b><small>Sanshin</small></div>
               <div className={styles.instr}><b>歌</b><small>Uta</small></div>
